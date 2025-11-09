@@ -1,0 +1,1162 @@
+2025-11-08 19:30:55 | INFO     | __main__:main:85 - ================================================================================
+2025-11-08 19:30:55 | INFO     | __main__:main:86 - AUTOMATED TEST CASE GENERATOR - Multi-Agent System
+2025-11-08 19:30:55 | INFO     | __main__:main:87 - ================================================================================
+2025-11-08 19:30:55 | INFO     | __main__:main:91 - 
+[STEP 1] Initializing Vectorizer...
+2025-11-08 19:30:55 | ERROR    | __main__:main:217 - 
+FATAL ERROR: 401 Client Error. (Request ID: Root=1-690f4d17-6310bbf470b8220713504ded;63a717fb-2cc1-46f6-8de8-7a7e5fd96f55)
+
+Repository Not Found for url: https://huggingface.co/api/models/sentence-transformers/text-embedding-3-small.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated. For more details, see https://huggingface.co/docs/huggingface_hub/authentication
+Invalid username or password.
+2025-11-08 19:43:54 | INFO     | __main__:main:85 - ================================================================================
+2025-11-08 19:43:54 | INFO     | __main__:main:86 - AUTOMATED TEST CASE GENERATOR - Multi-Agent System
+2025-11-08 19:43:54 | INFO     | __main__:main:87 - ================================================================================
+2025-11-08 19:43:54 | INFO     | __main__:main:91 - 
+[STEP 1] Initializing Vectorizer...
+2025-11-08 19:43:54 | ERROR    | __main__:main:217 - 
+FATAL ERROR: 401 Client Error. (Request ID: Root=1-690f5022-6cc389ca230d31e41a028ec1;a5482b50-c86f-42e3-bfac-829ce92167ce)
+
+Repository Not Found for url: https://huggingface.co/api/models/sentence-transformers/text-embedding-3-small.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated. For more details, see https://huggingface.co/docs/huggingface_hub/authentication
+Invalid username or password.
+2025-11-08 19:44:18 | INFO     | __main__:main:85 - ================================================================================
+2025-11-08 19:44:18 | INFO     | __main__:main:86 - AUTOMATED TEST CASE GENERATOR - Multi-Agent System
+2025-11-08 19:44:18 | INFO     | __main__:main:87 - ================================================================================
+2025-11-08 19:44:18 | INFO     | __main__:main:91 - 
+[STEP 1] Initializing Vectorizer...
+2025-11-08 21:33:30 | ERROR    | __main__:main:217 - 
+FATAL ERROR: Data processing error: CAS service error : ReqwestMiddleware Error: Request failed after 5 retries
+2025-11-08 21:37:17 | INFO     | __main__:main:85 - ================================================================================
+2025-11-08 21:37:17 | INFO     | __main__:main:86 - AUTOMATED TEST CASE GENERATOR - Multi-Agent System
+2025-11-08 21:37:17 | INFO     | __main__:main:87 - ================================================================================
+2025-11-08 21:37:17 | INFO     | __main__:main:91 - 
+[STEP 1] Initializing Vectorizer...
+2025-11-08 22:52:27 | INFO     | __main__:main:85 - ================================================================================
+2025-11-08 22:52:27 | INFO     | __main__:main:86 - AUTOMATED TEST CASE GENERATOR - Multi-Agent System
+2025-11-08 22:52:27 | INFO     | __main__:main:87 - ================================================================================
+2025-11-08 22:52:27 | INFO     | __main__:main:91 - 
+[STEP 1] Initializing Vectorizer...
+2025-11-08 22:53:41 | INFO     | __main__:main:85 - ================================================================================
+2025-11-08 22:53:41 | INFO     | __main__:main:86 - AUTOMATED TEST CASE GENERATOR - Multi-Agent System
+2025-11-08 22:53:41 | INFO     | __main__:main:87 - ================================================================================
+2025-11-08 22:53:41 | INFO     | __main__:main:91 - 
+[STEP 1] Initializing Vectorizer...
+2025-11-08 22:53:41 | ERROR    | __main__:main:217 - 
+FATAL ERROR: 401 Client Error. (Request ID: Root=1-690f7c9d-24a087ea5d46369e3fc4df35;4dafb1f3-3326-4898-9c2b-023a60298bd7)
+
+Repository Not Found for url: https://huggingface.co/api/models/jinaai/jina-embeddings-v4-text-retrieval-Q5_K_M.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated. For more details, see https://huggingface.co/docs/huggingface_hub/authentication
+Invalid username or password.
+2025-11-08 22:54:23 | INFO     | __main__:main:85 - ================================================================================
+2025-11-08 22:54:23 | INFO     | __main__:main:86 - AUTOMATED TEST CASE GENERATOR - Multi-Agent System
+2025-11-08 22:54:23 | INFO     | __main__:main:87 - ================================================================================
+2025-11-08 22:54:23 | INFO     | __main__:main:91 - 
+[STEP 1] Initializing Vectorizer...
+2025-11-08 22:54:25 | ERROR    | __main__:main:217 - 
+FATAL ERROR: 401 Client Error. (Request ID: Root=1-690f7cc8-1be9ce3d0873ad481e2b0a1e;60189eeb-8bda-4f0f-8aba-5d9299def450)
+
+Repository Not Found for url: https://huggingface.co/api/models/jinaai/jina-embeddings-v4-text-retrieval-Q5_K_M.gguf.
+Please make sure you specified the correct `repo_id` and `repo_type`.
+If you are trying to access a private or gated repo, make sure you are authenticated. For more details, see https://huggingface.co/docs/huggingface_hub/authentication
+Invalid username or password.
+2025-11-08 23:01:07 | INFO     | __main__:main:85 - ================================================================================
+2025-11-08 23:01:07 | INFO     | __main__:main:86 - AUTOMATED TEST CASE GENERATOR - Multi-Agent System
+2025-11-08 23:01:07 | INFO     | __main__:main:87 - ================================================================================
+2025-11-08 23:01:07 | INFO     | __main__:main:91 - 
+[STEP 1] Initializing Vectorizer...
+2025-11-08 23:47:29 | INFO     | __main__:main:85 - ================================================================================
+2025-11-08 23:47:29 | INFO     | __main__:main:86 - AUTOMATED TEST CASE GENERATOR - Multi-Agent System
+2025-11-08 23:47:29 | INFO     | __main__:main:87 - ================================================================================
+2025-11-08 23:47:29 | INFO     | __main__:main:91 - 
+[STEP 1] Initializing Vectorizer...
+2025-11-08 23:47:29 | ERROR    | __main__:main:217 - 
+FATAL ERROR: Unrecognized model in /Users/atharvaanandswami/.cache/torch/sentence_transformers/sentence-transformers_all-MiniLM-L6-v2. Should have a `model_type` key in its config.json, or contain one of the following strings in its name: aimv2, aimv2_vision_model, albert, align, altclip, apertus, arcee, aria, aria_text, audio-spectrogram-transformer, autoformer, aya_vision, bamba, bark, bart, beit, bert, bert-generation, big_bird, bigbird_pegasus, biogpt, bit, bitnet, blenderbot, blenderbot-small, blip, blip-2, blip_2_qformer, bloom, blt, bridgetower, bros, camembert, canine, chameleon, chinese_clip, chinese_clip_vision_model, clap, clip, clip_text_model, clip_vision_model, clipseg, clvp, code_llama, codegen, cohere, cohere2, cohere2_vision, colpali, colqwen2, conditional_detr, convbert, convnext, convnextv2, cpmant, csm, ctrl, cvt, d_fine, dab-detr, dac, data2vec-audio, data2vec-text, data2vec-vision, dbrx, deberta, deberta-v2, decision_transformer, deepseek_v2, deepseek_v3, deepseek_vl, deepseek_vl_hybrid, deformable_detr, deit, depth_anything, depth_pro, deta, detr, dia, diffllama, dinat, dinov2, dinov2_with_registers, dinov3_convnext, dinov3_vit, distilbert, doge, donut-swin, dots1, dpr, dpt, edgetam, edgetam_video, edgetam_vision_model, efficientformer, efficientloftr, efficientnet, electra, emu3, encodec, encoder-decoder, eomt, ernie, ernie4_5, ernie4_5_moe, ernie_m, esm, evolla, exaone4, falcon, falcon_h1, falcon_mamba, fastspeech2_conformer, fastspeech2_conformer_with_hifigan, flaubert, flava, flex_olmo, florence2, fnet, focalnet, fsmt, funnel, fuyu, gemma, gemma2, gemma3, gemma3_text, gemma3n, gemma3n_audio, gemma3n_text, gemma3n_vision, git, glm, glm4, glm4_moe, glm4v, glm4v_moe, glm4v_moe_text, glm4v_text, glpn, got_ocr2, gpt-sw3, gpt2, gpt_bigcode, gpt_neo, gpt_neox, gpt_neox_japanese, gpt_oss, gptj, gptsan-japanese, granite, granite_speech, granitemoe, granitemoehybrid, granitemoeshared, granitevision, graphormer, grounding-dino, groupvit, helium, hgnet_v2, hiera, hubert, hunyuan_v1_dense, hunyuan_v1_moe, ibert, idefics, idefics2, idefics3, idefics3_vision, ijepa, imagegpt, informer, instructblip, instructblipvideo, internvl, internvl_vision, jamba, janus, jetmoe, jukebox, kosmos-2, kosmos-2.5, kyutai_speech_to_text, layoutlm, layoutlmv2, layoutlmv3, led, levit, lfm2, lfm2_vl, lightglue, lilt, llama, llama4, llama4_text, llava, llava_next, llava_next_video, llava_onevision, longcat_flash, longformer, longt5, luke, lxmert, m2m_100, mamba, mamba2, marian, markuplm, mask2former, maskformer, maskformer-swin, mbart, mctct, mega, megatron-bert, metaclip_2, mgp-str, mimi, minimax, ministral, mistral, mistral3, mixtral, mlcd, mllama, mm-grounding-dino, mobilebert, mobilenet_v1, mobilenet_v2, mobilevit, mobilevitv2, modernbert, modernbert-decoder, moonshine, moshi, mpnet, mpt, mra, mt5, musicgen, musicgen_melody, mvp, nat, nemotron, nezha, nllb-moe, nougat, nystromformer, olmo, olmo2, olmo3, olmoe, omdet-turbo, oneformer, open-llama, openai-gpt, opt, ovis2, owlv2, owlvit, paligemma, parakeet_ctc, parakeet_encoder, patchtsmixer, patchtst, pegasus, pegasus_x, perceiver, perception_encoder, perception_lm, persimmon, phi, phi3, phi4_multimodal, phimoe, pix2struct, pixtral, plbart, poolformer, pop2piano, prompt_depth_anything, prophetnet, pvt, pvt_v2, qdqbert, qwen2, qwen2_5_omni, qwen2_5_vl, qwen2_5_vl_text, qwen2_audio, qwen2_audio_encoder, qwen2_moe, qwen2_vl, qwen2_vl_text, qwen3, qwen3_moe, qwen3_next, qwen3_omni_moe, qwen3_vl, qwen3_vl_moe, qwen3_vl_moe_text, qwen3_vl_text, rag, realm, recurrent_gemma, reformer, regnet, rembert, resnet, retribert, roberta, roberta-prelayernorm, roc_bert, roformer, rt_detr, rt_detr_resnet, rt_detr_v2, rwkv, sam, sam2, sam2_hiera_det_model, sam2_video, sam2_vision_model, sam_hq, sam_hq_vision_model, sam_vision_model, seamless_m4t, seamless_m4t_v2, seed_oss, segformer, seggpt, sew, sew-d, shieldgemma2, siglip, siglip2, siglip2_vision_model, siglip_vision_model, smollm3, smolvlm, smolvlm_vision, speech-encoder-decoder, speech_to_text, speech_to_text_2, speecht5, splinter, squeezebert, stablelm, starcoder2, superglue, superpoint, swiftformer, swin, swin2sr, swinv2, switch_transformers, t5, t5gemma, table-transformer, tapas, textnet, time_series_transformer, timesfm, timesformer, timm_backbone, timm_wrapper, trajectory_transformer, transfo-xl, trocr, tvlt, tvp, udop, umt5, unispeech, unispeech-sat, univnet, upernet, van, vaultgemma, video_llava, videomae, vilt, vipllava, vision-encoder-decoder, vision-text-dual-encoder, visual_bert, vit, vit_hybrid, vit_mae, vit_msn, vitdet, vitmatte, vitpose, vitpose_backbone, vits, vivit, vjepa2, voxtral, voxtral_encoder, wav2vec2, wav2vec2-bert, wav2vec2-conformer, wavlm, whisper, xclip, xcodec, xglm, xlm, xlm-prophetnet, xlm-roberta, xlm-roberta-xl, xlnet, xlstm, xmod, yolos, yoso, zamba, zamba2, zoedepth
+2025-11-08 23:48:18 | INFO     | __main__:main:85 - ================================================================================
+2025-11-08 23:48:18 | INFO     | __main__:main:86 - AUTOMATED TEST CASE GENERATOR - Multi-Agent System
+2025-11-08 23:48:18 | INFO     | __main__:main:87 - ================================================================================
+2025-11-08 23:48:18 | INFO     | __main__:main:91 - 
+[STEP 1] Initializing Vectorizer...
+2025-11-08 23:48:18 | ERROR    | __main__:main:217 - 
+FATAL ERROR: Unrecognized model in /Users/atharvaanandswami/.cache/torch/sentence_transformers/sentence-transformers_all-MiniLM-L6-v2. Should have a `model_type` key in its config.json, or contain one of the following strings in its name: aimv2, aimv2_vision_model, albert, align, altclip, apertus, arcee, aria, aria_text, audio-spectrogram-transformer, autoformer, aya_vision, bamba, bark, bart, beit, bert, bert-generation, big_bird, bigbird_pegasus, biogpt, bit, bitnet, blenderbot, blenderbot-small, blip, blip-2, blip_2_qformer, bloom, blt, bridgetower, bros, camembert, canine, chameleon, chinese_clip, chinese_clip_vision_model, clap, clip, clip_text_model, clip_vision_model, clipseg, clvp, code_llama, codegen, cohere, cohere2, cohere2_vision, colpali, colqwen2, conditional_detr, convbert, convnext, convnextv2, cpmant, csm, ctrl, cvt, d_fine, dab-detr, dac, data2vec-audio, data2vec-text, data2vec-vision, dbrx, deberta, deberta-v2, decision_transformer, deepseek_v2, deepseek_v3, deepseek_vl, deepseek_vl_hybrid, deformable_detr, deit, depth_anything, depth_pro, deta, detr, dia, diffllama, dinat, dinov2, dinov2_with_registers, dinov3_convnext, dinov3_vit, distilbert, doge, donut-swin, dots1, dpr, dpt, edgetam, edgetam_video, edgetam_vision_model, efficientformer, efficientloftr, efficientnet, electra, emu3, encodec, encoder-decoder, eomt, ernie, ernie4_5, ernie4_5_moe, ernie_m, esm, evolla, exaone4, falcon, falcon_h1, falcon_mamba, fastspeech2_conformer, fastspeech2_conformer_with_hifigan, flaubert, flava, flex_olmo, florence2, fnet, focalnet, fsmt, funnel, fuyu, gemma, gemma2, gemma3, gemma3_text, gemma3n, gemma3n_audio, gemma3n_text, gemma3n_vision, git, glm, glm4, glm4_moe, glm4v, glm4v_moe, glm4v_moe_text, glm4v_text, glpn, got_ocr2, gpt-sw3, gpt2, gpt_bigcode, gpt_neo, gpt_neox, gpt_neox_japanese, gpt_oss, gptj, gptsan-japanese, granite, granite_speech, granitemoe, granitemoehybrid, granitemoeshared, granitevision, graphormer, grounding-dino, groupvit, helium, hgnet_v2, hiera, hubert, hunyuan_v1_dense, hunyuan_v1_moe, ibert, idefics, idefics2, idefics3, idefics3_vision, ijepa, imagegpt, informer, instructblip, instructblipvideo, internvl, internvl_vision, jamba, janus, jetmoe, jukebox, kosmos-2, kosmos-2.5, kyutai_speech_to_text, layoutlm, layoutlmv2, layoutlmv3, led, levit, lfm2, lfm2_vl, lightglue, lilt, llama, llama4, llama4_text, llava, llava_next, llava_next_video, llava_onevision, longcat_flash, longformer, longt5, luke, lxmert, m2m_100, mamba, mamba2, marian, markuplm, mask2former, maskformer, maskformer-swin, mbart, mctct, mega, megatron-bert, metaclip_2, mgp-str, mimi, minimax, ministral, mistral, mistral3, mixtral, mlcd, mllama, mm-grounding-dino, mobilebert, mobilenet_v1, mobilenet_v2, mobilevit, mobilevitv2, modernbert, modernbert-decoder, moonshine, moshi, mpnet, mpt, mra, mt5, musicgen, musicgen_melody, mvp, nat, nemotron, nezha, nllb-moe, nougat, nystromformer, olmo, olmo2, olmo3, olmoe, omdet-turbo, oneformer, open-llama, openai-gpt, opt, ovis2, owlv2, owlvit, paligemma, parakeet_ctc, parakeet_encoder, patchtsmixer, patchtst, pegasus, pegasus_x, perceiver, perception_encoder, perception_lm, persimmon, phi, phi3, phi4_multimodal, phimoe, pix2struct, pixtral, plbart, poolformer, pop2piano, prompt_depth_anything, prophetnet, pvt, pvt_v2, qdqbert, qwen2, qwen2_5_omni, qwen2_5_vl, qwen2_5_vl_text, qwen2_audio, qwen2_audio_encoder, qwen2_moe, qwen2_vl, qwen2_vl_text, qwen3, qwen3_moe, qwen3_next, qwen3_omni_moe, qwen3_vl, qwen3_vl_moe, qwen3_vl_moe_text, qwen3_vl_text, rag, realm, recurrent_gemma, reformer, regnet, rembert, resnet, retribert, roberta, roberta-prelayernorm, roc_bert, roformer, rt_detr, rt_detr_resnet, rt_detr_v2, rwkv, sam, sam2, sam2_hiera_det_model, sam2_video, sam2_vision_model, sam_hq, sam_hq_vision_model, sam_vision_model, seamless_m4t, seamless_m4t_v2, seed_oss, segformer, seggpt, sew, sew-d, shieldgemma2, siglip, siglip2, siglip2_vision_model, siglip_vision_model, smollm3, smolvlm, smolvlm_vision, speech-encoder-decoder, speech_to_text, speech_to_text_2, speecht5, splinter, squeezebert, stablelm, starcoder2, superglue, superpoint, swiftformer, swin, swin2sr, swinv2, switch_transformers, t5, t5gemma, table-transformer, tapas, textnet, time_series_transformer, timesfm, timesformer, timm_backbone, timm_wrapper, trajectory_transformer, transfo-xl, trocr, tvlt, tvp, udop, umt5, unispeech, unispeech-sat, univnet, upernet, van, vaultgemma, video_llava, videomae, vilt, vipllava, vision-encoder-decoder, vision-text-dual-encoder, visual_bert, vit, vit_hybrid, vit_mae, vit_msn, vitdet, vitmatte, vitpose, vitpose_backbone, vits, vivit, vjepa2, voxtral, voxtral_encoder, wav2vec2, wav2vec2-bert, wav2vec2-conformer, wavlm, whisper, xclip, xcodec, xglm, xlm, xlm-prophetnet, xlm-roberta, xlm-roberta-xl, xlnet, xlstm, xmod, yolos, yoso, zamba, zamba2, zoedepth
+2025-11-09 00:35:39 | INFO     | __main__:main:85 - ================================================================================
+2025-11-09 00:35:39 | INFO     | __main__:main:86 - AUTOMATED TEST CASE GENERATOR - Multi-Agent System
+2025-11-09 00:35:39 | INFO     | __main__:main:87 - ================================================================================
+2025-11-09 00:35:39 | INFO     | __main__:main:91 - 
+[STEP 1] Initializing Vectorizer...
+2025-11-09 00:49:24 | ERROR    | __main__:main:217 - 
+FATAL ERROR: Unrecognized model in /Users/atharvaanandswami/.cache/torch/sentence_transformers/sentence-transformers_paraphrase-MiniLM-L6-v2. Should have a `model_type` key in its config.json, or contain one of the following strings in its name: aimv2, aimv2_vision_model, albert, align, altclip, apertus, arcee, aria, aria_text, audio-spectrogram-transformer, autoformer, aya_vision, bamba, bark, bart, beit, bert, bert-generation, big_bird, bigbird_pegasus, biogpt, bit, bitnet, blenderbot, blenderbot-small, blip, blip-2, blip_2_qformer, bloom, blt, bridgetower, bros, camembert, canine, chameleon, chinese_clip, chinese_clip_vision_model, clap, clip, clip_text_model, clip_vision_model, clipseg, clvp, code_llama, codegen, cohere, cohere2, cohere2_vision, colpali, colqwen2, conditional_detr, convbert, convnext, convnextv2, cpmant, csm, ctrl, cvt, d_fine, dab-detr, dac, data2vec-audio, data2vec-text, data2vec-vision, dbrx, deberta, deberta-v2, decision_transformer, deepseek_v2, deepseek_v3, deepseek_vl, deepseek_vl_hybrid, deformable_detr, deit, depth_anything, depth_pro, deta, detr, dia, diffllama, dinat, dinov2, dinov2_with_registers, dinov3_convnext, dinov3_vit, distilbert, doge, donut-swin, dots1, dpr, dpt, edgetam, edgetam_video, edgetam_vision_model, efficientformer, efficientloftr, efficientnet, electra, emu3, encodec, encoder-decoder, eomt, ernie, ernie4_5, ernie4_5_moe, ernie_m, esm, evolla, exaone4, falcon, falcon_h1, falcon_mamba, fastspeech2_conformer, fastspeech2_conformer_with_hifigan, flaubert, flava, flex_olmo, florence2, fnet, focalnet, fsmt, funnel, fuyu, gemma, gemma2, gemma3, gemma3_text, gemma3n, gemma3n_audio, gemma3n_text, gemma3n_vision, git, glm, glm4, glm4_moe, glm4v, glm4v_moe, glm4v_moe_text, glm4v_text, glpn, got_ocr2, gpt-sw3, gpt2, gpt_bigcode, gpt_neo, gpt_neox, gpt_neox_japanese, gpt_oss, gptj, gptsan-japanese, granite, granite_speech, granitemoe, granitemoehybrid, granitemoeshared, granitevision, graphormer, grounding-dino, groupvit, helium, hgnet_v2, hiera, hubert, hunyuan_v1_dense, hunyuan_v1_moe, ibert, idefics, idefics2, idefics3, idefics3_vision, ijepa, imagegpt, informer, instructblip, instructblipvideo, internvl, internvl_vision, jamba, janus, jetmoe, jukebox, kosmos-2, kosmos-2.5, kyutai_speech_to_text, layoutlm, layoutlmv2, layoutlmv3, led, levit, lfm2, lfm2_vl, lightglue, lilt, llama, llama4, llama4_text, llava, llava_next, llava_next_video, llava_onevision, longcat_flash, longformer, longt5, luke, lxmert, m2m_100, mamba, mamba2, marian, markuplm, mask2former, maskformer, maskformer-swin, mbart, mctct, mega, megatron-bert, metaclip_2, mgp-str, mimi, minimax, ministral, mistral, mistral3, mixtral, mlcd, mllama, mm-grounding-dino, mobilebert, mobilenet_v1, mobilenet_v2, mobilevit, mobilevitv2, modernbert, modernbert-decoder, moonshine, moshi, mpnet, mpt, mra, mt5, musicgen, musicgen_melody, mvp, nat, nemotron, nezha, nllb-moe, nougat, nystromformer, olmo, olmo2, olmo3, olmoe, omdet-turbo, oneformer, open-llama, openai-gpt, opt, ovis2, owlv2, owlvit, paligemma, parakeet_ctc, parakeet_encoder, patchtsmixer, patchtst, pegasus, pegasus_x, perceiver, perception_encoder, perception_lm, persimmon, phi, phi3, phi4_multimodal, phimoe, pix2struct, pixtral, plbart, poolformer, pop2piano, prompt_depth_anything, prophetnet, pvt, pvt_v2, qdqbert, qwen2, qwen2_5_omni, qwen2_5_vl, qwen2_5_vl_text, qwen2_audio, qwen2_audio_encoder, qwen2_moe, qwen2_vl, qwen2_vl_text, qwen3, qwen3_moe, qwen3_next, qwen3_omni_moe, qwen3_vl, qwen3_vl_moe, qwen3_vl_moe_text, qwen3_vl_text, rag, realm, recurrent_gemma, reformer, regnet, rembert, resnet, retribert, roberta, roberta-prelayernorm, roc_bert, roformer, rt_detr, rt_detr_resnet, rt_detr_v2, rwkv, sam, sam2, sam2_hiera_det_model, sam2_video, sam2_vision_model, sam_hq, sam_hq_vision_model, sam_vision_model, seamless_m4t, seamless_m4t_v2, seed_oss, segformer, seggpt, sew, sew-d, shieldgemma2, siglip, siglip2, siglip2_vision_model, siglip_vision_model, smollm3, smolvlm, smolvlm_vision, speech-encoder-decoder, speech_to_text, speech_to_text_2, speecht5, splinter, squeezebert, stablelm, starcoder2, superglue, superpoint, swiftformer, swin, swin2sr, swinv2, switch_transformers, t5, t5gemma, table-transformer, tapas, textnet, time_series_transformer, timesfm, timesformer, timm_backbone, timm_wrapper, trajectory_transformer, transfo-xl, trocr, tvlt, tvp, udop, umt5, unispeech, unispeech-sat, univnet, upernet, van, vaultgemma, video_llava, videomae, vilt, vipllava, vision-encoder-decoder, vision-text-dual-encoder, visual_bert, vit, vit_hybrid, vit_mae, vit_msn, vitdet, vitmatte, vitpose, vitpose_backbone, vits, vivit, vjepa2, voxtral, voxtral_encoder, wav2vec2, wav2vec2-bert, wav2vec2-conformer, wavlm, whisper, xclip, xcodec, xglm, xlm, xlm-prophetnet, xlm-roberta, xlm-roberta-xl, xlnet, xlstm, xmod, yolos, yoso, zamba, zamba2, zoedepth
+2025-11-09 01:16:36 | INFO     | __main__:main:85 - ================================================================================
+2025-11-09 01:16:36 | INFO     | __main__:main:86 - AUTOMATED TEST CASE GENERATOR - Multi-Agent System
+2025-11-09 01:16:36 | INFO     | __main__:main:87 - ================================================================================
+2025-11-09 01:16:36 | INFO     | __main__:main:91 - 
+[STEP 1] Initializing Vectorizer...
+2025-11-09 01:20:45 | ERROR    | __main__:main:217 - 
+FATAL ERROR: Unrecognized model in /Users/atharvaanandswami/.cache/torch/sentence_transformers/sentence-transformers_all-MiniLM-L6-v2. Should have a `model_type` key in its config.json, or contain one of the following strings in its name: aimv2, aimv2_vision_model, albert, align, altclip, apertus, arcee, aria, aria_text, audio-spectrogram-transformer, autoformer, aya_vision, bamba, bark, bart, beit, bert, bert-generation, big_bird, bigbird_pegasus, biogpt, bit, bitnet, blenderbot, blenderbot-small, blip, blip-2, blip_2_qformer, bloom, blt, bridgetower, bros, camembert, canine, chameleon, chinese_clip, chinese_clip_vision_model, clap, clip, clip_text_model, clip_vision_model, clipseg, clvp, code_llama, codegen, cohere, cohere2, cohere2_vision, colpali, colqwen2, conditional_detr, convbert, convnext, convnextv2, cpmant, csm, ctrl, cvt, d_fine, dab-detr, dac, data2vec-audio, data2vec-text, data2vec-vision, dbrx, deberta, deberta-v2, decision_transformer, deepseek_v2, deepseek_v3, deepseek_vl, deepseek_vl_hybrid, deformable_detr, deit, depth_anything, depth_pro, deta, detr, dia, diffllama, dinat, dinov2, dinov2_with_registers, dinov3_convnext, dinov3_vit, distilbert, doge, donut-swin, dots1, dpr, dpt, edgetam, edgetam_video, edgetam_vision_model, efficientformer, efficientloftr, efficientnet, electra, emu3, encodec, encoder-decoder, eomt, ernie, ernie4_5, ernie4_5_moe, ernie_m, esm, evolla, exaone4, falcon, falcon_h1, falcon_mamba, fastspeech2_conformer, fastspeech2_conformer_with_hifigan, flaubert, flava, flex_olmo, florence2, fnet, focalnet, fsmt, funnel, fuyu, gemma, gemma2, gemma3, gemma3_text, gemma3n, gemma3n_audio, gemma3n_text, gemma3n_vision, git, glm, glm4, glm4_moe, glm4v, glm4v_moe, glm4v_moe_text, glm4v_text, glpn, got_ocr2, gpt-sw3, gpt2, gpt_bigcode, gpt_neo, gpt_neox, gpt_neox_japanese, gpt_oss, gptj, gptsan-japanese, granite, granite_speech, granitemoe, granitemoehybrid, granitemoeshared, granitevision, graphormer, grounding-dino, groupvit, helium, hgnet_v2, hiera, hubert, hunyuan_v1_dense, hunyuan_v1_moe, ibert, idefics, idefics2, idefics3, idefics3_vision, ijepa, imagegpt, informer, instructblip, instructblipvideo, internvl, internvl_vision, jamba, janus, jetmoe, jukebox, kosmos-2, kosmos-2.5, kyutai_speech_to_text, layoutlm, layoutlmv2, layoutlmv3, led, levit, lfm2, lfm2_vl, lightglue, lilt, llama, llama4, llama4_text, llava, llava_next, llava_next_video, llava_onevision, longcat_flash, longformer, longt5, luke, lxmert, m2m_100, mamba, mamba2, marian, markuplm, mask2former, maskformer, maskformer-swin, mbart, mctct, mega, megatron-bert, metaclip_2, mgp-str, mimi, minimax, ministral, mistral, mistral3, mixtral, mlcd, mllama, mm-grounding-dino, mobilebert, mobilenet_v1, mobilenet_v2, mobilevit, mobilevitv2, modernbert, modernbert-decoder, moonshine, moshi, mpnet, mpt, mra, mt5, musicgen, musicgen_melody, mvp, nat, nemotron, nezha, nllb-moe, nougat, nystromformer, olmo, olmo2, olmo3, olmoe, omdet-turbo, oneformer, open-llama, openai-gpt, opt, ovis2, owlv2, owlvit, paligemma, parakeet_ctc, parakeet_encoder, patchtsmixer, patchtst, pegasus, pegasus_x, perceiver, perception_encoder, perception_lm, persimmon, phi, phi3, phi4_multimodal, phimoe, pix2struct, pixtral, plbart, poolformer, pop2piano, prompt_depth_anything, prophetnet, pvt, pvt_v2, qdqbert, qwen2, qwen2_5_omni, qwen2_5_vl, qwen2_5_vl_text, qwen2_audio, qwen2_audio_encoder, qwen2_moe, qwen2_vl, qwen2_vl_text, qwen3, qwen3_moe, qwen3_next, qwen3_omni_moe, qwen3_vl, qwen3_vl_moe, qwen3_vl_moe_text, qwen3_vl_text, rag, realm, recurrent_gemma, reformer, regnet, rembert, resnet, retribert, roberta, roberta-prelayernorm, roc_bert, roformer, rt_detr, rt_detr_resnet, rt_detr_v2, rwkv, sam, sam2, sam2_hiera_det_model, sam2_video, sam2_vision_model, sam_hq, sam_hq_vision_model, sam_vision_model, seamless_m4t, seamless_m4t_v2, seed_oss, segformer, seggpt, sew, sew-d, shieldgemma2, siglip, siglip2, siglip2_vision_model, siglip_vision_model, smollm3, smolvlm, smolvlm_vision, speech-encoder-decoder, speech_to_text, speech_to_text_2, speecht5, splinter, squeezebert, stablelm, starcoder2, superglue, superpoint, swiftformer, swin, swin2sr, swinv2, switch_transformers, t5, t5gemma, table-transformer, tapas, textnet, time_series_transformer, timesfm, timesformer, timm_backbone, timm_wrapper, trajectory_transformer, transfo-xl, trocr, tvlt, tvp, udop, umt5, unispeech, unispeech-sat, univnet, upernet, van, vaultgemma, video_llava, videomae, vilt, vipllava, vision-encoder-decoder, vision-text-dual-encoder, visual_bert, vit, vit_hybrid, vit_mae, vit_msn, vitdet, vitmatte, vitpose, vitpose_backbone, vits, vivit, vjepa2, voxtral, voxtral_encoder, wav2vec2, wav2vec2-bert, wav2vec2-conformer, wavlm, whisper, xclip, xcodec, xglm, xlm, xlm-prophetnet, xlm-roberta, xlm-roberta-xl, xlnet, xlstm, xmod, yolos, yoso, zamba, zamba2, zoedepth
+2025-11-09 01:24:54 | INFO     | __main__:main:85 - ================================================================================
+2025-11-09 01:24:54 | INFO     | __main__:main:86 - AUTOMATED TEST CASE GENERATOR - Multi-Agent System
+2025-11-09 01:24:54 | INFO     | __main__:main:87 - ================================================================================
+2025-11-09 01:24:54 | INFO     | __main__:main:91 - 
+[STEP 1] Initializing Vectorizer...
+2025-11-09 01:31:51 | ERROR    | __main__:main:217 - 
+FATAL ERROR: Unrecognized model in /Users/atharvaanandswami/.cache/torch/sentence_transformers/sentence-transformers_multi-qa-MiniLM-L6-cos-v1. Should have a `model_type` key in its config.json, or contain one of the following strings in its name: aimv2, aimv2_vision_model, albert, align, altclip, apertus, arcee, aria, aria_text, audio-spectrogram-transformer, autoformer, aya_vision, bamba, bark, bart, beit, bert, bert-generation, big_bird, bigbird_pegasus, biogpt, bit, bitnet, blenderbot, blenderbot-small, blip, blip-2, blip_2_qformer, bloom, blt, bridgetower, bros, camembert, canine, chameleon, chinese_clip, chinese_clip_vision_model, clap, clip, clip_text_model, clip_vision_model, clipseg, clvp, code_llama, codegen, cohere, cohere2, cohere2_vision, colpali, colqwen2, conditional_detr, convbert, convnext, convnextv2, cpmant, csm, ctrl, cvt, d_fine, dab-detr, dac, data2vec-audio, data2vec-text, data2vec-vision, dbrx, deberta, deberta-v2, decision_transformer, deepseek_v2, deepseek_v3, deepseek_vl, deepseek_vl_hybrid, deformable_detr, deit, depth_anything, depth_pro, deta, detr, dia, diffllama, dinat, dinov2, dinov2_with_registers, dinov3_convnext, dinov3_vit, distilbert, doge, donut-swin, dots1, dpr, dpt, edgetam, edgetam_video, edgetam_vision_model, efficientformer, efficientloftr, efficientnet, electra, emu3, encodec, encoder-decoder, eomt, ernie, ernie4_5, ernie4_5_moe, ernie_m, esm, evolla, exaone4, falcon, falcon_h1, falcon_mamba, fastspeech2_conformer, fastspeech2_conformer_with_hifigan, flaubert, flava, flex_olmo, florence2, fnet, focalnet, fsmt, funnel, fuyu, gemma, gemma2, gemma3, gemma3_text, gemma3n, gemma3n_audio, gemma3n_text, gemma3n_vision, git, glm, glm4, glm4_moe, glm4v, glm4v_moe, glm4v_moe_text, glm4v_text, glpn, got_ocr2, gpt-sw3, gpt2, gpt_bigcode, gpt_neo, gpt_neox, gpt_neox_japanese, gpt_oss, gptj, gptsan-japanese, granite, granite_speech, granitemoe, granitemoehybrid, granitemoeshared, granitevision, graphormer, grounding-dino, groupvit, helium, hgnet_v2, hiera, hubert, hunyuan_v1_dense, hunyuan_v1_moe, ibert, idefics, idefics2, idefics3, idefics3_vision, ijepa, imagegpt, informer, instructblip, instructblipvideo, internvl, internvl_vision, jamba, janus, jetmoe, jukebox, kosmos-2, kosmos-2.5, kyutai_speech_to_text, layoutlm, layoutlmv2, layoutlmv3, led, levit, lfm2, lfm2_vl, lightglue, lilt, llama, llama4, llama4_text, llava, llava_next, llava_next_video, llava_onevision, longcat_flash, longformer, longt5, luke, lxmert, m2m_100, mamba, mamba2, marian, markuplm, mask2former, maskformer, maskformer-swin, mbart, mctct, mega, megatron-bert, metaclip_2, mgp-str, mimi, minimax, ministral, mistral, mistral3, mixtral, mlcd, mllama, mm-grounding-dino, mobilebert, mobilenet_v1, mobilenet_v2, mobilevit, mobilevitv2, modernbert, modernbert-decoder, moonshine, moshi, mpnet, mpt, mra, mt5, musicgen, musicgen_melody, mvp, nat, nemotron, nezha, nllb-moe, nougat, nystromformer, olmo, olmo2, olmo3, olmoe, omdet-turbo, oneformer, open-llama, openai-gpt, opt, ovis2, owlv2, owlvit, paligemma, parakeet_ctc, parakeet_encoder, patchtsmixer, patchtst, pegasus, pegasus_x, perceiver, perception_encoder, perception_lm, persimmon, phi, phi3, phi4_multimodal, phimoe, pix2struct, pixtral, plbart, poolformer, pop2piano, prompt_depth_anything, prophetnet, pvt, pvt_v2, qdqbert, qwen2, qwen2_5_omni, qwen2_5_vl, qwen2_5_vl_text, qwen2_audio, qwen2_audio_encoder, qwen2_moe, qwen2_vl, qwen2_vl_text, qwen3, qwen3_moe, qwen3_next, qwen3_omni_moe, qwen3_vl, qwen3_vl_moe, qwen3_vl_moe_text, qwen3_vl_text, rag, realm, recurrent_gemma, reformer, regnet, rembert, resnet, retribert, roberta, roberta-prelayernorm, roc_bert, roformer, rt_detr, rt_detr_resnet, rt_detr_v2, rwkv, sam, sam2, sam2_hiera_det_model, sam2_video, sam2_vision_model, sam_hq, sam_hq_vision_model, sam_vision_model, seamless_m4t, seamless_m4t_v2, seed_oss, segformer, seggpt, sew, sew-d, shieldgemma2, siglip, siglip2, siglip2_vision_model, siglip_vision_model, smollm3, smolvlm, smolvlm_vision, speech-encoder-decoder, speech_to_text, speech_to_text_2, speecht5, splinter, squeezebert, stablelm, starcoder2, superglue, superpoint, swiftformer, swin, swin2sr, swinv2, switch_transformers, t5, t5gemma, table-transformer, tapas, textnet, time_series_transformer, timesfm, timesformer, timm_backbone, timm_wrapper, trajectory_transformer, transfo-xl, trocr, tvlt, tvp, udop, umt5, unispeech, unispeech-sat, univnet, upernet, van, vaultgemma, video_llava, videomae, vilt, vipllava, vision-encoder-decoder, vision-text-dual-encoder, visual_bert, vit, vit_hybrid, vit_mae, vit_msn, vitdet, vitmatte, vitpose, vitpose_backbone, vits, vivit, vjepa2, voxtral, voxtral_encoder, wav2vec2, wav2vec2-bert, wav2vec2-conformer, wavlm, whisper, xclip, xcodec, xglm, xlm, xlm-prophetnet, xlm-roberta, xlm-roberta-xl, xlnet, xlstm, xmod, yolos, yoso, zamba, zamba2, zoedepth
+2025-11-09 01:32:35 | INFO     | __main__:main:85 - ================================================================================
+2025-11-09 01:32:35 | INFO     | __main__:main:86 - AUTOMATED TEST CASE GENERATOR - Multi-Agent System
+2025-11-09 01:32:35 | INFO     | __main__:main:87 - ================================================================================
+2025-11-09 01:32:35 | INFO     | __main__:main:91 - 
+[STEP 1] Initializing Vectorizer...
+2025-11-09 01:36:18 | ERROR    | __main__:main:217 - 
+FATAL ERROR: Unrecognized model in /Users/atharvaanandswami/.cache/torch/sentence_transformers/sentence-transformers_multi-qa-MiniLM-L6-cos-v1. Should have a `model_type` key in its config.json, or contain one of the following strings in its name: aimv2, aimv2_vision_model, albert, align, altclip, apertus, arcee, aria, aria_text, audio-spectrogram-transformer, autoformer, aya_vision, bamba, bark, bart, beit, bert, bert-generation, big_bird, bigbird_pegasus, biogpt, bit, bitnet, blenderbot, blenderbot-small, blip, blip-2, blip_2_qformer, bloom, blt, bridgetower, bros, camembert, canine, chameleon, chinese_clip, chinese_clip_vision_model, clap, clip, clip_text_model, clip_vision_model, clipseg, clvp, code_llama, codegen, cohere, cohere2, cohere2_vision, colpali, colqwen2, conditional_detr, convbert, convnext, convnextv2, cpmant, csm, ctrl, cvt, d_fine, dab-detr, dac, data2vec-audio, data2vec-text, data2vec-vision, dbrx, deberta, deberta-v2, decision_transformer, deepseek_v2, deepseek_v3, deepseek_vl, deepseek_vl_hybrid, deformable_detr, deit, depth_anything, depth_pro, deta, detr, dia, diffllama, dinat, dinov2, dinov2_with_registers, dinov3_convnext, dinov3_vit, distilbert, doge, donut-swin, dots1, dpr, dpt, edgetam, edgetam_video, edgetam_vision_model, efficientformer, efficientloftr, efficientnet, electra, emu3, encodec, encoder-decoder, eomt, ernie, ernie4_5, ernie4_5_moe, ernie_m, esm, evolla, exaone4, falcon, falcon_h1, falcon_mamba, fastspeech2_conformer, fastspeech2_conformer_with_hifigan, flaubert, flava, flex_olmo, florence2, fnet, focalnet, fsmt, funnel, fuyu, gemma, gemma2, gemma3, gemma3_text, gemma3n, gemma3n_audio, gemma3n_text, gemma3n_vision, git, glm, glm4, glm4_moe, glm4v, glm4v_moe, glm4v_moe_text, glm4v_text, glpn, got_ocr2, gpt-sw3, gpt2, gpt_bigcode, gpt_neo, gpt_neox, gpt_neox_japanese, gpt_oss, gptj, gptsan-japanese, granite, granite_speech, granitemoe, granitemoehybrid, granitemoeshared, granitevision, graphormer, grounding-dino, groupvit, helium, hgnet_v2, hiera, hubert, hunyuan_v1_dense, hunyuan_v1_moe, ibert, idefics, idefics2, idefics3, idefics3_vision, ijepa, imagegpt, informer, instructblip, instructblipvideo, internvl, internvl_vision, jamba, janus, jetmoe, jukebox, kosmos-2, kosmos-2.5, kyutai_speech_to_text, layoutlm, layoutlmv2, layoutlmv3, led, levit, lfm2, lfm2_vl, lightglue, lilt, llama, llama4, llama4_text, llava, llava_next, llava_next_video, llava_onevision, longcat_flash, longformer, longt5, luke, lxmert, m2m_100, mamba, mamba2, marian, markuplm, mask2former, maskformer, maskformer-swin, mbart, mctct, mega, megatron-bert, metaclip_2, mgp-str, mimi, minimax, ministral, mistral, mistral3, mixtral, mlcd, mllama, mm-grounding-dino, mobilebert, mobilenet_v1, mobilenet_v2, mobilevit, mobilevitv2, modernbert, modernbert-decoder, moonshine, moshi, mpnet, mpt, mra, mt5, musicgen, musicgen_melody, mvp, nat, nemotron, nezha, nllb-moe, nougat, nystromformer, olmo, olmo2, olmo3, olmoe, omdet-turbo, oneformer, open-llama, openai-gpt, opt, ovis2, owlv2, owlvit, paligemma, parakeet_ctc, parakeet_encoder, patchtsmixer, patchtst, pegasus, pegasus_x, perceiver, perception_encoder, perception_lm, persimmon, phi, phi3, phi4_multimodal, phimoe, pix2struct, pixtral, plbart, poolformer, pop2piano, prompt_depth_anything, prophetnet, pvt, pvt_v2, qdqbert, qwen2, qwen2_5_omni, qwen2_5_vl, qwen2_5_vl_text, qwen2_audio, qwen2_audio_encoder, qwen2_moe, qwen2_vl, qwen2_vl_text, qwen3, qwen3_moe, qwen3_next, qwen3_omni_moe, qwen3_vl, qwen3_vl_moe, qwen3_vl_moe_text, qwen3_vl_text, rag, realm, recurrent_gemma, reformer, regnet, rembert, resnet, retribert, roberta, roberta-prelayernorm, roc_bert, roformer, rt_detr, rt_detr_resnet, rt_detr_v2, rwkv, sam, sam2, sam2_hiera_det_model, sam2_video, sam2_vision_model, sam_hq, sam_hq_vision_model, sam_vision_model, seamless_m4t, seamless_m4t_v2, seed_oss, segformer, seggpt, sew, sew-d, shieldgemma2, siglip, siglip2, siglip2_vision_model, siglip_vision_model, smollm3, smolvlm, smolvlm_vision, speech-encoder-decoder, speech_to_text, speech_to_text_2, speecht5, splinter, squeezebert, stablelm, starcoder2, superglue, superpoint, swiftformer, swin, swin2sr, swinv2, switch_transformers, t5, t5gemma, table-transformer, tapas, textnet, time_series_transformer, timesfm, timesformer, timm_backbone, timm_wrapper, trajectory_transformer, transfo-xl, trocr, tvlt, tvp, udop, umt5, unispeech, unispeech-sat, univnet, upernet, van, vaultgemma, video_llava, videomae, vilt, vipllava, vision-encoder-decoder, vision-text-dual-encoder, visual_bert, vit, vit_hybrid, vit_mae, vit_msn, vitdet, vitmatte, vitpose, vitpose_backbone, vits, vivit, vjepa2, voxtral, voxtral_encoder, wav2vec2, wav2vec2-bert, wav2vec2-conformer, wavlm, whisper, xclip, xcodec, xglm, xlm, xlm-prophetnet, xlm-roberta, xlm-roberta-xl, xlnet, xlstm, xmod, yolos, yoso, zamba, zamba2, zoedepth
+2025-11-09 01:36:26 | INFO     | __main__:main:85 - ================================================================================
+2025-11-09 01:36:26 | INFO     | __main__:main:86 - AUTOMATED TEST CASE GENERATOR - Multi-Agent System
+2025-11-09 01:36:26 | INFO     | __main__:main:87 - ================================================================================
+2025-11-09 01:36:26 | INFO     | __main__:main:91 - 
+[STEP 1] Initializing Vectorizer...
+2025-11-09 01:39:48 | ERROR    | __main__:main:217 - 
+FATAL ERROR: Unrecognized model in /Users/atharvaanandswami/.cache/torch/sentence_transformers/sentence-transformers_multi-qa-MiniLM-L6-cos-v1. Should have a `model_type` key in its config.json, or contain one of the following strings in its name: aimv2, aimv2_vision_model, albert, align, altclip, apertus, arcee, aria, aria_text, audio-spectrogram-transformer, autoformer, aya_vision, bamba, bark, bart, beit, bert, bert-generation, big_bird, bigbird_pegasus, biogpt, bit, bitnet, blenderbot, blenderbot-small, blip, blip-2, blip_2_qformer, bloom, blt, bridgetower, bros, camembert, canine, chameleon, chinese_clip, chinese_clip_vision_model, clap, clip, clip_text_model, clip_vision_model, clipseg, clvp, code_llama, codegen, cohere, cohere2, cohere2_vision, colpali, colqwen2, conditional_detr, convbert, convnext, convnextv2, cpmant, csm, ctrl, cvt, d_fine, dab-detr, dac, data2vec-audio, data2vec-text, data2vec-vision, dbrx, deberta, deberta-v2, decision_transformer, deepseek_v2, deepseek_v3, deepseek_vl, deepseek_vl_hybrid, deformable_detr, deit, depth_anything, depth_pro, deta, detr, dia, diffllama, dinat, dinov2, dinov2_with_registers, dinov3_convnext, dinov3_vit, distilbert, doge, donut-swin, dots1, dpr, dpt, edgetam, edgetam_video, edgetam_vision_model, efficientformer, efficientloftr, efficientnet, electra, emu3, encodec, encoder-decoder, eomt, ernie, ernie4_5, ernie4_5_moe, ernie_m, esm, evolla, exaone4, falcon, falcon_h1, falcon_mamba, fastspeech2_conformer, fastspeech2_conformer_with_hifigan, flaubert, flava, flex_olmo, florence2, fnet, focalnet, fsmt, funnel, fuyu, gemma, gemma2, gemma3, gemma3_text, gemma3n, gemma3n_audio, gemma3n_text, gemma3n_vision, git, glm, glm4, glm4_moe, glm4v, glm4v_moe, glm4v_moe_text, glm4v_text, glpn, got_ocr2, gpt-sw3, gpt2, gpt_bigcode, gpt_neo, gpt_neox, gpt_neox_japanese, gpt_oss, gptj, gptsan-japanese, granite, granite_speech, granitemoe, granitemoehybrid, granitemoeshared, granitevision, graphormer, grounding-dino, groupvit, helium, hgnet_v2, hiera, hubert, hunyuan_v1_dense, hunyuan_v1_moe, ibert, idefics, idefics2, idefics3, idefics3_vision, ijepa, imagegpt, informer, instructblip, instructblipvideo, internvl, internvl_vision, jamba, janus, jetmoe, jukebox, kosmos-2, kosmos-2.5, kyutai_speech_to_text, layoutlm, layoutlmv2, layoutlmv3, led, levit, lfm2, lfm2_vl, lightglue, lilt, llama, llama4, llama4_text, llava, llava_next, llava_next_video, llava_onevision, longcat_flash, longformer, longt5, luke, lxmert, m2m_100, mamba, mamba2, marian, markuplm, mask2former, maskformer, maskformer-swin, mbart, mctct, mega, megatron-bert, metaclip_2, mgp-str, mimi, minimax, ministral, mistral, mistral3, mixtral, mlcd, mllama, mm-grounding-dino, mobilebert, mobilenet_v1, mobilenet_v2, mobilevit, mobilevitv2, modernbert, modernbert-decoder, moonshine, moshi, mpnet, mpt, mra, mt5, musicgen, musicgen_melody, mvp, nat, nemotron, nezha, nllb-moe, nougat, nystromformer, olmo, olmo2, olmo3, olmoe, omdet-turbo, oneformer, open-llama, openai-gpt, opt, ovis2, owlv2, owlvit, paligemma, parakeet_ctc, parakeet_encoder, patchtsmixer, patchtst, pegasus, pegasus_x, perceiver, perception_encoder, perception_lm, persimmon, phi, phi3, phi4_multimodal, phimoe, pix2struct, pixtral, plbart, poolformer, pop2piano, prompt_depth_anything, prophetnet, pvt, pvt_v2, qdqbert, qwen2, qwen2_5_omni, qwen2_5_vl, qwen2_5_vl_text, qwen2_audio, qwen2_audio_encoder, qwen2_moe, qwen2_vl, qwen2_vl_text, qwen3, qwen3_moe, qwen3_next, qwen3_omni_moe, qwen3_vl, qwen3_vl_moe, qwen3_vl_moe_text, qwen3_vl_text, rag, realm, recurrent_gemma, reformer, regnet, rembert, resnet, retribert, roberta, roberta-prelayernorm, roc_bert, roformer, rt_detr, rt_detr_resnet, rt_detr_v2, rwkv, sam, sam2, sam2_hiera_det_model, sam2_video, sam2_vision_model, sam_hq, sam_hq_vision_model, sam_vision_model, seamless_m4t, seamless_m4t_v2, seed_oss, segformer, seggpt, sew, sew-d, shieldgemma2, siglip, siglip2, siglip2_vision_model, siglip_vision_model, smollm3, smolvlm, smolvlm_vision, speech-encoder-decoder, speech_to_text, speech_to_text_2, speecht5, splinter, squeezebert, stablelm, starcoder2, superglue, superpoint, swiftformer, swin, swin2sr, swinv2, switch_transformers, t5, t5gemma, table-transformer, tapas, textnet, time_series_transformer, timesfm, timesformer, timm_backbone, timm_wrapper, trajectory_transformer, transfo-xl, trocr, tvlt, tvp, udop, umt5, unispeech, unispeech-sat, univnet, upernet, van, vaultgemma, video_llava, videomae, vilt, vipllava, vision-encoder-decoder, vision-text-dual-encoder, visual_bert, vit, vit_hybrid, vit_mae, vit_msn, vitdet, vitmatte, vitpose, vitpose_backbone, vits, vivit, vjepa2, voxtral, voxtral_encoder, wav2vec2, wav2vec2-bert, wav2vec2-conformer, wavlm, whisper, xclip, xcodec, xglm, xlm, xlm-prophetnet, xlm-roberta, xlm-roberta-xl, xlnet, xlstm, xmod, yolos, yoso, zamba, zamba2, zoedepth
+2025-11-09 01:46:59 | INFO     | storage.vector_store:_create_new_index:47 - Created new FAISS index with dimension 384
+2025-11-09 01:47:33 | INFO     | __main__:main:85 - ================================================================================
+2025-11-09 01:47:33 | INFO     | __main__:main:86 - AUTOMATED TEST CASE GENERATOR - Multi-Agent System
+2025-11-09 01:47:33 | INFO     | __main__:main:87 - ================================================================================
+2025-11-09 01:47:33 | INFO     | __main__:main:91 - 
+[STEP 1] Initializing Vectorizer...
+2025-11-09 01:47:33 | INFO     | storage.vector_store:_create_new_index:47 - Created new FAISS index with dimension 384
+2025-11-09 01:47:33 | WARNING  | __main__:main:108 - No HTML file provided, skipping HTML parsing
+2025-11-09 01:47:33 | INFO     | __main__:main:111 - 
+[STEP 3] Processing Existing Test Files...
+2025-11-09 01:47:33 | INFO     | storage.vector_store:save:112 - Saved vector index with 0 vectors
+2025-11-09 01:47:33 | ERROR    | __main__:main:167 - No scenarios file provided!
+2025-11-09 01:48:30 | INFO     | __main__:main:85 - ================================================================================
+2025-11-09 01:48:30 | INFO     | __main__:main:86 - AUTOMATED TEST CASE GENERATOR - Multi-Agent System
+2025-11-09 01:48:30 | INFO     | __main__:main:87 - ================================================================================
+2025-11-09 01:48:30 | INFO     | __main__:main:91 - 
+[STEP 1] Initializing Vectorizer...
+2025-11-09 01:48:30 | INFO     | storage.vector_store:_load_or_create_index:35 - Loaded existing vector index with 0 vectors
+2025-11-09 01:48:30 | WARNING  | __main__:main:108 - No HTML file provided, skipping HTML parsing
+2025-11-09 01:48:30 | INFO     | __main__:main:111 - 
+[STEP 3] Processing Existing Test Files...
+2025-11-09 01:48:30 | INFO     | __main__:main:129 - Parsing feature file: old.feature
+2025-11-09 01:48:30 | INFO     | ingestion.code_parser:parse:83 - Parsed tests/samples/old.feature: 0 features, 1 scenarios, 5 steps
+2025-11-09 01:48:30 | INFO     | ingestion.vectorizer:vectorize_file:143 - Vectorizing old.feature (feature)
+2025-11-09 01:48:30 | INFO     | core.utils:save_json:61 - Saved JSON to data/.vectorized_files.json
+2025-11-09 01:48:30 | INFO     | ingestion.vectorizer:mark_file_vectorized:131 - Marked old.feature as vectorized with 6 chunks
+2025-11-09 01:48:30 | INFO     | __main__:main:139 - Parsing step definitions: StepDefsOld.java
+2025-11-09 01:48:30 | INFO     | ingestion.code_parser:parse:161 - Parsed tests/samples/StepDefsOld.java: 5 step definitions
+2025-11-09 01:48:30 | INFO     | ingestion.vectorizer:vectorize_file:143 - Vectorizing StepDefsOld.java (stepdef)
+2025-11-09 01:48:30 | INFO     | core.utils:save_json:61 - Saved JSON to data/.vectorized_files.json
+2025-11-09 01:48:30 | INFO     | ingestion.vectorizer:mark_file_vectorized:131 - Marked StepDefsOld.java as vectorized with 5 chunks
+2025-11-09 01:48:30 | INFO     | __main__:main:149 - Parsing page objects: PageObjectsOld.java
+2025-11-09 01:48:30 | INFO     | ingestion.code_parser:parse:241 - Parsed tests/samples/PageObjectsOld.java: 4 methods, 3 locators
+2025-11-09 01:48:30 | INFO     | ingestion.vectorizer:vectorize_file:143 - Vectorizing PageObjectsOld.java (pageobject)
+2025-11-09 01:48:30 | INFO     | core.utils:save_json:61 - Saved JSON to data/.vectorized_files.json
+2025-11-09 01:48:30 | INFO     | ingestion.vectorizer:mark_file_vectorized:131 - Marked PageObjectsOld.java as vectorized with 7 chunks
+2025-11-09 01:48:30 | INFO     | storage.vector_store:save:112 - Saved vector index with 18 vectors
+2025-11-09 01:48:30 | ERROR    | __main__:main:167 - No scenarios file provided!
+2025-11-09 01:48:30 | INFO     | storage.vector_store:save:112 - Saved vector index with 18 vectors
+2025-11-09 01:49:05 | INFO     | __main__:main:85 - ================================================================================
+2025-11-09 01:49:05 | INFO     | __main__:main:86 - AUTOMATED TEST CASE GENERATOR - Multi-Agent System
+2025-11-09 01:49:05 | INFO     | __main__:main:87 - ================================================================================
+2025-11-09 01:49:05 | INFO     | __main__:main:91 - 
+[STEP 1] Initializing Vectorizer...
+2025-11-09 01:49:05 | INFO     | storage.vector_store:_load_or_create_index:35 - Loaded existing vector index with 18 vectors
+2025-11-09 01:49:05 | INFO     | __main__:main:99 - 
+[STEP 2] Parsing HTML: tests/samples/sample.html
+2025-11-09 01:49:05 | INFO     | ingestion.html_parser:parse:20 - Parsing HTML from sample.html
+2025-11-09 01:49:05 | INFO     | ingestion.html_parser:parse:31 - Extracted 11 actionable elements
+2025-11-09 01:49:05 | INFO     | __main__:main:105 - Vectorizing HTML elements...
+2025-11-09 01:49:05 | INFO     | ingestion.vectorizer:vectorize_file:143 - Vectorizing sample.html (html)
+2025-11-09 01:49:05 | INFO     | core.utils:save_json:61 - Saved JSON to data/.vectorized_files.json
+2025-11-09 01:49:05 | INFO     | ingestion.vectorizer:mark_file_vectorized:131 - Marked sample.html as vectorized with 11 chunks
+2025-11-09 01:49:05 | INFO     | __main__:main:111 - 
+[STEP 3] Processing Existing Test Files...
+2025-11-09 01:49:05 | INFO     | __main__:main:129 - Parsing feature file: old.feature
+2025-11-09 01:49:05 | INFO     | ingestion.code_parser:parse:83 - Parsed tests/samples/old.feature: 0 features, 1 scenarios, 5 steps
+2025-11-09 01:49:05 | INFO     | ingestion.vectorizer:vectorize_file:140 - Skipping old.feature - already vectorized
+2025-11-09 01:49:05 | INFO     | __main__:main:139 - Parsing step definitions: StepDefsOld.java
+2025-11-09 01:49:05 | INFO     | ingestion.code_parser:parse:161 - Parsed tests/samples/StepDefsOld.java: 5 step definitions
+2025-11-09 01:49:05 | INFO     | ingestion.vectorizer:vectorize_file:140 - Skipping StepDefsOld.java - already vectorized
+2025-11-09 01:49:05 | INFO     | __main__:main:149 - Parsing page objects: PageObjectsOld.java
+2025-11-09 01:49:05 | INFO     | ingestion.code_parser:parse:241 - Parsed tests/samples/PageObjectsOld.java: 4 methods, 3 locators
+2025-11-09 01:49:05 | INFO     | ingestion.vectorizer:vectorize_file:140 - Skipping PageObjectsOld.java - already vectorized
+2025-11-09 01:49:05 | INFO     | storage.vector_store:save:112 - Saved vector index with 29 vectors
+2025-11-09 01:49:05 | INFO     | __main__:main:164 - 
+[STEP 4] Loading Test Scenarios: tests/samples/scenarios.txt
+2025-11-09 01:49:05 | INFO     | __main__:main:171 - 
+[STEP 5] Starting Multi-Agent Workflow...
+2025-11-09 01:49:05 | INFO     | llm.client:__init__:29 - Initialized LLM client: openai with model gpt-4-turbo-preview
+2025-11-09 01:49:05 | INFO     | agents.orchestrator_agent:__init__:41 - Orchestrator Agent initialized
+2025-11-09 01:49:05 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Starting multi-agent workflow
+2025-11-09 01:49:05 | INFO     | agents.orchestrator_agent:execute:75 - 
+============================================================
+2025-11-09 01:49:05 | INFO     | agents.orchestrator_agent:execute:76 - ITERATION 1/3
+2025-11-09 01:49:05 | INFO     | agents.orchestrator_agent:execute:77 - ============================================================
+
+2025-11-09 01:49:05 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 1: Feature Generation
+2025-11-09 01:49:05 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generating .feature file
+2025-11-09 01:49:05 | ERROR    | llm.client:format_prompt:100 - Missing template variable: 'button_name'
+2025-11-09 01:49:05 | ERROR    | agents.orchestrator_agent:execute:187 - Error in iteration 1: 'button_name'
+2025-11-09 01:49:05 | INFO     | agents.orchestrator_agent:execute:75 - 
+============================================================
+2025-11-09 01:49:05 | INFO     | agents.orchestrator_agent:execute:76 - ITERATION 2/3
+2025-11-09 01:49:05 | INFO     | agents.orchestrator_agent:execute:77 - ============================================================
+
+2025-11-09 01:49:05 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 1: Feature Generation
+2025-11-09 01:49:05 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generating .feature file
+2025-11-09 01:49:05 | ERROR    | llm.client:format_prompt:100 - Missing template variable: 'button_name'
+2025-11-09 01:49:05 | ERROR    | agents.orchestrator_agent:execute:187 - Error in iteration 2: 'button_name'
+2025-11-09 01:49:05 | INFO     | agents.orchestrator_agent:execute:75 - 
+============================================================
+2025-11-09 01:49:05 | INFO     | agents.orchestrator_agent:execute:76 - ITERATION 3/3
+2025-11-09 01:49:05 | INFO     | agents.orchestrator_agent:execute:77 - ============================================================
+
+2025-11-09 01:49:05 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 1: Feature Generation
+2025-11-09 01:49:05 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generating .feature file
+2025-11-09 01:49:05 | ERROR    | llm.client:format_prompt:100 - Missing template variable: 'button_name'
+2025-11-09 01:49:05 | ERROR    | agents.orchestrator_agent:execute:187 - Error in iteration 3: 'button_name'
+2025-11-09 01:49:05 | ERROR    | agents.orchestrator_agent:execute:191 - 
+Max iterations (3) reached without producing valid output
+2025-11-09 01:49:05 | ERROR    | __main__:main:210 - 
+================================================================================
+2025-11-09 01:49:05 | ERROR    | __main__:main:211 - FAILED! Could not generate valid test files
+2025-11-09 01:49:05 | ERROR    | __main__:main:212 - Errors: ["System error: 'button_name'", "System error: 'button_name'", "System error: 'button_name'"]
+2025-11-09 01:49:05 | ERROR    | __main__:main:213 - ================================================================================
+2025-11-09 01:49:05 | INFO     | storage.vector_store:save:112 - Saved vector index with 29 vectors
+2025-11-09 01:51:32 | INFO     | __main__:main:85 - ================================================================================
+2025-11-09 01:51:32 | INFO     | __main__:main:86 - AUTOMATED TEST CASE GENERATOR - Multi-Agent System
+2025-11-09 01:51:32 | INFO     | __main__:main:87 - ================================================================================
+2025-11-09 01:51:32 | INFO     | __main__:main:91 - 
+[STEP 1] Initializing Vectorizer...
+2025-11-09 01:51:32 | INFO     | storage.vector_store:_load_or_create_index:35 - Loaded existing vector index with 29 vectors
+2025-11-09 01:51:32 | INFO     | __main__:main:99 - 
+[STEP 2] Parsing HTML: tests/samples/sample.html
+2025-11-09 01:51:32 | INFO     | ingestion.html_parser:parse:20 - Parsing HTML from sample.html
+2025-11-09 01:51:32 | INFO     | ingestion.html_parser:parse:31 - Extracted 11 actionable elements
+2025-11-09 01:51:32 | INFO     | __main__:main:105 - Vectorizing HTML elements...
+2025-11-09 01:51:32 | INFO     | ingestion.vectorizer:vectorize_file:140 - Skipping sample.html - already vectorized
+2025-11-09 01:51:32 | INFO     | __main__:main:111 - 
+[STEP 3] Processing Existing Test Files...
+2025-11-09 01:51:32 | INFO     | __main__:main:129 - Parsing feature file: old.feature
+2025-11-09 01:51:32 | INFO     | ingestion.code_parser:parse:83 - Parsed tests/samples/old.feature: 0 features, 1 scenarios, 5 steps
+2025-11-09 01:51:32 | INFO     | ingestion.vectorizer:vectorize_file:140 - Skipping old.feature - already vectorized
+2025-11-09 01:51:32 | INFO     | __main__:main:139 - Parsing step definitions: StepDefsOld.java
+2025-11-09 01:51:32 | INFO     | ingestion.code_parser:parse:161 - Parsed tests/samples/StepDefsOld.java: 5 step definitions
+2025-11-09 01:51:32 | INFO     | ingestion.vectorizer:vectorize_file:140 - Skipping StepDefsOld.java - already vectorized
+2025-11-09 01:51:32 | INFO     | __main__:main:149 - Parsing page objects: PageObjectsOld.java
+2025-11-09 01:51:32 | INFO     | ingestion.code_parser:parse:241 - Parsed tests/samples/PageObjectsOld.java: 4 methods, 3 locators
+2025-11-09 01:51:32 | INFO     | ingestion.vectorizer:vectorize_file:140 - Skipping PageObjectsOld.java - already vectorized
+2025-11-09 01:51:32 | INFO     | storage.vector_store:save:112 - Saved vector index with 29 vectors
+2025-11-09 01:51:32 | INFO     | __main__:main:164 - 
+[STEP 4] Loading Test Scenarios: tests/samples/scenarios.txt
+2025-11-09 01:51:32 | INFO     | __main__:main:171 - 
+[STEP 5] Starting Multi-Agent Workflow...
+2025-11-09 01:51:32 | INFO     | llm.client:__init__:29 - Initialized LLM client: openai with model gpt-4-turbo-preview
+2025-11-09 01:51:32 | INFO     | agents.orchestrator_agent:__init__:41 - Orchestrator Agent initialized
+2025-11-09 01:51:32 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Starting multi-agent workflow
+2025-11-09 01:51:32 | INFO     | agents.orchestrator_agent:execute:75 - 
+============================================================
+2025-11-09 01:51:32 | INFO     | agents.orchestrator_agent:execute:76 - ITERATION 1/3
+2025-11-09 01:51:32 | INFO     | agents.orchestrator_agent:execute:77 - ============================================================
+
+2025-11-09 01:51:32 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 1: Feature Generation
+2025-11-09 01:51:32 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generating .feature file
+2025-11-09 01:51:32 | ERROR    | llm.client:generate:49 - LLM generation failed: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-11-09 01:51:36 | ERROR    | llm.client:generate:49 - LLM generation failed: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-11-09 01:51:40 | ERROR    | llm.client:generate:49 - LLM generation failed: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-11-09 01:51:40 | ERROR    | agents.orchestrator_agent:execute:187 - Error in iteration 1: RetryError[<Future at 0x15a8ffd90 state=finished raised APIRemovedInV1>]
+2025-11-09 01:51:40 | INFO     | agents.orchestrator_agent:execute:75 - 
+============================================================
+2025-11-09 01:51:41 | INFO     | agents.orchestrator_agent:execute:76 - ITERATION 2/3
+2025-11-09 01:51:41 | INFO     | agents.orchestrator_agent:execute:77 - ============================================================
+
+2025-11-09 01:51:41 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 1: Feature Generation
+2025-11-09 01:51:41 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generating .feature file
+2025-11-09 01:51:41 | ERROR    | llm.client:generate:49 - LLM generation failed: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-11-09 01:51:45 | ERROR    | llm.client:generate:49 - LLM generation failed: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-11-09 01:51:49 | ERROR    | llm.client:generate:49 - LLM generation failed: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-11-09 01:51:49 | ERROR    | agents.orchestrator_agent:execute:187 - Error in iteration 2: RetryError[<Future at 0x15aa8cdd0 state=finished raised APIRemovedInV1>]
+2025-11-09 01:51:49 | INFO     | agents.orchestrator_agent:execute:75 - 
+============================================================
+2025-11-09 01:51:49 | INFO     | agents.orchestrator_agent:execute:76 - ITERATION 3/3
+2025-11-09 01:51:49 | INFO     | agents.orchestrator_agent:execute:77 - ============================================================
+
+2025-11-09 01:51:49 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 1: Feature Generation
+2025-11-09 01:51:49 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generating .feature file
+2025-11-09 01:51:49 | ERROR    | llm.client:generate:49 - LLM generation failed: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-11-09 01:51:53 | ERROR    | llm.client:generate:49 - LLM generation failed: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-11-09 01:51:57 | ERROR    | llm.client:generate:49 - LLM generation failed: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+2025-11-09 01:51:57 | ERROR    | agents.orchestrator_agent:execute:187 - Error in iteration 3: RetryError[<Future at 0x15aa51d50 state=finished raised APIRemovedInV1>]
+2025-11-09 01:51:57 | ERROR    | agents.orchestrator_agent:execute:191 - 
+Max iterations (3) reached without producing valid output
+2025-11-09 01:51:57 | ERROR    | __main__:main:210 - 
+================================================================================
+2025-11-09 01:51:57 | ERROR    | __main__:main:211 - FAILED! Could not generate valid test files
+2025-11-09 01:51:57 | ERROR    | __main__:main:212 - Errors: ['System error: RetryError[<Future at 0x15a8ffd90 state=finished raised APIRemovedInV1>]', 'System error: RetryError[<Future at 0x15aa8cdd0 state=finished raised APIRemovedInV1>]', 'System error: RetryError[<Future at 0x15aa51d50 state=finished raised APIRemovedInV1>]']
+2025-11-09 01:51:57 | ERROR    | __main__:main:213 - ================================================================================
+2025-11-09 01:52:51 | INFO     | __main__:main:85 - ================================================================================
+2025-11-09 01:52:51 | INFO     | __main__:main:86 - AUTOMATED TEST CASE GENERATOR - Multi-Agent System
+2025-11-09 01:52:51 | INFO     | __main__:main:87 - ================================================================================
+2025-11-09 01:52:51 | INFO     | __main__:main:91 - 
+[STEP 1] Initializing Vectorizer...
+2025-11-09 01:52:51 | INFO     | storage.vector_store:_load_or_create_index:35 - Loaded existing vector index with 29 vectors
+2025-11-09 01:52:51 | INFO     | __main__:main:99 - 
+[STEP 2] Parsing HTML: tests/samples/sample.html
+2025-11-09 01:52:51 | INFO     | ingestion.html_parser:parse:20 - Parsing HTML from sample.html
+2025-11-09 01:52:51 | INFO     | ingestion.html_parser:parse:31 - Extracted 11 actionable elements
+2025-11-09 01:52:51 | INFO     | __main__:main:105 - Vectorizing HTML elements...
+2025-11-09 01:52:51 | INFO     | ingestion.vectorizer:vectorize_file:140 - Skipping sample.html - already vectorized
+2025-11-09 01:52:51 | INFO     | __main__:main:111 - 
+[STEP 3] Processing Existing Test Files...
+2025-11-09 01:52:51 | INFO     | __main__:main:129 - Parsing feature file: old.feature
+2025-11-09 01:52:51 | INFO     | ingestion.code_parser:parse:83 - Parsed tests/samples/old.feature: 0 features, 1 scenarios, 5 steps
+2025-11-09 01:52:51 | INFO     | ingestion.vectorizer:vectorize_file:140 - Skipping old.feature - already vectorized
+2025-11-09 01:52:51 | INFO     | __main__:main:139 - Parsing step definitions: StepDefsOld.java
+2025-11-09 01:52:51 | INFO     | ingestion.code_parser:parse:161 - Parsed tests/samples/StepDefsOld.java: 5 step definitions
+2025-11-09 01:52:51 | INFO     | ingestion.vectorizer:vectorize_file:140 - Skipping StepDefsOld.java - already vectorized
+2025-11-09 01:52:51 | INFO     | __main__:main:149 - Parsing page objects: PageObjectsOld.java
+2025-11-09 01:52:51 | INFO     | ingestion.code_parser:parse:241 - Parsed tests/samples/PageObjectsOld.java: 4 methods, 3 locators
+2025-11-09 01:52:51 | INFO     | ingestion.vectorizer:vectorize_file:140 - Skipping PageObjectsOld.java - already vectorized
+2025-11-09 01:52:51 | INFO     | storage.vector_store:save:112 - Saved vector index with 29 vectors
+2025-11-09 01:52:51 | INFO     | __main__:main:164 - 
+[STEP 4] Loading Test Scenarios: tests/samples/scenarios.txt
+2025-11-09 01:52:51 | INFO     | __main__:main:171 - 
+[STEP 5] Starting Multi-Agent Workflow...
+2025-11-09 01:52:51 | ERROR    | __main__:main:217 - 
+FATAL ERROR: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-11-09 01:52:51 | INFO     | storage.vector_store:save:112 - Saved vector index with 29 vectors
+2025-11-09 01:54:14 | INFO     | llm.client:__init__:32 - Initialized LLM client: openai with model gpt-4-turbo-preview
+2025-11-09 01:54:21 | INFO     | __main__:main:85 - ================================================================================
+2025-11-09 01:54:21 | INFO     | __main__:main:86 - AUTOMATED TEST CASE GENERATOR - Multi-Agent System
+2025-11-09 01:54:21 | INFO     | __main__:main:87 - ================================================================================
+2025-11-09 01:54:21 | INFO     | __main__:main:91 - 
+[STEP 1] Initializing Vectorizer...
+2025-11-09 01:54:21 | INFO     | storage.vector_store:_load_or_create_index:35 - Loaded existing vector index with 29 vectors
+2025-11-09 01:54:21 | INFO     | __main__:main:99 - 
+[STEP 2] Parsing HTML: tests/samples/sample.html
+2025-11-09 01:54:21 | INFO     | ingestion.html_parser:parse:20 - Parsing HTML from sample.html
+2025-11-09 01:54:21 | INFO     | ingestion.html_parser:parse:31 - Extracted 11 actionable elements
+2025-11-09 01:54:21 | INFO     | __main__:main:105 - Vectorizing HTML elements...
+2025-11-09 01:54:21 | INFO     | ingestion.vectorizer:vectorize_file:140 - Skipping sample.html - already vectorized
+2025-11-09 01:54:21 | INFO     | __main__:main:111 - 
+[STEP 3] Processing Existing Test Files...
+2025-11-09 01:54:21 | INFO     | __main__:main:129 - Parsing feature file: old.feature
+2025-11-09 01:54:21 | INFO     | ingestion.code_parser:parse:83 - Parsed tests/samples/old.feature: 0 features, 1 scenarios, 5 steps
+2025-11-09 01:54:21 | INFO     | ingestion.vectorizer:vectorize_file:140 - Skipping old.feature - already vectorized
+2025-11-09 01:54:21 | INFO     | __main__:main:139 - Parsing step definitions: StepDefsOld.java
+2025-11-09 01:54:21 | INFO     | ingestion.code_parser:parse:161 - Parsed tests/samples/StepDefsOld.java: 5 step definitions
+2025-11-09 01:54:21 | INFO     | ingestion.vectorizer:vectorize_file:140 - Skipping StepDefsOld.java - already vectorized
+2025-11-09 01:54:21 | INFO     | __main__:main:149 - Parsing page objects: PageObjectsOld.java
+2025-11-09 01:54:21 | INFO     | ingestion.code_parser:parse:241 - Parsed tests/samples/PageObjectsOld.java: 4 methods, 3 locators
+2025-11-09 01:54:21 | INFO     | ingestion.vectorizer:vectorize_file:140 - Skipping PageObjectsOld.java - already vectorized
+2025-11-09 01:54:21 | INFO     | storage.vector_store:save:112 - Saved vector index with 29 vectors
+2025-11-09 01:54:21 | INFO     | __main__:main:164 - 
+[STEP 4] Loading Test Scenarios: tests/samples/scenarios.txt
+2025-11-09 01:54:21 | INFO     | __main__:main:171 - 
+[STEP 5] Starting Multi-Agent Workflow...
+2025-11-09 01:54:21 | INFO     | llm.client:__init__:32 - Initialized LLM client: openai with model gpt-4-turbo-preview
+2025-11-09 01:54:21 | INFO     | agents.orchestrator_agent:__init__:41 - Orchestrator Agent initialized
+2025-11-09 01:54:21 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Starting multi-agent workflow
+2025-11-09 01:54:21 | INFO     | agents.orchestrator_agent:execute:75 - 
+============================================================
+2025-11-09 01:54:21 | INFO     | agents.orchestrator_agent:execute:76 - ITERATION 1/3
+2025-11-09 01:54:21 | INFO     | agents.orchestrator_agent:execute:77 - ============================================================
+
+2025-11-09 01:54:21 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 1: Feature Generation
+2025-11-09 01:54:21 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generating .feature file
+2025-11-09 01:54:28 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generated feature file (993 chars)
+2025-11-09 01:54:28 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Feature validation passed
+2025-11-09 01:54:28 | SUCCESS  | agents.orchestrator_agent:execute:102 - ✓ Feature file validation passed
+2025-11-09 01:54:28 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 2: Step Definition Generation
+2025-11-09 01:54:28 | INFO     | core.logger:log_agent_action:43 - [StepDefinitionAgent] Generating step definitions
+2025-11-09 01:54:28 | ERROR    | llm.client:format_prompt:103 - Missing template variable: '\n    loginPage'
+2025-11-09 01:54:28 | ERROR    | agents.orchestrator_agent:execute:187 - Error in iteration 1: '\n    loginPage'
+2025-11-09 01:54:28 | INFO     | agents.orchestrator_agent:execute:75 - 
+============================================================
+2025-11-09 01:54:28 | INFO     | agents.orchestrator_agent:execute:76 - ITERATION 2/3
+2025-11-09 01:54:28 | INFO     | agents.orchestrator_agent:execute:77 - ============================================================
+
+2025-11-09 01:54:28 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 1: Feature Generation
+2025-11-09 01:54:28 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generating .feature file
+2025-11-09 01:54:35 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generated feature file (964 chars)
+2025-11-09 01:54:35 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Feature validation passed
+2025-11-09 01:54:35 | SUCCESS  | agents.orchestrator_agent:execute:102 - ✓ Feature file validation passed
+2025-11-09 01:54:35 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 2: Step Definition Generation
+2025-11-09 01:54:35 | INFO     | core.logger:log_agent_action:43 - [StepDefinitionAgent] Generating step definitions
+2025-11-09 01:54:35 | ERROR    | llm.client:format_prompt:103 - Missing template variable: '\n    loginPage'
+2025-11-09 01:54:35 | ERROR    | agents.orchestrator_agent:execute:187 - Error in iteration 2: '\n    loginPage'
+2025-11-09 01:54:35 | INFO     | agents.orchestrator_agent:execute:75 - 
+============================================================
+2025-11-09 01:54:35 | INFO     | agents.orchestrator_agent:execute:76 - ITERATION 3/3
+2025-11-09 01:54:35 | INFO     | agents.orchestrator_agent:execute:77 - ============================================================
+
+2025-11-09 01:54:35 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 1: Feature Generation
+2025-11-09 01:54:35 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generating .feature file
+2025-11-09 01:54:41 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generated feature file (964 chars)
+2025-11-09 01:54:41 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Feature validation passed
+2025-11-09 01:54:41 | SUCCESS  | agents.orchestrator_agent:execute:102 - ✓ Feature file validation passed
+2025-11-09 01:54:41 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 2: Step Definition Generation
+2025-11-09 01:54:41 | INFO     | core.logger:log_agent_action:43 - [StepDefinitionAgent] Generating step definitions
+2025-11-09 01:54:41 | ERROR    | llm.client:format_prompt:103 - Missing template variable: '\n    loginPage'
+2025-11-09 01:54:41 | ERROR    | agents.orchestrator_agent:execute:187 - Error in iteration 3: '\n    loginPage'
+2025-11-09 01:54:41 | ERROR    | agents.orchestrator_agent:execute:191 - 
+Max iterations (3) reached without producing valid output
+2025-11-09 01:54:41 | ERROR    | __main__:main:210 - 
+================================================================================
+2025-11-09 01:54:41 | ERROR    | __main__:main:211 - FAILED! Could not generate valid test files
+2025-11-09 01:54:41 | ERROR    | __main__:main:212 - Errors: ["System error: '\\n    loginPage'", "System error: '\\n    loginPage'", "System error: '\\n    loginPage'"]
+2025-11-09 01:54:41 | ERROR    | __main__:main:213 - ================================================================================
+2025-11-09 01:54:41 | INFO     | storage.vector_store:save:112 - Saved vector index with 29 vectors
+2025-11-09 01:55:07 | INFO     | __main__:main:85 - ================================================================================
+2025-11-09 01:55:07 | INFO     | __main__:main:86 - AUTOMATED TEST CASE GENERATOR - Multi-Agent System
+2025-11-09 01:55:07 | INFO     | __main__:main:87 - ================================================================================
+2025-11-09 01:55:07 | INFO     | __main__:main:91 - 
+[STEP 1] Initializing Vectorizer...
+2025-11-09 01:55:07 | INFO     | storage.vector_store:_load_or_create_index:35 - Loaded existing vector index with 29 vectors
+2025-11-09 01:55:07 | INFO     | __main__:main:99 - 
+[STEP 2] Parsing HTML: tests/samples/sample.html
+2025-11-09 01:55:07 | INFO     | ingestion.html_parser:parse:20 - Parsing HTML from sample.html
+2025-11-09 01:55:07 | INFO     | ingestion.html_parser:parse:31 - Extracted 11 actionable elements
+2025-11-09 01:55:07 | INFO     | __main__:main:105 - Vectorizing HTML elements...
+2025-11-09 01:55:07 | INFO     | ingestion.vectorizer:vectorize_file:140 - Skipping sample.html - already vectorized
+2025-11-09 01:55:07 | INFO     | __main__:main:111 - 
+[STEP 3] Processing Existing Test Files...
+2025-11-09 01:55:07 | INFO     | __main__:main:129 - Parsing feature file: old.feature
+2025-11-09 01:55:07 | INFO     | ingestion.code_parser:parse:83 - Parsed tests/samples/old.feature: 0 features, 1 scenarios, 5 steps
+2025-11-09 01:55:07 | INFO     | ingestion.vectorizer:vectorize_file:140 - Skipping old.feature - already vectorized
+2025-11-09 01:55:07 | INFO     | __main__:main:139 - Parsing step definitions: StepDefsOld.java
+2025-11-09 01:55:07 | INFO     | ingestion.code_parser:parse:161 - Parsed tests/samples/StepDefsOld.java: 5 step definitions
+2025-11-09 01:55:07 | INFO     | ingestion.vectorizer:vectorize_file:140 - Skipping StepDefsOld.java - already vectorized
+2025-11-09 01:55:07 | INFO     | __main__:main:149 - Parsing page objects: PageObjectsOld.java
+2025-11-09 01:55:07 | INFO     | ingestion.code_parser:parse:241 - Parsed tests/samples/PageObjectsOld.java: 4 methods, 3 locators
+2025-11-09 01:55:07 | INFO     | ingestion.vectorizer:vectorize_file:140 - Skipping PageObjectsOld.java - already vectorized
+2025-11-09 01:55:07 | INFO     | storage.vector_store:save:112 - Saved vector index with 29 vectors
+2025-11-09 01:55:07 | INFO     | __main__:main:164 - 
+[STEP 4] Loading Test Scenarios: tests/samples/scenarios.txt
+2025-11-09 01:55:07 | INFO     | __main__:main:171 - 
+[STEP 5] Starting Multi-Agent Workflow...
+2025-11-09 01:55:07 | INFO     | llm.client:__init__:32 - Initialized LLM client: openai with model gpt-4-turbo-preview
+2025-11-09 01:55:07 | INFO     | agents.orchestrator_agent:__init__:41 - Orchestrator Agent initialized
+2025-11-09 01:55:07 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Starting multi-agent workflow
+2025-11-09 01:55:07 | INFO     | agents.orchestrator_agent:execute:75 - 
+============================================================
+2025-11-09 01:55:07 | INFO     | agents.orchestrator_agent:execute:76 - ITERATION 1/3
+2025-11-09 01:55:07 | INFO     | agents.orchestrator_agent:execute:77 - ============================================================
+
+2025-11-09 01:55:07 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 1: Feature Generation
+2025-11-09 01:55:07 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generating .feature file
+2025-11-09 01:55:14 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generated feature file (964 chars)
+2025-11-09 01:55:14 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Feature validation passed
+2025-11-09 01:55:14 | SUCCESS  | agents.orchestrator_agent:execute:102 - ✓ Feature file validation passed
+2025-11-09 01:55:14 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 2: Step Definition Generation
+2025-11-09 01:55:14 | INFO     | core.logger:log_agent_action:43 - [StepDefinitionAgent] Generating step definitions
+2025-11-09 01:55:14 | ERROR    | llm.client:format_prompt:103 - Missing template variable: '\n    loginPage'
+2025-11-09 01:55:14 | ERROR    | agents.orchestrator_agent:execute:187 - Error in iteration 1: '\n    loginPage'
+2025-11-09 01:55:14 | INFO     | agents.orchestrator_agent:execute:75 - 
+============================================================
+2025-11-09 01:55:14 | INFO     | agents.orchestrator_agent:execute:76 - ITERATION 2/3
+2025-11-09 01:55:14 | INFO     | agents.orchestrator_agent:execute:77 - ============================================================
+
+2025-11-09 01:55:14 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 1: Feature Generation
+2025-11-09 01:55:14 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generating .feature file
+2025-11-09 01:55:21 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generated feature file (1027 chars)
+2025-11-09 01:55:21 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Feature validation passed
+2025-11-09 01:55:21 | SUCCESS  | agents.orchestrator_agent:execute:102 - ✓ Feature file validation passed
+2025-11-09 01:55:21 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 2: Step Definition Generation
+2025-11-09 01:55:21 | INFO     | core.logger:log_agent_action:43 - [StepDefinitionAgent] Generating step definitions
+2025-11-09 01:55:21 | ERROR    | llm.client:format_prompt:103 - Missing template variable: '\n    loginPage'
+2025-11-09 01:55:21 | ERROR    | agents.orchestrator_agent:execute:187 - Error in iteration 2: '\n    loginPage'
+2025-11-09 01:55:21 | INFO     | agents.orchestrator_agent:execute:75 - 
+============================================================
+2025-11-09 01:55:21 | INFO     | agents.orchestrator_agent:execute:76 - ITERATION 3/3
+2025-11-09 01:55:21 | INFO     | agents.orchestrator_agent:execute:77 - ============================================================
+
+2025-11-09 01:55:21 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 1: Feature Generation
+2025-11-09 01:55:21 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generating .feature file
+2025-11-09 01:55:28 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generated feature file (964 chars)
+2025-11-09 01:55:28 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Feature validation passed
+2025-11-09 01:55:28 | SUCCESS  | agents.orchestrator_agent:execute:102 - ✓ Feature file validation passed
+2025-11-09 01:55:28 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 2: Step Definition Generation
+2025-11-09 01:55:28 | INFO     | core.logger:log_agent_action:43 - [StepDefinitionAgent] Generating step definitions
+2025-11-09 01:55:28 | ERROR    | llm.client:format_prompt:103 - Missing template variable: '\n    loginPage'
+2025-11-09 01:55:28 | ERROR    | agents.orchestrator_agent:execute:187 - Error in iteration 3: '\n    loginPage'
+2025-11-09 01:55:28 | ERROR    | agents.orchestrator_agent:execute:191 - 
+Max iterations (3) reached without producing valid output
+2025-11-09 01:55:28 | ERROR    | __main__:main:210 - 
+================================================================================
+2025-11-09 01:55:28 | ERROR    | __main__:main:211 - FAILED! Could not generate valid test files
+2025-11-09 01:55:28 | ERROR    | __main__:main:212 - Errors: ["System error: '\\n    loginPage'", "System error: '\\n    loginPage'", "System error: '\\n    loginPage'"]
+2025-11-09 01:55:28 | ERROR    | __main__:main:213 - ================================================================================
+2025-11-09 01:55:28 | INFO     | storage.vector_store:save:112 - Saved vector index with 29 vectors
+2025-11-09 01:56:14 | INFO     | __main__:main:85 - ================================================================================
+2025-11-09 01:56:14 | INFO     | __main__:main:86 - AUTOMATED TEST CASE GENERATOR - Multi-Agent System
+2025-11-09 01:56:14 | INFO     | __main__:main:87 - ================================================================================
+2025-11-09 01:56:14 | INFO     | __main__:main:91 - 
+[STEP 1] Initializing Vectorizer...
+2025-11-09 01:56:14 | INFO     | storage.vector_store:_load_or_create_index:35 - Loaded existing vector index with 29 vectors
+2025-11-09 01:56:14 | INFO     | __main__:main:99 - 
+[STEP 2] Parsing HTML: tests/samples/sample.html
+2025-11-09 01:56:14 | INFO     | ingestion.html_parser:parse:20 - Parsing HTML from sample.html
+2025-11-09 01:56:14 | INFO     | ingestion.html_parser:parse:31 - Extracted 11 actionable elements
+2025-11-09 01:56:14 | INFO     | __main__:main:105 - Vectorizing HTML elements...
+2025-11-09 01:56:14 | INFO     | ingestion.vectorizer:vectorize_file:140 - Skipping sample.html - already vectorized
+2025-11-09 01:56:14 | INFO     | __main__:main:111 - 
+[STEP 3] Processing Existing Test Files...
+2025-11-09 01:56:14 | INFO     | __main__:main:129 - Parsing feature file: old.feature
+2025-11-09 01:56:14 | INFO     | ingestion.code_parser:parse:83 - Parsed tests/samples/old.feature: 0 features, 1 scenarios, 5 steps
+2025-11-09 01:56:14 | INFO     | ingestion.vectorizer:vectorize_file:140 - Skipping old.feature - already vectorized
+2025-11-09 01:56:14 | INFO     | __main__:main:139 - Parsing step definitions: StepDefsOld.java
+2025-11-09 01:56:14 | INFO     | ingestion.code_parser:parse:161 - Parsed tests/samples/StepDefsOld.java: 5 step definitions
+2025-11-09 01:56:14 | INFO     | ingestion.vectorizer:vectorize_file:140 - Skipping StepDefsOld.java - already vectorized
+2025-11-09 01:56:14 | INFO     | __main__:main:149 - Parsing page objects: PageObjectsOld.java
+2025-11-09 01:56:14 | INFO     | ingestion.code_parser:parse:241 - Parsed tests/samples/PageObjectsOld.java: 4 methods, 3 locators
+2025-11-09 01:56:14 | INFO     | ingestion.vectorizer:vectorize_file:140 - Skipping PageObjectsOld.java - already vectorized
+2025-11-09 01:56:14 | INFO     | storage.vector_store:save:112 - Saved vector index with 29 vectors
+2025-11-09 01:56:14 | INFO     | __main__:main:164 - 
+[STEP 4] Loading Test Scenarios: tests/samples/scenarios.txt
+2025-11-09 01:56:14 | INFO     | __main__:main:171 - 
+[STEP 5] Starting Multi-Agent Workflow...
+2025-11-09 01:56:14 | INFO     | llm.client:__init__:32 - Initialized LLM client: openai with model gpt-4-turbo-preview
+2025-11-09 01:56:14 | INFO     | agents.orchestrator_agent:__init__:41 - Orchestrator Agent initialized
+2025-11-09 01:56:14 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Starting multi-agent workflow
+2025-11-09 01:56:14 | INFO     | agents.orchestrator_agent:execute:75 - 
+============================================================
+2025-11-09 01:56:14 | INFO     | agents.orchestrator_agent:execute:76 - ITERATION 1/3
+2025-11-09 01:56:14 | INFO     | agents.orchestrator_agent:execute:77 - ============================================================
+
+2025-11-09 01:56:14 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 1: Feature Generation
+2025-11-09 01:56:14 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generating .feature file
+2025-11-09 01:56:19 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generated feature file (994 chars)
+2025-11-09 01:56:19 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Feature validation passed
+2025-11-09 01:56:19 | SUCCESS  | agents.orchestrator_agent:execute:102 - ✓ Feature file validation passed
+2025-11-09 01:56:19 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 2: Step Definition Generation
+2025-11-09 01:56:19 | INFO     | core.logger:log_agent_action:43 - [StepDefinitionAgent] Generating step definitions
+2025-11-09 01:56:19 | ERROR    | llm.client:format_prompt:103 - Missing template variable: '\n    loginPage'
+2025-11-09 01:56:19 | ERROR    | agents.orchestrator_agent:execute:187 - Error in iteration 1: '\n    loginPage'
+2025-11-09 01:56:19 | INFO     | agents.orchestrator_agent:execute:75 - 
+============================================================
+2025-11-09 01:56:19 | INFO     | agents.orchestrator_agent:execute:76 - ITERATION 2/3
+2025-11-09 01:56:19 | INFO     | agents.orchestrator_agent:execute:77 - ============================================================
+
+2025-11-09 01:56:19 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 1: Feature Generation
+2025-11-09 01:56:19 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generating .feature file
+2025-11-09 01:56:26 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generated feature file (1005 chars)
+2025-11-09 01:56:26 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Feature validation passed
+2025-11-09 01:56:26 | SUCCESS  | agents.orchestrator_agent:execute:102 - ✓ Feature file validation passed
+2025-11-09 01:56:26 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 2: Step Definition Generation
+2025-11-09 01:56:26 | INFO     | core.logger:log_agent_action:43 - [StepDefinitionAgent] Generating step definitions
+2025-11-09 01:56:26 | ERROR    | llm.client:format_prompt:103 - Missing template variable: '\n    loginPage'
+2025-11-09 01:56:26 | ERROR    | agents.orchestrator_agent:execute:187 - Error in iteration 2: '\n    loginPage'
+2025-11-09 01:56:26 | INFO     | agents.orchestrator_agent:execute:75 - 
+============================================================
+2025-11-09 01:56:26 | INFO     | agents.orchestrator_agent:execute:76 - ITERATION 3/3
+2025-11-09 01:56:26 | INFO     | agents.orchestrator_agent:execute:77 - ============================================================
+
+2025-11-09 01:56:26 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 1: Feature Generation
+2025-11-09 01:56:26 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generating .feature file
+2025-11-09 01:56:33 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generated feature file (964 chars)
+2025-11-09 01:56:33 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Feature validation passed
+2025-11-09 01:56:33 | SUCCESS  | agents.orchestrator_agent:execute:102 - ✓ Feature file validation passed
+2025-11-09 01:56:33 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 2: Step Definition Generation
+2025-11-09 01:56:33 | INFO     | core.logger:log_agent_action:43 - [StepDefinitionAgent] Generating step definitions
+2025-11-09 01:56:33 | ERROR    | llm.client:format_prompt:103 - Missing template variable: '\n    loginPage'
+2025-11-09 01:56:33 | ERROR    | agents.orchestrator_agent:execute:187 - Error in iteration 3: '\n    loginPage'
+2025-11-09 01:56:33 | ERROR    | agents.orchestrator_agent:execute:191 - 
+Max iterations (3) reached without producing valid output
+2025-11-09 01:56:33 | ERROR    | __main__:main:210 - 
+================================================================================
+2025-11-09 01:56:33 | ERROR    | __main__:main:211 - FAILED! Could not generate valid test files
+2025-11-09 01:56:33 | ERROR    | __main__:main:212 - Errors: ["System error: '\\n    loginPage'", "System error: '\\n    loginPage'", "System error: '\\n    loginPage'"]
+2025-11-09 01:56:33 | ERROR    | __main__:main:213 - ================================================================================
+2025-11-09 01:56:33 | INFO     | storage.vector_store:save:112 - Saved vector index with 29 vectors
+2025-11-09 01:56:48 | INFO     | __main__:main:85 - ================================================================================
+2025-11-09 01:56:48 | INFO     | __main__:main:86 - AUTOMATED TEST CASE GENERATOR - Multi-Agent System
+2025-11-09 01:56:48 | INFO     | __main__:main:87 - ================================================================================
+2025-11-09 01:56:48 | INFO     | __main__:main:91 - 
+[STEP 1] Initializing Vectorizer...
+2025-11-09 01:56:48 | INFO     | storage.vector_store:_load_or_create_index:35 - Loaded existing vector index with 29 vectors
+2025-11-09 01:56:48 | INFO     | __main__:main:99 - 
+[STEP 2] Parsing HTML: tests/samples/sample.html
+2025-11-09 01:56:48 | INFO     | ingestion.html_parser:parse:20 - Parsing HTML from sample.html
+2025-11-09 01:56:48 | INFO     | ingestion.html_parser:parse:31 - Extracted 11 actionable elements
+2025-11-09 01:56:48 | INFO     | __main__:main:105 - Vectorizing HTML elements...
+2025-11-09 01:56:48 | INFO     | ingestion.vectorizer:vectorize_file:140 - Skipping sample.html - already vectorized
+2025-11-09 01:56:48 | INFO     | __main__:main:111 - 
+[STEP 3] Processing Existing Test Files...
+2025-11-09 01:56:48 | INFO     | __main__:main:129 - Parsing feature file: old.feature
+2025-11-09 01:56:48 | INFO     | ingestion.code_parser:parse:83 - Parsed tests/samples/old.feature: 0 features, 1 scenarios, 5 steps
+2025-11-09 01:56:48 | INFO     | ingestion.vectorizer:vectorize_file:140 - Skipping old.feature - already vectorized
+2025-11-09 01:56:48 | INFO     | __main__:main:139 - Parsing step definitions: StepDefsOld.java
+2025-11-09 01:56:48 | INFO     | ingestion.code_parser:parse:161 - Parsed tests/samples/StepDefsOld.java: 5 step definitions
+2025-11-09 01:56:48 | INFO     | ingestion.vectorizer:vectorize_file:140 - Skipping StepDefsOld.java - already vectorized
+2025-11-09 01:56:48 | INFO     | __main__:main:149 - Parsing page objects: PageObjectsOld.java
+2025-11-09 01:56:48 | INFO     | ingestion.code_parser:parse:241 - Parsed tests/samples/PageObjectsOld.java: 4 methods, 3 locators
+2025-11-09 01:56:48 | INFO     | ingestion.vectorizer:vectorize_file:140 - Skipping PageObjectsOld.java - already vectorized
+2025-11-09 01:56:48 | INFO     | storage.vector_store:save:112 - Saved vector index with 29 vectors
+2025-11-09 01:56:48 | INFO     | __main__:main:164 - 
+[STEP 4] Loading Test Scenarios: tests/samples/scenarios.txt
+2025-11-09 01:56:48 | INFO     | __main__:main:171 - 
+[STEP 5] Starting Multi-Agent Workflow...
+2025-11-09 01:56:48 | INFO     | llm.client:__init__:32 - Initialized LLM client: openai with model gpt-4-turbo-preview
+2025-11-09 01:56:48 | INFO     | agents.orchestrator_agent:__init__:41 - Orchestrator Agent initialized
+2025-11-09 01:56:48 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Starting multi-agent workflow
+2025-11-09 01:56:48 | INFO     | agents.orchestrator_agent:execute:75 - 
+============================================================
+2025-11-09 01:56:48 | INFO     | agents.orchestrator_agent:execute:76 - ITERATION 1/3
+2025-11-09 01:56:48 | INFO     | agents.orchestrator_agent:execute:77 - ============================================================
+
+2025-11-09 01:56:48 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 1: Feature Generation
+2025-11-09 01:56:48 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generating .feature file
+2025-11-09 01:56:54 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generated feature file (989 chars)
+2025-11-09 01:56:54 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Feature validation passed
+2025-11-09 01:56:54 | SUCCESS  | agents.orchestrator_agent:execute:102 - ✓ Feature file validation passed
+2025-11-09 01:56:54 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 2: Step Definition Generation
+2025-11-09 01:56:54 | INFO     | core.logger:log_agent_action:43 - [StepDefinitionAgent] Generating step definitions
+2025-11-09 01:57:03 | INFO     | core.logger:log_agent_action:43 - [StepDefinitionAgent] Generated step definitions (1735 chars)
+2025-11-09 01:57:03 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Java (stepdef) validation passed
+2025-11-09 01:57:03 | SUCCESS  | agents.orchestrator_agent:execute:127 - ✓ Step definition validation passed
+2025-11-09 01:57:03 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 3: Page Object Generation
+2025-11-09 01:57:03 | INFO     | core.logger:log_agent_action:43 - [PageObjectAgent] Generating page objects
+2025-11-09 01:57:17 | INFO     | core.logger:log_agent_action:43 - [PageObjectAgent] Generated page object (3046 chars)
+2025-11-09 01:57:17 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Java (pageobject) validation passed
+2025-11-09 01:57:17 | SUCCESS  | agents.orchestrator_agent:execute:151 - ✓ Page object validation passed
+2025-11-09 01:57:17 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 4: Cross-validation
+2025-11-09 01:57:17 | INFO     | validation.cross_validator:validate:39 - Cross-validation: 10 steps, 5 definitions, 9 methods
+2025-11-09 01:57:17 | ERROR    | core.logger:log_validation_result:51 - ✗ Cross-file validation failed
+2025-11-09 01:57:17 | ERROR    | core.logger:log_validation_result:54 -   - Missing step definitions for: i enter "{}" in password field, i click on login button, i enter "{}" in username field, i should see error message "{}", i should see "{}" page
+2025-11-09 01:57:17 | ERROR    | core.logger:log_validation_result:54 -   - Step definitions call undefined page object methods: contains
+2025-11-09 01:57:17 | ERROR    | agents.orchestrator_agent:execute:163 - Cross-validation failed: ['Missing step definitions for: i enter "{}" in password field, i click on login button, i enter "{}" in username field, i should see error message "{}", i should see "{}" page', 'Step definitions call undefined page object methods: contains']
+2025-11-09 01:57:17 | INFO     | agents.orchestrator_agent:execute:75 - 
+============================================================
+2025-11-09 01:57:17 | INFO     | agents.orchestrator_agent:execute:76 - ITERATION 2/3
+2025-11-09 01:57:17 | INFO     | agents.orchestrator_agent:execute:77 - ============================================================
+
+2025-11-09 01:57:17 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 1: Feature Generation
+2025-11-09 01:57:17 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generating .feature file
+2025-11-09 01:57:25 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generated feature file (964 chars)
+2025-11-09 01:57:25 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Feature validation passed
+2025-11-09 01:57:25 | SUCCESS  | agents.orchestrator_agent:execute:102 - ✓ Feature file validation passed
+2025-11-09 01:57:25 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 2: Step Definition Generation
+2025-11-09 01:57:25 | INFO     | core.logger:log_agent_action:43 - [StepDefinitionAgent] Generating step definitions
+2025-11-09 01:57:33 | INFO     | core.logger:log_agent_action:43 - [StepDefinitionAgent] Generated step definitions (1727 chars)
+2025-11-09 01:57:33 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Java (stepdef) validation passed
+2025-11-09 01:57:33 | SUCCESS  | agents.orchestrator_agent:execute:127 - ✓ Step definition validation passed
+2025-11-09 01:57:33 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 3: Page Object Generation
+2025-11-09 01:57:33 | INFO     | core.logger:log_agent_action:43 - [PageObjectAgent] Generating page objects
+2025-11-09 01:57:43 | INFO     | core.logger:log_agent_action:43 - [PageObjectAgent] Generated page object (2467 chars)
+2025-11-09 01:57:43 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Java (pageobject) validation passed
+2025-11-09 01:57:43 | SUCCESS  | agents.orchestrator_agent:execute:151 - ✓ Page object validation passed
+2025-11-09 01:57:43 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 4: Cross-validation
+2025-11-09 01:57:43 | INFO     | validation.cross_validator:validate:39 - Cross-validation: 10 steps, 5 definitions, 8 methods
+2025-11-09 01:57:43 | ERROR    | core.logger:log_validation_result:51 - ✗ Cross-file validation failed
+2025-11-09 01:57:43 | ERROR    | core.logger:log_validation_result:54 -   - Missing step definitions for: i enter "{}" in password field, i click on login button, i enter "{}" in username field, i should see error message "{}", i should see "{}" page
+2025-11-09 01:57:43 | ERROR    | core.logger:log_validation_result:54 -   - Step definitions call undefined page object methods: contains
+2025-11-09 01:57:43 | ERROR    | agents.orchestrator_agent:execute:163 - Cross-validation failed: ['Missing step definitions for: i enter "{}" in password field, i click on login button, i enter "{}" in username field, i should see error message "{}", i should see "{}" page', 'Step definitions call undefined page object methods: contains']
+2025-11-09 01:57:43 | INFO     | agents.orchestrator_agent:execute:75 - 
+============================================================
+2025-11-09 01:57:43 | INFO     | agents.orchestrator_agent:execute:76 - ITERATION 3/3
+2025-11-09 01:57:43 | INFO     | agents.orchestrator_agent:execute:77 - ============================================================
+
+2025-11-09 01:57:43 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 1: Feature Generation
+2025-11-09 01:57:43 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generating .feature file
+2025-11-09 01:57:50 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generated feature file (964 chars)
+2025-11-09 01:57:50 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Feature validation passed
+2025-11-09 01:57:50 | SUCCESS  | agents.orchestrator_agent:execute:102 - ✓ Feature file validation passed
+2025-11-09 01:57:50 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 2: Step Definition Generation
+2025-11-09 01:57:50 | INFO     | core.logger:log_agent_action:43 - [StepDefinitionAgent] Generating step definitions
+2025-11-09 01:57:59 | INFO     | core.logger:log_agent_action:43 - [StepDefinitionAgent] Generated step definitions (1755 chars)
+2025-11-09 01:57:59 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Java (stepdef) validation passed
+2025-11-09 01:57:59 | SUCCESS  | agents.orchestrator_agent:execute:127 - ✓ Step definition validation passed
+2025-11-09 01:57:59 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 3: Page Object Generation
+2025-11-09 01:57:59 | INFO     | core.logger:log_agent_action:43 - [PageObjectAgent] Generating page objects
+2025-11-09 01:58:11 | INFO     | core.logger:log_agent_action:43 - [PageObjectAgent] Generated page object (2572 chars)
+2025-11-09 01:58:11 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Java (pageobject) validation passed
+2025-11-09 01:58:11 | SUCCESS  | agents.orchestrator_agent:execute:151 - ✓ Page object validation passed
+2025-11-09 01:58:11 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 4: Cross-validation
+2025-11-09 01:58:11 | INFO     | validation.cross_validator:validate:39 - Cross-validation: 10 steps, 5 definitions, 9 methods
+2025-11-09 01:58:11 | ERROR    | core.logger:log_validation_result:51 - ✗ Cross-file validation failed
+2025-11-09 01:58:11 | ERROR    | core.logger:log_validation_result:54 -   - Missing step definitions for: i enter "{}" in password field, i click on login button, i enter "{}" in username field, i should see error message "{}", i should see "{}" page
+2025-11-09 01:58:11 | ERROR    | core.logger:log_validation_result:54 -   - Step definitions call undefined page object methods: contains
+2025-11-09 01:58:11 | ERROR    | agents.orchestrator_agent:execute:163 - Cross-validation failed: ['Missing step definitions for: i enter "{}" in password field, i click on login button, i enter "{}" in username field, i should see error message "{}", i should see "{}" page', 'Step definitions call undefined page object methods: contains']
+2025-11-09 01:58:11 | ERROR    | agents.orchestrator_agent:execute:191 - 
+Max iterations (3) reached without producing valid output
+2025-11-09 01:58:11 | ERROR    | __main__:main:210 - 
+================================================================================
+2025-11-09 01:58:11 | ERROR    | __main__:main:211 - FAILED! Could not generate valid test files
+2025-11-09 01:58:11 | ERROR    | __main__:main:212 - Errors: ['Cross-validation: Missing step definitions for: i enter "{}" in password field, i click on login button, i enter "{}" in username field, i should see error message "{}", i should see "{}" page', 'Cross-validation: Step definitions call undefined page object methods: contains', 'Cross-validation: Missing step definitions for: i enter "{}" in password field, i click on login button, i enter "{}" in username field, i should see error message "{}", i should see "{}" page', 'Cross-validation: Step definitions call undefined page object methods: contains', 'Cross-validation: Missing step definitions for: i enter "{}" in password field, i click on login button, i enter "{}" in username field, i should see error message "{}", i should see "{}" page', 'Cross-validation: Step definitions call undefined page object methods: contains']
+2025-11-09 01:58:11 | ERROR    | __main__:main:213 - ================================================================================
+2025-11-09 01:58:11 | INFO     | storage.vector_store:save:112 - Saved vector index with 29 vectors
+2025-11-09 01:58:30 | INFO     | __main__:main:85 - ================================================================================
+2025-11-09 01:58:30 | INFO     | __main__:main:86 - AUTOMATED TEST CASE GENERATOR - Multi-Agent System
+2025-11-09 01:58:30 | INFO     | __main__:main:87 - ================================================================================
+2025-11-09 01:58:30 | INFO     | __main__:main:91 - 
+[STEP 1] Initializing Vectorizer...
+2025-11-09 01:58:30 | INFO     | storage.vector_store:_load_or_create_index:35 - Loaded existing vector index with 29 vectors
+2025-11-09 01:58:30 | INFO     | __main__:main:99 - 
+[STEP 2] Parsing HTML: tests/samples/sample.html
+2025-11-09 01:58:30 | INFO     | ingestion.html_parser:parse:20 - Parsing HTML from sample.html
+2025-11-09 01:58:30 | INFO     | ingestion.html_parser:parse:31 - Extracted 11 actionable elements
+2025-11-09 01:58:30 | INFO     | __main__:main:105 - Vectorizing HTML elements...
+2025-11-09 01:58:30 | INFO     | ingestion.vectorizer:vectorize_file:140 - Skipping sample.html - already vectorized
+2025-11-09 01:58:30 | INFO     | __main__:main:111 - 
+[STEP 3] Processing Existing Test Files...
+2025-11-09 01:58:30 | INFO     | __main__:main:129 - Parsing feature file: old.feature
+2025-11-09 01:58:30 | INFO     | ingestion.code_parser:parse:83 - Parsed tests/samples/old.feature: 0 features, 1 scenarios, 5 steps
+2025-11-09 01:58:30 | INFO     | ingestion.vectorizer:vectorize_file:140 - Skipping old.feature - already vectorized
+2025-11-09 01:58:30 | INFO     | __main__:main:139 - Parsing step definitions: StepDefsOld.java
+2025-11-09 01:58:30 | INFO     | ingestion.code_parser:parse:161 - Parsed tests/samples/StepDefsOld.java: 5 step definitions
+2025-11-09 01:58:30 | INFO     | ingestion.vectorizer:vectorize_file:140 - Skipping StepDefsOld.java - already vectorized
+2025-11-09 01:58:30 | INFO     | __main__:main:149 - Parsing page objects: PageObjectsOld.java
+2025-11-09 01:58:30 | INFO     | ingestion.code_parser:parse:241 - Parsed tests/samples/PageObjectsOld.java: 4 methods, 3 locators
+2025-11-09 01:58:30 | INFO     | ingestion.vectorizer:vectorize_file:140 - Skipping PageObjectsOld.java - already vectorized
+2025-11-09 01:58:30 | INFO     | storage.vector_store:save:112 - Saved vector index with 29 vectors
+2025-11-09 01:58:30 | INFO     | __main__:main:164 - 
+[STEP 4] Loading Test Scenarios: tests/samples/scenarios.txt
+2025-11-09 01:58:30 | INFO     | __main__:main:171 - 
+[STEP 5] Starting Multi-Agent Workflow...
+2025-11-09 01:58:30 | INFO     | llm.client:__init__:32 - Initialized LLM client: openai with model gpt-4-turbo-preview
+2025-11-09 01:58:30 | INFO     | agents.orchestrator_agent:__init__:41 - Orchestrator Agent initialized
+2025-11-09 01:58:30 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Starting multi-agent workflow
+2025-11-09 01:58:30 | INFO     | agents.orchestrator_agent:execute:75 - 
+============================================================
+2025-11-09 01:58:30 | INFO     | agents.orchestrator_agent:execute:76 - ITERATION 1/3
+2025-11-09 01:58:30 | INFO     | agents.orchestrator_agent:execute:77 - ============================================================
+
+2025-11-09 01:58:30 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 1: Feature Generation
+2025-11-09 01:58:30 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generating .feature file
+2025-11-09 01:58:36 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generated feature file (964 chars)
+2025-11-09 01:58:36 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Feature validation passed
+2025-11-09 01:58:36 | SUCCESS  | agents.orchestrator_agent:execute:102 - ✓ Feature file validation passed
+2025-11-09 01:58:36 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 2: Step Definition Generation
+2025-11-09 01:58:36 | INFO     | core.logger:log_agent_action:43 - [StepDefinitionAgent] Generating step definitions
+2025-11-09 01:58:44 | INFO     | core.logger:log_agent_action:43 - [StepDefinitionAgent] Generated step definitions (1727 chars)
+2025-11-09 01:58:44 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Java (stepdef) validation passed
+2025-11-09 01:58:44 | SUCCESS  | agents.orchestrator_agent:execute:127 - ✓ Step definition validation passed
+2025-11-09 01:58:44 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 3: Page Object Generation
+2025-11-09 01:58:44 | INFO     | core.logger:log_agent_action:43 - [PageObjectAgent] Generating page objects
+2025-11-09 01:58:54 | INFO     | core.logger:log_agent_action:43 - [PageObjectAgent] Generated page object (2669 chars)
+2025-11-09 01:58:54 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Java (pageobject) validation passed
+2025-11-09 01:58:54 | SUCCESS  | agents.orchestrator_agent:execute:151 - ✓ Page object validation passed
+2025-11-09 01:58:54 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 4: Cross-validation
+2025-11-09 01:58:54 | INFO     | validation.cross_validator:validate:39 - Cross-validation: 10 steps, 5 definitions, 8 methods
+2025-11-09 01:58:54 | ERROR    | core.logger:log_validation_result:51 - ✗ Cross-file validation failed
+2025-11-09 01:58:54 | ERROR    | core.logger:log_validation_result:54 -   - Missing step definitions for: i should see "{}" page, i click on login button, i am on the login page, i should see error message "{}", i enter "{}" in password field
+2025-11-09 01:58:54 | ERROR    | core.logger:log_validation_result:54 -   - Step definitions call undefined page object methods: getWelcomeMessage, getErrorMessage
+2025-11-09 01:58:54 | ERROR    | agents.orchestrator_agent:execute:163 - Cross-validation failed: ['Missing step definitions for: i should see "{}" page, i click on login button, i am on the login page, i should see error message "{}", i enter "{}" in password field', 'Step definitions call undefined page object methods: getWelcomeMessage, getErrorMessage']
+2025-11-09 01:58:54 | INFO     | agents.orchestrator_agent:execute:75 - 
+============================================================
+2025-11-09 01:58:54 | INFO     | agents.orchestrator_agent:execute:76 - ITERATION 2/3
+2025-11-09 01:58:54 | INFO     | agents.orchestrator_agent:execute:77 - ============================================================
+
+2025-11-09 01:58:54 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 1: Feature Generation
+2025-11-09 01:58:54 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generating .feature file
+2025-11-09 01:59:01 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generated feature file (1012 chars)
+2025-11-09 01:59:01 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Feature validation passed
+2025-11-09 01:59:01 | SUCCESS  | agents.orchestrator_agent:execute:102 - ✓ Feature file validation passed
+2025-11-09 01:59:01 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 2: Step Definition Generation
+2025-11-09 01:59:01 | INFO     | core.logger:log_agent_action:43 - [StepDefinitionAgent] Generating step definitions
+2025-11-09 01:59:10 | INFO     | core.logger:log_agent_action:43 - [StepDefinitionAgent] Generated step definitions (1755 chars)
+2025-11-09 01:59:10 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Java (stepdef) validation passed
+2025-11-09 01:59:10 | SUCCESS  | agents.orchestrator_agent:execute:127 - ✓ Step definition validation passed
+2025-11-09 01:59:10 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 3: Page Object Generation
+2025-11-09 01:59:10 | INFO     | core.logger:log_agent_action:43 - [PageObjectAgent] Generating page objects
+2025-11-09 01:59:22 | INFO     | core.logger:log_agent_action:43 - [PageObjectAgent] Generated page object (2566 chars)
+2025-11-09 01:59:22 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Java (pageobject) validation passed
+2025-11-09 01:59:22 | SUCCESS  | agents.orchestrator_agent:execute:151 - ✓ Page object validation passed
+2025-11-09 01:59:22 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 4: Cross-validation
+2025-11-09 01:59:22 | INFO     | validation.cross_validator:validate:39 - Cross-validation: 10 steps, 5 definitions, 9 methods
+2025-11-09 01:59:22 | ERROR    | core.logger:log_validation_result:51 - ✗ Cross-file validation failed
+2025-11-09 01:59:22 | ERROR    | core.logger:log_validation_result:54 -   - Missing step definitions for: i should see "{}" page, i click on login button, i am on the login page, i should see error message "{}", i enter "{}" in password field
+2025-11-09 01:59:22 | ERROR    | agents.orchestrator_agent:execute:163 - Cross-validation failed: ['Missing step definitions for: i should see "{}" page, i click on login button, i am on the login page, i should see error message "{}", i enter "{}" in password field']
+2025-11-09 01:59:22 | INFO     | agents.orchestrator_agent:execute:75 - 
+============================================================
+2025-11-09 01:59:22 | INFO     | agents.orchestrator_agent:execute:76 - ITERATION 3/3
+2025-11-09 01:59:22 | INFO     | agents.orchestrator_agent:execute:77 - ============================================================
+
+2025-11-09 01:59:22 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 1: Feature Generation
+2025-11-09 01:59:22 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generating .feature file
+2025-11-09 01:59:28 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generated feature file (981 chars)
+2025-11-09 01:59:28 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Feature validation passed
+2025-11-09 01:59:28 | SUCCESS  | agents.orchestrator_agent:execute:102 - ✓ Feature file validation passed
+2025-11-09 01:59:28 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 2: Step Definition Generation
+2025-11-09 01:59:28 | INFO     | core.logger:log_agent_action:43 - [StepDefinitionAgent] Generating step definitions
+2025-11-09 01:59:35 | INFO     | core.logger:log_agent_action:43 - [StepDefinitionAgent] Generated step definitions (1478 chars)
+2025-11-09 01:59:35 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Java (stepdef) validation passed
+2025-11-09 01:59:35 | SUCCESS  | agents.orchestrator_agent:execute:127 - ✓ Step definition validation passed
+2025-11-09 01:59:35 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 3: Page Object Generation
+2025-11-09 01:59:35 | INFO     | core.logger:log_agent_action:43 - [PageObjectAgent] Generating page objects
+2025-11-09 01:59:49 | INFO     | core.logger:log_agent_action:43 - [PageObjectAgent] Generated page object (3207 chars)
+2025-11-09 01:59:49 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Java (pageobject) validation passed
+2025-11-09 01:59:49 | SUCCESS  | agents.orchestrator_agent:execute:151 - ✓ Page object validation passed
+2025-11-09 01:59:49 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 4: Cross-validation
+2025-11-09 01:59:49 | INFO     | validation.cross_validator:validate:39 - Cross-validation: 10 steps, 4 definitions, 10 methods
+2025-11-09 01:59:49 | ERROR    | core.logger:log_validation_result:51 - ✗ Cross-file validation failed
+2025-11-09 01:59:49 | ERROR    | core.logger:log_validation_result:54 -   - Missing step definitions for: i should see "{}" page, "{}" button should still be visible, i am on the login page, i should see error message "{}", i check "{}" checkbox
+2025-11-09 01:59:49 | ERROR    | agents.orchestrator_agent:execute:163 - Cross-validation failed: ['Missing step definitions for: i should see "{}" page, "{}" button should still be visible, i am on the login page, i should see error message "{}", i check "{}" checkbox']
+2025-11-09 01:59:49 | ERROR    | agents.orchestrator_agent:execute:191 - 
+Max iterations (3) reached without producing valid output
+2025-11-09 01:59:49 | ERROR    | __main__:main:210 - 
+================================================================================
+2025-11-09 01:59:49 | ERROR    | __main__:main:211 - FAILED! Could not generate valid test files
+2025-11-09 01:59:49 | ERROR    | __main__:main:212 - Errors: ['Cross-validation: Missing step definitions for: i should see "{}" page, i click on login button, i am on the login page, i should see error message "{}", i enter "{}" in password field', 'Cross-validation: Step definitions call undefined page object methods: getWelcomeMessage, getErrorMessage', 'Cross-validation: Missing step definitions for: i should see "{}" page, i click on login button, i am on the login page, i should see error message "{}", i enter "{}" in password field', 'Cross-validation: Missing step definitions for: i should see "{}" page, "{}" button should still be visible, i am on the login page, i should see error message "{}", i check "{}" checkbox']
+2025-11-09 01:59:49 | ERROR    | __main__:main:213 - ================================================================================
+2025-11-09 01:59:49 | INFO     | storage.vector_store:save:112 - Saved vector index with 29 vectors
+2025-11-09 02:05:57 | INFO     | __main__:main:85 - ================================================================================
+2025-11-09 02:05:57 | INFO     | __main__:main:86 - AUTOMATED TEST CASE GENERATOR - Multi-Agent System
+2025-11-09 02:05:57 | INFO     | __main__:main:87 - ================================================================================
+2025-11-09 02:05:57 | INFO     | __main__:main:91 - 
+[STEP 1] Initializing Vectorizer...
+2025-11-09 02:05:57 | INFO     | storage.vector_store:_load_or_create_index:35 - Loaded existing vector index with 29 vectors
+2025-11-09 02:05:57 | INFO     | __main__:main:99 - 
+[STEP 2] Parsing HTML: tests/samples/sample.html
+2025-11-09 02:05:57 | INFO     | ingestion.html_parser:parse:20 - Parsing HTML from sample.html
+2025-11-09 02:05:57 | INFO     | ingestion.html_parser:parse:31 - Extracted 11 actionable elements
+2025-11-09 02:05:57 | INFO     | __main__:main:105 - Vectorizing HTML elements...
+2025-11-09 02:05:57 | INFO     | ingestion.vectorizer:vectorize_file:140 - Skipping sample.html - already vectorized
+2025-11-09 02:05:57 | INFO     | __main__:main:111 - 
+[STEP 3] Processing Existing Test Files...
+2025-11-09 02:05:57 | INFO     | __main__:main:129 - Parsing feature file: old.feature
+2025-11-09 02:05:57 | INFO     | ingestion.code_parser:parse:83 - Parsed tests/samples/old.feature: 0 features, 1 scenarios, 5 steps
+2025-11-09 02:05:57 | INFO     | ingestion.vectorizer:vectorize_file:140 - Skipping old.feature - already vectorized
+2025-11-09 02:05:57 | INFO     | __main__:main:139 - Parsing step definitions: StepDefsOld.java
+2025-11-09 02:05:57 | INFO     | ingestion.code_parser:parse:161 - Parsed tests/samples/StepDefsOld.java: 5 step definitions
+2025-11-09 02:05:57 | INFO     | ingestion.vectorizer:vectorize_file:140 - Skipping StepDefsOld.java - already vectorized
+2025-11-09 02:05:57 | INFO     | __main__:main:149 - Parsing page objects: PageObjectsOld.java
+2025-11-09 02:05:57 | INFO     | ingestion.code_parser:parse:241 - Parsed tests/samples/PageObjectsOld.java: 4 methods, 3 locators
+2025-11-09 02:05:57 | INFO     | ingestion.vectorizer:vectorize_file:140 - Skipping PageObjectsOld.java - already vectorized
+2025-11-09 02:05:57 | INFO     | storage.vector_store:save:112 - Saved vector index with 29 vectors
+2025-11-09 02:05:57 | INFO     | __main__:main:164 - 
+[STEP 4] Loading Test Scenarios: tests/samples/scenarios.txt
+2025-11-09 02:05:57 | INFO     | __main__:main:171 - 
+[STEP 5] Starting Multi-Agent Workflow...
+2025-11-09 02:05:57 | INFO     | llm.client:__init__:32 - Initialized LLM client: openai with model gpt-4-turbo-preview
+2025-11-09 02:05:57 | INFO     | agents.orchestrator_agent:__init__:41 - Orchestrator Agent initialized
+2025-11-09 02:05:57 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Starting multi-agent workflow
+2025-11-09 02:05:57 | INFO     | agents.orchestrator_agent:execute:75 - 
+============================================================
+2025-11-09 02:05:57 | INFO     | agents.orchestrator_agent:execute:76 - ITERATION 1/3
+2025-11-09 02:05:57 | INFO     | agents.orchestrator_agent:execute:77 - ============================================================
+
+2025-11-09 02:05:57 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 1: Feature Generation
+2025-11-09 02:05:57 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generating .feature file
+2025-11-09 02:06:04 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generated feature file (964 chars)
+2025-11-09 02:06:04 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Feature validation passed
+2025-11-09 02:06:04 | SUCCESS  | agents.orchestrator_agent:execute:102 - ✓ Feature file validation passed
+2025-11-09 02:06:04 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 2: Step Definition Generation
+2025-11-09 02:06:04 | INFO     | core.logger:log_agent_action:43 - [StepDefinitionAgent] Generating step definitions
+2025-11-09 02:06:04 | ERROR    | llm.client:format_prompt:103 - Missing template variable: 'string'
+2025-11-09 02:06:04 | ERROR    | agents.orchestrator_agent:execute:253 - Error in iteration 1: 'string'
+2025-11-09 02:06:04 | INFO     | agents.orchestrator_agent:execute:75 - 
+============================================================
+2025-11-09 02:06:04 | INFO     | agents.orchestrator_agent:execute:76 - ITERATION 2/3
+2025-11-09 02:06:04 | INFO     | agents.orchestrator_agent:execute:77 - ============================================================
+
+2025-11-09 02:06:04 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 1: Feature Generation
+2025-11-09 02:06:04 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generating .feature file
+2025-11-09 02:06:10 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generated feature file (1005 chars)
+2025-11-09 02:06:10 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Feature validation passed
+2025-11-09 02:06:10 | SUCCESS  | agents.orchestrator_agent:execute:102 - ✓ Feature file validation passed
+2025-11-09 02:06:10 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 2: Step Definition Generation
+2025-11-09 02:06:10 | INFO     | core.logger:log_agent_action:43 - [StepDefinitionAgent] Generating step definitions
+2025-11-09 02:06:10 | ERROR    | llm.client:format_prompt:103 - Missing template variable: 'string'
+2025-11-09 02:06:10 | ERROR    | agents.orchestrator_agent:execute:253 - Error in iteration 2: 'string'
+2025-11-09 02:06:10 | INFO     | agents.orchestrator_agent:execute:75 - 
+============================================================
+2025-11-09 02:06:10 | INFO     | agents.orchestrator_agent:execute:76 - ITERATION 3/3
+2025-11-09 02:06:10 | INFO     | agents.orchestrator_agent:execute:77 - ============================================================
+
+2025-11-09 02:06:10 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 1: Feature Generation
+2025-11-09 02:06:10 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generating .feature file
+2025-11-09 02:06:17 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generated feature file (1006 chars)
+2025-11-09 02:06:17 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Feature validation passed
+2025-11-09 02:06:17 | SUCCESS  | agents.orchestrator_agent:execute:102 - ✓ Feature file validation passed
+2025-11-09 02:06:17 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 2: Step Definition Generation
+2025-11-09 02:06:17 | INFO     | core.logger:log_agent_action:43 - [StepDefinitionAgent] Generating step definitions
+2025-11-09 02:06:17 | ERROR    | llm.client:format_prompt:103 - Missing template variable: 'string'
+2025-11-09 02:06:17 | ERROR    | agents.orchestrator_agent:execute:253 - Error in iteration 3: 'string'
+2025-11-09 02:06:17 | ERROR    | agents.orchestrator_agent:execute:257 - 
+Max iterations (3) reached without producing valid output
+2025-11-09 02:06:17 | ERROR    | __main__:main:210 - 
+================================================================================
+2025-11-09 02:06:17 | ERROR    | __main__:main:211 - FAILED! Could not generate valid test files
+2025-11-09 02:06:17 | ERROR    | __main__:main:212 - Errors: ["System error: 'string'", "System error: 'string'", "System error: 'string'"]
+2025-11-09 02:06:17 | ERROR    | __main__:main:213 - ================================================================================
+2025-11-09 02:06:17 | INFO     | storage.vector_store:save:112 - Saved vector index with 29 vectors
+2025-11-09 02:08:18 | INFO     | __main__:main:85 - ================================================================================
+2025-11-09 02:08:18 | INFO     | __main__:main:86 - AUTOMATED TEST CASE GENERATOR - Multi-Agent System
+2025-11-09 02:08:18 | INFO     | __main__:main:87 - ================================================================================
+2025-11-09 02:08:18 | INFO     | __main__:main:91 - 
+[STEP 1] Initializing Vectorizer...
+2025-11-09 02:08:18 | INFO     | storage.vector_store:_load_or_create_index:35 - Loaded existing vector index with 29 vectors
+2025-11-09 02:08:18 | INFO     | __main__:main:99 - 
+[STEP 2] Parsing HTML: tests/samples/sample.html
+2025-11-09 02:08:18 | INFO     | ingestion.html_parser:parse:20 - Parsing HTML from sample.html
+2025-11-09 02:08:18 | INFO     | ingestion.html_parser:parse:31 - Extracted 11 actionable elements
+2025-11-09 02:08:18 | INFO     | __main__:main:105 - Vectorizing HTML elements...
+2025-11-09 02:08:18 | INFO     | ingestion.vectorizer:vectorize_file:140 - Skipping sample.html - already vectorized
+2025-11-09 02:08:18 | INFO     | __main__:main:111 - 
+[STEP 3] Processing Existing Test Files...
+2025-11-09 02:08:18 | INFO     | __main__:main:129 - Parsing feature file: old.feature
+2025-11-09 02:08:18 | INFO     | ingestion.code_parser:parse:83 - Parsed tests/samples/old.feature: 0 features, 1 scenarios, 5 steps
+2025-11-09 02:08:18 | INFO     | ingestion.vectorizer:vectorize_file:140 - Skipping old.feature - already vectorized
+2025-11-09 02:08:18 | INFO     | __main__:main:139 - Parsing step definitions: StepDefsOld.java
+2025-11-09 02:08:18 | INFO     | ingestion.code_parser:parse:161 - Parsed tests/samples/StepDefsOld.java: 5 step definitions
+2025-11-09 02:08:18 | INFO     | ingestion.vectorizer:vectorize_file:140 - Skipping StepDefsOld.java - already vectorized
+2025-11-09 02:08:18 | INFO     | __main__:main:149 - Parsing page objects: PageObjectsOld.java
+2025-11-09 02:08:18 | INFO     | ingestion.code_parser:parse:241 - Parsed tests/samples/PageObjectsOld.java: 4 methods, 3 locators
+2025-11-09 02:08:18 | INFO     | ingestion.vectorizer:vectorize_file:140 - Skipping PageObjectsOld.java - already vectorized
+2025-11-09 02:08:18 | INFO     | storage.vector_store:save:112 - Saved vector index with 29 vectors
+2025-11-09 02:08:18 | INFO     | __main__:main:164 - 
+[STEP 4] Loading Test Scenarios: tests/samples/scenarios.txt
+2025-11-09 02:08:18 | INFO     | __main__:main:171 - 
+[STEP 5] Starting Multi-Agent Workflow...
+2025-11-09 02:08:18 | INFO     | llm.client:__init__:32 - Initialized LLM client: openai with model gpt-4-turbo-preview
+2025-11-09 02:08:18 | INFO     | agents.orchestrator_agent:__init__:41 - Orchestrator Agent initialized
+2025-11-09 02:08:18 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Starting multi-agent workflow
+2025-11-09 02:08:18 | INFO     | agents.orchestrator_agent:execute:75 - 
+============================================================
+2025-11-09 02:08:18 | INFO     | agents.orchestrator_agent:execute:76 - ITERATION 1/3
+2025-11-09 02:08:18 | INFO     | agents.orchestrator_agent:execute:77 - ============================================================
+
+2025-11-09 02:08:18 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 1: Feature Generation
+2025-11-09 02:08:18 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generating .feature file
+2025-11-09 02:08:24 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generated feature file (964 chars)
+2025-11-09 02:08:24 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Feature validation passed
+2025-11-09 02:08:24 | SUCCESS  | agents.orchestrator_agent:execute:102 - ✓ Feature file validation passed
+2025-11-09 02:08:24 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 2: Step Definition Generation
+2025-11-09 02:08:24 | INFO     | core.logger:log_agent_action:43 - [StepDefinitionAgent] Generating step definitions
+2025-11-09 02:08:24 | ERROR    | llm.client:format_prompt:103 - Missing template variable: 'string'
+2025-11-09 02:08:24 | ERROR    | agents.orchestrator_agent:execute:253 - Error in iteration 1: 'string'
+2025-11-09 02:08:24 | INFO     | agents.orchestrator_agent:execute:75 - 
+============================================================
+2025-11-09 02:08:24 | INFO     | agents.orchestrator_agent:execute:76 - ITERATION 2/3
+2025-11-09 02:08:24 | INFO     | agents.orchestrator_agent:execute:77 - ============================================================
+
+2025-11-09 02:08:24 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 1: Feature Generation
+2025-11-09 02:08:24 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generating .feature file
+2025-11-09 02:08:31 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generated feature file (994 chars)
+2025-11-09 02:08:31 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Feature validation passed
+2025-11-09 02:08:31 | SUCCESS  | agents.orchestrator_agent:execute:102 - ✓ Feature file validation passed
+2025-11-09 02:08:31 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 2: Step Definition Generation
+2025-11-09 02:08:31 | INFO     | core.logger:log_agent_action:43 - [StepDefinitionAgent] Generating step definitions
+2025-11-09 02:08:31 | ERROR    | llm.client:format_prompt:103 - Missing template variable: 'string'
+2025-11-09 02:08:31 | ERROR    | agents.orchestrator_agent:execute:253 - Error in iteration 2: 'string'
+2025-11-09 02:08:31 | INFO     | agents.orchestrator_agent:execute:75 - 
+============================================================
+2025-11-09 02:08:31 | INFO     | agents.orchestrator_agent:execute:76 - ITERATION 3/3
+2025-11-09 02:08:31 | INFO     | agents.orchestrator_agent:execute:77 - ============================================================
+
+2025-11-09 02:08:31 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 1: Feature Generation
+2025-11-09 02:08:31 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generating .feature file
+2025-11-09 02:08:37 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generated feature file (989 chars)
+2025-11-09 02:08:37 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Feature validation passed
+2025-11-09 02:08:37 | SUCCESS  | agents.orchestrator_agent:execute:102 - ✓ Feature file validation passed
+2025-11-09 02:08:37 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 2: Step Definition Generation
+2025-11-09 02:08:37 | INFO     | core.logger:log_agent_action:43 - [StepDefinitionAgent] Generating step definitions
+2025-11-09 02:08:37 | ERROR    | llm.client:format_prompt:103 - Missing template variable: 'string'
+2025-11-09 02:08:37 | ERROR    | agents.orchestrator_agent:execute:253 - Error in iteration 3: 'string'
+2025-11-09 02:08:37 | ERROR    | agents.orchestrator_agent:execute:257 - 
+Max iterations (3) reached without producing valid output
+2025-11-09 02:08:37 | ERROR    | __main__:main:210 - 
+================================================================================
+2025-11-09 02:08:37 | ERROR    | __main__:main:211 - FAILED! Could not generate valid test files
+2025-11-09 02:08:37 | ERROR    | __main__:main:212 - Errors: ["System error: 'string'", "System error: 'string'", "System error: 'string'"]
+2025-11-09 02:08:37 | ERROR    | __main__:main:213 - ================================================================================
+2025-11-09 02:08:37 | INFO     | storage.vector_store:save:112 - Saved vector index with 29 vectors
+2025-11-09 02:10:17 | INFO     | __main__:main:85 - ================================================================================
+2025-11-09 02:10:17 | INFO     | __main__:main:86 - AUTOMATED TEST CASE GENERATOR - Multi-Agent System
+2025-11-09 02:10:17 | INFO     | __main__:main:87 - ================================================================================
+2025-11-09 02:10:17 | INFO     | __main__:main:91 - 
+[STEP 1] Initializing Vectorizer...
+2025-11-09 02:10:18 | INFO     | storage.vector_store:_load_or_create_index:35 - Loaded existing vector index with 29 vectors
+2025-11-09 02:10:18 | INFO     | __main__:main:99 - 
+[STEP 2] Parsing HTML: tests/samples/sample.html
+2025-11-09 02:10:18 | INFO     | ingestion.html_parser:parse:20 - Parsing HTML from sample.html
+2025-11-09 02:10:18 | INFO     | ingestion.html_parser:parse:31 - Extracted 11 actionable elements
+2025-11-09 02:10:18 | INFO     | __main__:main:105 - Vectorizing HTML elements...
+2025-11-09 02:10:18 | INFO     | ingestion.vectorizer:vectorize_file:140 - Skipping sample.html - already vectorized
+2025-11-09 02:10:18 | INFO     | __main__:main:111 - 
+[STEP 3] Processing Existing Test Files...
+2025-11-09 02:10:18 | INFO     | __main__:main:129 - Parsing feature file: old.feature
+2025-11-09 02:10:18 | INFO     | ingestion.code_parser:parse:83 - Parsed tests/samples/old.feature: 0 features, 1 scenarios, 5 steps
+2025-11-09 02:10:18 | INFO     | ingestion.vectorizer:vectorize_file:140 - Skipping old.feature - already vectorized
+2025-11-09 02:10:18 | INFO     | __main__:main:139 - Parsing step definitions: StepDefsOld.java
+2025-11-09 02:10:18 | INFO     | ingestion.code_parser:parse:161 - Parsed tests/samples/StepDefsOld.java: 5 step definitions
+2025-11-09 02:10:18 | INFO     | ingestion.vectorizer:vectorize_file:140 - Skipping StepDefsOld.java - already vectorized
+2025-11-09 02:10:18 | INFO     | __main__:main:149 - Parsing page objects: PageObjectsOld.java
+2025-11-09 02:10:18 | INFO     | ingestion.code_parser:parse:241 - Parsed tests/samples/PageObjectsOld.java: 4 methods, 3 locators
+2025-11-09 02:10:18 | INFO     | ingestion.vectorizer:vectorize_file:140 - Skipping PageObjectsOld.java - already vectorized
+2025-11-09 02:10:18 | INFO     | storage.vector_store:save:112 - Saved vector index with 29 vectors
+2025-11-09 02:10:18 | INFO     | __main__:main:164 - 
+[STEP 4] Loading Test Scenarios: tests/samples/scenarios.txt
+2025-11-09 02:10:18 | INFO     | __main__:main:171 - 
+[STEP 5] Starting Multi-Agent Workflow...
+2025-11-09 02:10:18 | INFO     | llm.client:__init__:32 - Initialized LLM client: openai with model gpt-4-turbo-preview
+2025-11-09 02:10:18 | INFO     | agents.orchestrator_agent:__init__:41 - Orchestrator Agent initialized
+2025-11-09 02:10:18 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Starting multi-agent workflow
+2025-11-09 02:10:18 | INFO     | agents.orchestrator_agent:execute:75 - 
+============================================================
+2025-11-09 02:10:18 | INFO     | agents.orchestrator_agent:execute:76 - ITERATION 1/3
+2025-11-09 02:10:18 | INFO     | agents.orchestrator_agent:execute:77 - ============================================================
+
+2025-11-09 02:10:18 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 1: Feature Generation
+2025-11-09 02:10:18 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generating .feature file
+2025-11-09 02:10:25 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generated feature file (994 chars)
+2025-11-09 02:10:25 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Feature validation passed
+2025-11-09 02:10:25 | SUCCESS  | agents.orchestrator_agent:execute:102 - ✓ Feature file validation passed
+2025-11-09 02:10:25 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 2: Step Definition Generation
+2025-11-09 02:10:25 | INFO     | core.logger:log_agent_action:43 - [StepDefinitionAgent] Generating step definitions
+2025-11-09 02:10:33 | INFO     | core.logger:log_agent_action:43 - [StepDefinitionAgent] Generated step definitions (1755 chars)
+2025-11-09 02:10:33 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Java (stepdef) validation passed
+2025-11-09 02:10:33 | SUCCESS  | agents.orchestrator_agent:execute:127 - ✓ Step definition validation passed
+2025-11-09 02:10:33 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 3: Page Object Generation
+2025-11-09 02:10:33 | INFO     | core.logger:log_agent_action:43 - [PageObjectAgent] Generating page objects
+2025-11-09 02:10:47 | INFO     | core.logger:log_agent_action:43 - [PageObjectAgent] Generated page object (2956 chars)
+2025-11-09 02:10:47 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Java (pageobject) validation passed
+2025-11-09 02:10:47 | SUCCESS  | agents.orchestrator_agent:execute:151 - ✓ Page object validation passed
+2025-11-09 02:10:47 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 4: Cross-validation
+2025-11-09 02:10:47 | INFO     | validation.cross_validator:validate:39 - Cross-validation: 10 steps, 5 definitions, 9 methods
+2025-11-09 02:10:47 | ERROR    | core.logger:log_validation_result:51 - ✗ Cross-file validation failed
+2025-11-09 02:10:47 | ERROR    | core.logger:log_validation_result:54 -   - Missing step definitions for: i enter "{}" in username field, i enter "{}" in password field, i should see error message "{}", i click on login button, i should see "{}" page
+2025-11-09 02:10:47 | ERROR    | agents.orchestrator_agent:execute:163 - Cross-validation failed: ['Missing step definitions for: i enter "{}" in username field, i enter "{}" in password field, i should see error message "{}", i click on login button, i should see "{}" page']
+2025-11-09 02:10:47 | INFO     | agents.orchestrator_agent:execute:75 - 
+============================================================
+2025-11-09 02:10:47 | INFO     | agents.orchestrator_agent:execute:76 - ITERATION 2/3
+2025-11-09 02:10:47 | INFO     | agents.orchestrator_agent:execute:77 - ============================================================
+
+2025-11-09 02:10:47 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 1: Feature Generation
+2025-11-09 02:10:47 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generating .feature file
+2025-11-09 02:10:55 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generated feature file (964 chars)
+2025-11-09 02:10:55 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Feature validation passed
+2025-11-09 02:10:55 | SUCCESS  | agents.orchestrator_agent:execute:102 - ✓ Feature file validation passed
+2025-11-09 02:10:55 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 2: Step Definition Generation
+2025-11-09 02:10:55 | INFO     | core.logger:log_agent_action:43 - [StepDefinitionAgent] Generating step definitions
+2025-11-09 02:11:05 | INFO     | core.logger:log_agent_action:43 - [StepDefinitionAgent] Generated step definitions (1755 chars)
+2025-11-09 02:11:05 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Java (stepdef) validation passed
+2025-11-09 02:11:05 | SUCCESS  | agents.orchestrator_agent:execute:127 - ✓ Step definition validation passed
+2025-11-09 02:11:05 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 3: Page Object Generation
+2025-11-09 02:11:05 | INFO     | core.logger:log_agent_action:43 - [PageObjectAgent] Generating page objects
+2025-11-09 02:11:19 | INFO     | core.logger:log_agent_action:43 - [PageObjectAgent] Generated page object (2741 chars)
+2025-11-09 02:11:19 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Java (pageobject) validation passed
+2025-11-09 02:11:19 | SUCCESS  | agents.orchestrator_agent:execute:151 - ✓ Page object validation passed
+2025-11-09 02:11:19 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 4: Cross-validation
+2025-11-09 02:11:19 | INFO     | validation.cross_validator:validate:39 - Cross-validation: 10 steps, 5 definitions, 10 methods
+2025-11-09 02:11:19 | ERROR    | core.logger:log_validation_result:51 - ✗ Cross-file validation failed
+2025-11-09 02:11:19 | ERROR    | core.logger:log_validation_result:54 -   - Missing step definitions for: i enter "{}" in username field, i enter "{}" in password field, i should see error message "{}", i click on login button, i should see "{}" page
+2025-11-09 02:11:19 | ERROR    | agents.orchestrator_agent:execute:163 - Cross-validation failed: ['Missing step definitions for: i enter "{}" in username field, i enter "{}" in password field, i should see error message "{}", i click on login button, i should see "{}" page']
+2025-11-09 02:11:19 | INFO     | agents.orchestrator_agent:execute:75 - 
+============================================================
+2025-11-09 02:11:19 | INFO     | agents.orchestrator_agent:execute:76 - ITERATION 3/3
+2025-11-09 02:11:19 | INFO     | agents.orchestrator_agent:execute:77 - ============================================================
+
+2025-11-09 02:11:19 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 1: Feature Generation
+2025-11-09 02:11:19 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generating .feature file
+2025-11-09 02:11:28 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generated feature file (964 chars)
+2025-11-09 02:11:28 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Feature validation passed
+2025-11-09 02:11:28 | SUCCESS  | agents.orchestrator_agent:execute:102 - ✓ Feature file validation passed
+2025-11-09 02:11:28 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 2: Step Definition Generation
+2025-11-09 02:11:28 | INFO     | core.logger:log_agent_action:43 - [StepDefinitionAgent] Generating step definitions
+2025-11-09 02:11:36 | INFO     | core.logger:log_agent_action:43 - [StepDefinitionAgent] Generated step definitions (1727 chars)
+2025-11-09 02:11:36 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Java (stepdef) validation passed
+2025-11-09 02:11:36 | SUCCESS  | agents.orchestrator_agent:execute:127 - ✓ Step definition validation passed
+2025-11-09 02:11:36 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 3: Page Object Generation
+2025-11-09 02:11:36 | INFO     | core.logger:log_agent_action:43 - [PageObjectAgent] Generating page objects
+2025-11-09 02:11:47 | INFO     | core.logger:log_agent_action:43 - [PageObjectAgent] Generated page object (2931 chars)
+2025-11-09 02:11:47 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Java (pageobject) validation passed
+2025-11-09 02:11:47 | SUCCESS  | agents.orchestrator_agent:execute:151 - ✓ Page object validation passed
+2025-11-09 02:11:47 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 4: Cross-validation
+2025-11-09 02:11:47 | INFO     | validation.cross_validator:validate:39 - Cross-validation: 10 steps, 5 definitions, 9 methods
+2025-11-09 02:11:47 | ERROR    | core.logger:log_validation_result:51 - ✗ Cross-file validation failed
+2025-11-09 02:11:47 | ERROR    | core.logger:log_validation_result:54 -   - Missing step definitions for: i enter "{}" in username field, i enter "{}" in password field, i should see error message "{}", i click on login button, i should see "{}" page
+2025-11-09 02:11:47 | ERROR    | core.logger:log_validation_result:54 -   - Step definitions call undefined page object methods: contains
+2025-11-09 02:11:47 | ERROR    | agents.orchestrator_agent:execute:163 - Cross-validation failed: ['Missing step definitions for: i enter "{}" in username field, i enter "{}" in password field, i should see error message "{}", i click on login button, i should see "{}" page', 'Step definitions call undefined page object methods: contains']
+2025-11-09 02:11:47 | ERROR    | agents.orchestrator_agent:execute:191 - 
+Max iterations (3) reached without producing valid output
+2025-11-09 02:11:47 | ERROR    | __main__:main:210 - 
+================================================================================
+2025-11-09 02:11:47 | ERROR    | __main__:main:211 - FAILED! Could not generate valid test files
+2025-11-09 02:11:47 | ERROR    | __main__:main:212 - Errors: ['Cross-validation: Missing step definitions for: i enter "{}" in username field, i enter "{}" in password field, i should see error message "{}", i click on login button, i should see "{}" page', 'Cross-validation: Missing step definitions for: i enter "{}" in username field, i enter "{}" in password field, i should see error message "{}", i click on login button, i should see "{}" page', 'Cross-validation: Missing step definitions for: i enter "{}" in username field, i enter "{}" in password field, i should see error message "{}", i click on login button, i should see "{}" page', 'Cross-validation: Step definitions call undefined page object methods: contains']
+2025-11-09 02:11:47 | ERROR    | __main__:main:213 - ================================================================================
+2025-11-09 02:11:47 | INFO     | storage.vector_store:save:112 - Saved vector index with 29 vectors

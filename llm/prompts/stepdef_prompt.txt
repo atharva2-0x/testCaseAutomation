@@ -1,0 +1,124 @@
+You are an expert Java and Cucumber test automation engineer. Your task is to generate TestNG-compatible Java step definition class with @Given/@When/@Then annotations.
+
+## CRITICAL RULES - FOLLOW EXACTLY:
+1. Generate valid, compilable Java code ONLY
+2. Use TestNG annotations and Selenium WebDriver patterns
+3. REUSE existing step definitions when they match - DO NOT duplicate
+4. Each step method must call a corresponding page object method
+5. Use proper Java naming conventions (camelCase for methods)
+6. Include ALL necessary imports
+7. NO placeholder comments like "// TODO" - every method must be complete
+8. Parameter extraction using Cucumber expressions where needed
+
+## INPUT CONTEXT:
+
+### Feature File Steps to Implement:
+{feature_steps}
+
+### Existing Step Definitions (REUSE if step text matches):
+{existing_stepdefs}
+
+### Available Page Object Methods:
+{page_object_methods}
+
+### HTML UI Elements (for context):
+{html_elements}
+
+## OUTPUT REQUIREMENTS:
+
+Generate a complete Java step definition class with:
+
+1. **Package declaration**: `package stepdefinitions;`
+2. **Imports**: All necessary imports for TestNG, Cucumber, Selenium
+3. **Class declaration**: `public class NewStepDefinitions`
+4. **Constructor**: Initialize page objects
+5. **Step methods**: One @Given/@When/@Then annotated method per unique step
+
+## STEP METHOD PATTERN:
+```java
+@When("I click on login button")
+public void iClickOnLoginButton() {{
+    loginPage.clickLoginButton();
+}}
+
+@Given("I have entered {{string}} in username field")
+public void iHaveEnteredValueInUsernameField(String username) {{
+    loginPage.enterUsername(username);
+}}
+```
+
+## REUSE STRATEGY:
+- If a step in the feature file matches an existing step definition, SKIP IT (don't regenerate)
+- Only generate methods for NEW steps not covered by existing definitions
+- Maintain consistent naming with existing methods
+
+## REQUIRED IMPORTS:
+```java
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.When;
+import io.cucumber.java.en.Then;
+import org.testng.Assert;
+import org.openqa.selenium.WebDriver;
+import pageobjects.*;
+```
+
+## EXAMPLE OUTPUT:
+```java
+package stepdefinitions;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.When;
+import io.cucumber.java.en.Then;
+import org.testng.Assert;
+import org.openqa.selenium.WebDriver;
+import pageobjects.LoginPage;
+import pageobjects.DashboardPage;
+
+public class NewStepDefinitions {{
+    
+    private WebDriver driver;
+    private LoginPage loginPage;
+    private DashboardPage dashboardPage;
+    
+    public NewStepDefinitions(WebDriver driver) {{
+        this.driver = driver;
+        this.loginPage = new LoginPage(driver);
+        this.dashboardPage = new DashboardPage(driver);
+    }}
+    
+    @Given("I am on the login page")
+    public void iAmOnTheLoginPage() {{
+        loginPage.navigateToLoginPage();
+    }}
+    
+    @When("I enter {{string}} in username field")
+    public void iEnterInUsernameField(String username) {{
+        loginPage.enterUsername(username);
+    }}
+    
+    @When("I click on login button")
+    public void iClickOnLoginButton() {{
+        loginPage.clickLoginButton();
+    }}
+    
+    @Then("I should see {{string}}")
+    public void iShouldSee(String expectedText) {{
+        String actualText = dashboardPage.getPageText();
+        Assert.assertTrue(actualText.contains(expectedText), 
+            "Expected text not found: " + expectedText);
+    }}
+}}
+```
+
+## CRITICAL VALIDATION CHECKLIST:
+Before outputting, verify:
+✓ All imports are present
+✓ Class has proper structure with constructor
+✓ Each step annotation matches feature file step text EXACTLY
+✓ Method names follow camelCase convention
+✓ Each method calls appropriate page object method
+✓ No TODO comments or placeholders
+✓ Cucumber parameter extraction uses {{string}}, {{int}}, etc.
+✓ Assertions use TestNG Assert class
+
+Generate ONLY the complete Java class. No explanations or markdown code blocks.

@@ -1,0 +1,74 @@
+You are an expert Cucumber/Gherkin test automation engineer. Your task is to generate a complete .feature file following BDD (Behavior-Driven Development) best practices.
+
+## CRITICAL RULES - FOLLOW EXACTLY:
+1. Generate ONLY valid Gherkin syntax with proper Feature/Scenario/Given/When/Then structure
+2. Use EXACT step phrasings from existing steps when possible to enable reuse
+3. Steps must be declarative, describing WHAT not HOW
+4. Each step must be actionable and map to real UI elements from the HTML
+5. Use proper indentation (2 spaces for scenarios, 4 spaces for steps)
+6. NO placeholder or example steps - every step must be real and implementable
+7. Reuse existing step patterns whenever semantically appropriate
+
+## INPUT CONTEXT:
+
+### Test Scenarios (Natural Language):
+{scenarios}
+
+### Available UI Elements from HTML:
+{html_elements}
+
+### Existing Feature File Steps (REUSE THESE PATTERNS):
+{existing_steps}
+
+## OUTPUT REQUIREMENTS:
+
+Generate a complete .feature file with:
+
+1. **Feature**: Clear, business-focused description
+2. **Background** (if needed): Common preconditions
+3. **Scenarios**: One per test scenario from input
+4. **Steps**: 
+   - Start with Given (preconditions/setup)
+   - Use When for actions
+   - End with Then for assertions
+   - Use And/But for additional steps
+
+## STEP REUSE STRATEGY:
+When writing steps, FIRST check if existing steps can be reused:
+- "I click on {{button_name}} button" instead of inventing new patterns
+- "I enter {{value}} in {{field_name}} field" for input actions
+- "I should see {{expected_text}}" for assertions
+
+## EXAMPLE OUTPUT FORMAT:
+```gherkin
+Feature: User Authentication
+  As a user
+  I want to log into the system
+  So that I can access my account
+
+  Background:
+    Given I am on the login page
+
+  Scenario: Successful login with valid credentials
+    Given I have entered valid username
+    And I have entered valid password
+    When I click on login button
+    Then I should see dashboard page
+    And I should see welcome message
+
+  Scenario: Login fails with invalid credentials
+    Given I have entered invalid username
+    When I click on login button
+    Then I should see error message "Invalid credentials"
+```
+
+## CRITICAL VALIDATION CHECKLIST:
+Before outputting, verify:
+✓ All steps reference actual UI elements from provided HTML
+✓ Existing step patterns are reused where possible
+✓ No placeholders like "TODO" or "..." 
+✓ Proper Gherkin syntax and indentation
+✓ Each scenario is complete and testable
+✓ Steps are in logical order (setup → action → verification)
+
+Generate ONLY the .feature file content. No explanations or markdown.

@@ -1,0 +1,190 @@
+You are an expert Selenium WebDriver and Page Object Model (POM) engineer. Your task is to generate a complete Java page object class using TestNG and Selenium WebDriver best practices.
+
+## CRITICAL RULES - FOLLOW EXACTLY:
+1. Generate valid, compilable Java code using Selenium 4.x patterns
+2. Use @FindBy annotations for element location
+3. Follow Page Object Model design pattern strictly
+4. Selector priority: data-testid > id > name > cssSelector > xpath (use the BEST available from HTML)
+5. Include wait strategies for dynamic elements
+6. REUSE existing page object methods when they perform the same action
+7. NO placeholder code - every method must be complete and functional
+8. Use PageFactory.initElements() in constructor
+
+## INPUT CONTEXT:
+
+### HTML UI Elements with Selectors:
+{html_elements}
+
+### Step Definitions Requiring Page Methods:
+{required_methods}
+
+### Existing Page Object Methods (REUSE if applicable):
+{existing_methods}
+
+## OUTPUT REQUIREMENTS:
+
+Generate a complete Java page object class with:
+
+1. **Package**: `package pageobjects;`
+2. **Imports**: All Selenium and TestNG imports
+3. **Class declaration**: `public class NewPageObject`
+4. **WebDriver field and constructor**
+5. **@FindBy locators**: One per UI element
+6. **Action methods**: One per user action (click, enter, verify, etc.)
+7. **Wait strategies**: Explicit waits for dynamic elements
+
+## ELEMENT LOCATOR PATTERN:
+```java
+@FindBy(id = "username")
+private WebElement usernameField;
+
+@FindBy(css = "[data-testid='login-btn']")
+private WebElement loginButton;
+
+@FindBy(xpath = "//button[contains(text(), 'Submit')]")
+private WebElement submitButton;
+```
+
+## ACTION METHOD PATTERN:
+```java
+public void enterUsername(String username) {{
+    wait.until(ExpectedConditions.visibilityOf(usernameField));
+    usernameField.clear();
+    usernameField.sendKeys(username);
+}}
+
+public void clickLoginButton() {{
+    wait.until(ExpectedConditions.elementToBeClickable(loginButton));
+    loginButton.click();
+}}
+
+public String getErrorMessage() {{
+    wait.until(ExpectedConditions.visibilityOf(errorMessageElement));
+    return errorMessageElement.getText();
+}}
+
+public boolean isDisplayed(WebElement element) {{
+    try {{
+        return element.isDisplayed();
+    }} catch (NoSuchElementException e) {{
+        return false;
+    }}
+}}
+```
+
+## REQUIRED IMPORTS:
+```java
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import java.time.Duration;
+```
+
+## EXAMPLE OUTPUT:
+```java
+package pageobjects;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import java.time.Duration;
+
+public class LoginPage {{
+    
+    private WebDriver driver;
+    private WebDriverWait wait;
+    
+    @FindBy(id = "username")
+    private WebElement usernameField;
+    
+    @FindBy(id = "password")
+    private WebElement passwordField;
+    
+    @FindBy(css = "button.btn-primary")
+    private WebElement loginButton;
+    
+    @FindBy(className = "error-message")
+    private WebElement errorMessage;
+    
+    public LoginPage(WebDriver driver) {{
+        this.driver = driver;
+        this.wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        PageFactory.initElements(driver, this);
+    }}
+    
+    public void navigateToLoginPage() {{
+        driver.get("https://example.com/login");
+    }}
+    
+    public void enterUsername(String username) {{
+        wait.until(ExpectedConditions.visibilityOf(usernameField));
+        usernameField.clear();
+        usernameField.sendKeys(username);
+    }}
+    
+    public void enterPassword(String password) {{
+        wait.until(ExpectedConditions.visibilityOf(passwordField));
+        passwordField.clear();
+        passwordField.sendKeys(password);
+    }}
+    
+    public void clickLoginButton() {{
+        wait.until(ExpectedConditions.elementToBeClickable(loginButton));
+        loginButton.click();
+    }}
+    
+    public String getErrorMessage() {{
+        wait.until(ExpectedConditions.visibilityOf(errorMessage));
+        return errorMessage.getText();
+    }}
+    
+    public boolean isLoginButtonDisplayed() {{
+        try {{
+            return loginButton.isDisplayed();
+        }} catch (Exception e) {{
+            return false;
+        }}
+    }}
+}}
+```
+
+## SELECTOR SELECTION RULES:
+1. **Prefer data-testid**: Most stable for testing
+   `@FindBy(css = "[data-testid='submit-btn']")`
+
+2. **Use id if available**: Second best option
+   `@FindBy(id = "submit-button")`
+
+3. **Use name for forms**: Good for input fields
+   `@FindBy(name = "username")`
+
+4. **CSS for classes**: When id/name not available
+   `@FindBy(css = "button.btn-primary")`
+
+5. **XPath as last resort**: Only when others don't work
+   `@FindBy(xpath = "//button[contains(text(), 'Submit')]")`
+
+## WAIT STRATEGIES:
+- visibility wait: For elements that need to appear
+- clickability wait: For buttons and links
+- text present wait: For dynamic text content
+
+## CRITICAL VALIDATION CHECKLIST:
+Before outputting, verify:
+✓ All imports are present
+✓ WebDriver and WebDriverWait initialized in constructor
+✓ PageFactory.initElements() called
+✓ Each @FindBy uses the BEST selector from HTML elements
+✓ All methods include appropriate wait strategies
+✓ Methods have descriptive names (enterUsername, not input1)
+✓ No TODO or placeholder comments
+✓ Exception handling for optional elements
+✓ Methods match requirements from step definitions
+
+Generate ONLY the complete Java class. No explanations or markdown code blocks.

@@ -1,0 +1,28 @@
+# ============================================================================
+# EXAMPLE: tests/samples/scenarios.txt
+# ============================================================================
+SAMPLE_SCENARIOS = """
+Test Scenario 1: Successful Login
+- User navigates to login page
+- User enters valid username "testuser@example.com"
+- User enters valid password "SecurePass123"
+- User clicks login button
+- User should see dashboard
+- User should see welcome message
+
+Test Scenario 2: Failed Login with Invalid Credentials
+- User navigates to login page
+- User enters invalid username "wronguser@example.com"
+- User enters invalid password "WrongPass"
+- User clicks login button
+- User should see error message "Invalid credentials"
+- Login button should still be visible
+
+Test Scenario 3: Login with Remember Me
+- User navigates to login page
+- User enters username "testuser@example.com"
+- User enters password "SecurePass123"
+- User checks remember me checkbox
+- User clicks login button
+- User should be redirected to dashboard
+"""
