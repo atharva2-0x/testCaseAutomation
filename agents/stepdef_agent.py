@@ -29,7 +29,18 @@ class StepDefinitionAgent:
         log_agent_action("StepDefinitionAgent", "Generating step definitions")
         
         # Extract steps from feature file
-        feature_steps = self._extract_steps_from_feature(feature_content)
+        feature_steps_raw = self._extract_steps_from_feature(feature_content)
+        
+        # Extract step text (remove Given/When/Then keywords) and normalize
+        feature_steps = []
+        for step_line in feature_steps_raw:
+            step_text = extract_step_text(step_line)
+            if step_text:
+                feature_steps.append(step_text)
+        
+        log.info(f"Extracted {len(feature_steps)} unique steps from feature file")
+        if len(feature_steps) > 0:
+            log.debug(f"Steps to implement: {feature_steps[:5]}{'...' if len(feature_steps) > 5 else ''}")
         
         # Get existing step definitions to reuse
         existing_stepdefs_text = self._get_existing_stepdefs_context()
@@ -46,7 +57,12 @@ class StepDefinitionAgent:
             """Escape braces in text to prevent template formatting errors."""
             return text.replace('{', '{{').replace('}', '}}')
         
-        feature_steps_escaped = "\n".join(escape_braces(step) for step in feature_steps)
+        # Format feature steps with numbering for clarity
+        feature_steps_formatted = []
+        for i, step in enumerate(feature_steps, 1):
+            feature_steps_formatted.append(f"{i}. {step}")
+        
+        feature_steps_escaped = "\n".join(escape_braces(step) for step in feature_steps_formatted)
         html_context_escaped = escape_braces(html_context)
         pageobj_methods_escaped = escape_braces(pageobj_methods) if pageobj_methods else pageobj_methods
         
@@ -59,11 +75,17 @@ class StepDefinitionAgent:
             html_elements=html_context_escaped
         )
         
+        # Add explicit step count requirement
+        prompt += f"\n\n## CRITICAL REQUIREMENT:\n"
+        prompt += f"You MUST generate step definitions for ALL {len(feature_steps)} steps listed above.\n"
+        prompt += f"Each step must have a corresponding @Given/@When/@Then annotation with matching text.\n"
+        prompt += f"Count your generated step definitions - you should have at least {len(feature_steps)} methods.\n"
+        
         # Add feedback if retrying
         if feedback:
             prompt += f"\n\n## PREVIOUS ATTEMPT ERRORS:\n"
             prompt += "\n".join(feedback)
-            prompt += "\n\nPlease fix these errors and regenerate."
+            prompt += "\n\nPlease fix these errors and regenerate. Pay special attention to generating ALL required step definitions."
         
         # Generate
         stepdef_content = self.llm_client.generate(prompt)

@@ -107,10 +107,15 @@ def extract_annotation_text(step_def: str) -> Optional[str]:
 
 def normalize_step_text(text: str) -> str:
     """Normalize step text for comparison (remove parameters, extra spaces)."""
+    # First, replace Cucumber parameter formats: {string}, {int}, {word}, etc. -> "{}"
+    # This must come first to catch {string} before it gets processed as {}
+    text = re.sub(r'\{[a-zA-Z0-9_]+\}', '"{}"', text)
     # Replace quoted strings with placeholder
     text = re.sub(r'"[^"]*"', '"{}"', text)
     # Replace numbers with placeholder
     text = re.sub(r'\b\d+\b', '{}', text)
+    # Replace any remaining unquoted {} placeholders with "{}" for consistency
+    text = re.sub(r'(?<!")\{\}(?!")', '"{}"', text)
     # Normalize whitespace
     text = ' '.join(text.split())
     return text.lower()

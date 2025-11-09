@@ -108,21 +108,67 @@ class CrossValidator:
     def _check_missing_stepdefs(self, feature_steps: List[str], stepdef_annotations: List[str]) -> List[str]:
         """Check if all feature steps have corresponding definitions."""
         missing = []
+        
+        # Debug: log what we're comparing
+        log.debug(f"Feature steps ({len(feature_steps)}): {feature_steps[:3]}...")
+        log.debug(f"StepDef annotations ({len(stepdef_annotations)}): {stepdef_annotations[:3]}...")
+        
         for step in feature_steps:
             # Check if any annotation matches (normalized comparison)
             if step not in stepdef_annotations:
                 # Also check with relaxed matching (parameter placeholders)
                 if not self._relaxed_match(step, stepdef_annotations):
-                    missing.append(step[:50])  # Truncate for readability
+                    missing.append(step[:80])  # Show more context
+                    log.debug(f"Missing step: '{step}' (normalized)")
+                    # Log what annotations we tried to match against
+                    log.debug(f"  Tried matching against {len(stepdef_annotations)} annotations")
         return missing
     
     def _relaxed_match(self, step: str, annotations: List[str]) -> bool:
         """Check if step matches any annotation with parameter placeholders."""
-        # Replace parameter placeholders with wildcards
-        step_pattern = re.sub(r'\{\}', r'.+', step)
+        # Normalize both step and annotations to a common format for comparison
+        def normalize_for_matching(text: str) -> str:
+            """Normalize text by replacing all parameter formats with a common placeholder."""
+            # First, replace Cucumber parameter formats: {string}, {int}, {word}, etc. -> {param}
+            # This must come first to catch {string} before it gets processed as {}
+            # Match { followed by word characters (letters, digits, underscores) followed by }
+            text = re.sub(r'\{[a-zA-Z0-9_]+\}', '{param}', text)
+            # Replace quoted placeholders: "{}" -> {param}
+            text = re.sub(r'"\{\}"', '{param}', text)
+            # Replace unquoted placeholders: {} -> {param}
+            text = re.sub(r'\{\}', '{param}', text)
+            # Normalize whitespace and case
+            text = ' '.join(text.split()).lower()
+            return text
+        
+        normalized_step = normalize_for_matching(step)
+        
         for annotation in annotations:
-            if re.match(step_pattern, annotation):
+            normalized_annotation = normalize_for_matching(annotation)
+            # Direct match after normalization - this should catch most cases
+            if normalized_step == normalized_annotation:
+                log.debug(f"Matched: '{step}' -> '{annotation}' (normalized: '{normalized_step}')")
                 return True
+        
+        # If direct match fails, try fuzzy matching with word boundaries
+        # Split into words and compare structure
+        step_words = normalized_step.split()
+        for annotation in annotations:
+            normalized_annotation = normalize_for_matching(annotation)
+            annotation_words = normalized_annotation.split()
+            
+            # If same number of words and same structure (ignoring {param} positions)
+            if len(step_words) == len(annotation_words):
+                matches = True
+                for sw, aw in zip(step_words, annotation_words):
+                    # Both are params or both are same word
+                    if not ((sw == '{param}' and aw == '{param}') or (sw == aw)):
+                        matches = False
+                        break
+                if matches:
+                    log.debug(f"Matched (fuzzy): '{step}' -> '{annotation}'")
+                    return True
+        
         return False
     
     def _check_undefined_methods(self, called_methods: List[str], defined_methods: List[str]) -> List[str]:
