@@ -13,6 +13,9 @@ class Settings(BaseSettings):
     llm_provider: str = Field(default="openai", env="LLM_PROVIDER")
     openai_api_key: Optional[str] = Field(default=None, env="OPENAI_API_KEY")
     anthropic_api_key: Optional[str] = Field(default=None, env="ANTHROPIC_API_KEY")
+    fiservai_api_key: Optional[str] = Field(default=None, env="FISERVAI_API_KEY")
+    fiservai_api_secret: Optional[str] = Field(default=None, env="FISERVAI_API_SECRET")
+    fiservai_base_url: Optional[str] = Field(default=None, env="FISERVAI_BASE_URL")
     model_name: str = Field(default="gpt-4-turbo-preview", env="MODEL_NAME")
     temperature: float = Field(default=0.2, env="TEMPERATURE")
     max_tokens: int = Field(default=4000, env="MAX_TOKENS")
@@ -21,6 +24,7 @@ class Settings(BaseSettings):
     # Vector DB Configuration
     vector_db_type: str = Field(default="faiss", env="VECTOR_DB_TYPE")
     vector_db_path: Path = Field(default=Path("./data/vector_db"), env="VECTOR_DB_PATH")
+    embedding_provider: str = Field(default="fiservai", env="EMBEDDING_PROVIDER")  # Options: "sentence_transformers" or "fiservai"
     embedding_model: str = Field(default="all-MiniLM-L6-v2", env="EMBEDDING_MODEL")
     embedding_dim: int = Field(default=384, env="EMBEDDING_DIM")
     vectorized_files_tracker: Path = Field(
@@ -77,8 +81,22 @@ class Settings(BaseSettings):
             if not self.anthropic_api_key:
                 raise ValueError("ANTHROPIC_API_KEY is required when using Anthropic provider")
             return self.anthropic_api_key
+        elif self.llm_provider == "fiservai":
+            if not self.fiservai_api_key:
+                raise ValueError("FISERVAI_API_KEY is required when using FiservAI provider")
+            return self.fiservai_api_key
         else:
             raise ValueError(f"Unknown LLM provider: {self.llm_provider}")
+    
+    def get_fiservai_credentials(self) -> tuple[str, str, Optional[str]]:
+        """Get FiservAI credentials (API key, API secret, base_url)."""
+        if self.llm_provider != "fiservai":
+            raise ValueError("get_fiservai_credentials() can only be called when provider is 'fiservai'")
+        if not self.fiservai_api_key:
+            raise ValueError("FISERVAI_API_KEY is required when using FiservAI provider")
+        if not self.fiservai_api_secret:
+            raise ValueError("FISERVAI_API_SECRET is required when using FiservAI provider")
+        return (self.fiservai_api_key, self.fiservai_api_secret, self.fiservai_base_url)
 
 
 # Global settings instance

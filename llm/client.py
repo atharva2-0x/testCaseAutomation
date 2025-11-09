@@ -1,8 +1,9 @@
-"""LLM client wrapper supporting OpenAI and Anthropic."""
+"""LLM client wrapper supporting OpenAI, Anthropic, and FiservAI."""
 from typing import List, Dict, Optional
 from pathlib import Path
 import openai
 import anthropic
+from fiservai import FiservAI
 from tenacity import retry, stop_after_attempt, wait_exponential
 from core.config import settings
 from core.logger import log
@@ -26,6 +27,9 @@ class LLMClient:
             self.client = openai.OpenAI(api_key=api_key)
         elif self.provider == "anthropic":
             self.client = anthropic.Anthropic(api_key=settings.get_api_key())
+        elif self.provider == "fiservai":
+            api_key, api_secret, base_url = settings.get_fiservai_credentials()
+            self.client = FiservAI.FiservAI(api_key, api_secret, base_url)
         else:
             raise ValueError(f"Unsupported LLM provider: {self.provider}")
         
@@ -48,6 +52,8 @@ class LLMClient:
                 return self._generate_openai(prompt, system_prompt)
             elif self.provider == "anthropic":
                 return self._generate_anthropic(prompt, system_prompt)
+            elif self.provider == "fiservai":
+                return self._generate_fiservai(prompt, system_prompt)
         except Exception as e:
             log.error(f"LLM generation failed: {e}")
             raise
@@ -83,6 +89,19 @@ class LLMClient:
         )
         
         return message.content[0].text.strip()
+    
+    def _generate_fiservai(self, prompt: str, system_prompt: Optional[str] = None) -> str:
+        """Generate using FiservAI API."""
+        messages = []
+        
+        if system_prompt:
+            messages.append({"role": "system", "content": system_prompt})
+        
+        messages.append({"role": "user", "content": prompt})
+        
+        response = self.client.chat_completion(messages=messages)
+        
+        return response.choice[0].message.content.strip()
     
     def load_prompt_template(self, template_name: str) -> str:
         """Load prompt template from file."""

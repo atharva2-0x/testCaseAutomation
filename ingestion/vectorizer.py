@@ -1,7 +1,7 @@
 """Vectorization and vector database management with one-time indexing."""
 import json
 import os
-from typing import List, Dict, Any
+from typing import List, Dict, Any, Union, Optional
 from pathlib import Path
 import numpy as np
 from sentence_transformers import SentenceTransformer
@@ -14,12 +14,37 @@ from storage.vector_store import VectorStore
 class Vectorizer:
     """Handle document vectorization with deduplication tracking."""
     
-    def __init__(self):
+    def __init__(self, fiservai_client: Optional[Any] = None):
+        """
+        Initialize vectorizer with embedding provider.
+        
+        Args:
+            fiservai_client: Optional FiservAI client instance for embeddings
+        """
+        self.embedding_provider = settings.embedding_provider
+        self.fiservai_client = fiservai_client
+        self.embedding_model = None
+        
+        # Initialize embedding model based on provider
+        if self.embedding_provider == "sentence_transformers":
+            self._init_sentence_transformers()
+        elif self.embedding_provider == "fiservai":
+            self._init_fiservai()
+        else:
+            raise ValueError(f"Unsupported embedding provider: {self.embedding_provider}")
+        
+        self.vector_store = VectorStore()
+        self.tracker_file = settings.vectorized_files_tracker
+        self.vectorized_files = self._load_tracker()
+    
+    def _init_sentence_transformers(self):
+        """Initialize sentence-transformers embedding model."""
         # Force fresh download by clearing cache if model fails to load
         max_retries = 2
         for attempt in range(max_retries):
             try:
                 self.embedding_model = SentenceTransformer(settings.embedding_model)
+                log.info(f"Initialized sentence-transformers with model: {settings.embedding_model}")
                 break  # Success, exit retry loop
             except (ValueError, OSError, FileNotFoundError) as e:
                 error_str = str(e)
@@ -89,9 +114,34 @@ class Vectorizer:
                         log.info("No cache found, will download model...")
                 else:
                     raise  # Re-raise if not a cache issue or last attempt
-        self.vector_store = VectorStore()
-        self.tracker_file = settings.vectorized_files_tracker
-        self.vectorized_files = self._load_tracker()
+    
+    def _init_fiservai(self):
+        """Initialize FiservAI embedding client."""
+        if not self.fiservai_client:
+            # Try to get FiservAI client from settings if LLM provider is FiservAI
+            if settings.llm_provider == "fiservai":
+                try:
+                    from llm.client import LLMClient
+                    llm_client = LLMClient()
+                    self.fiservai_client = llm_client.client
+                except Exception as e:
+                    log.warning(f"Could not reuse LLM client for embeddings: {e}")
+                    # Fall through to create new client
+                    self.fiservai_client = None
+            
+            # Create FiservAI client directly if not using it for LLM or if reuse failed
+            if not self.fiservai_client:
+                try:
+                    from fiservai import FiservAI
+                    api_key, api_secret, base_url = settings.get_fiservai_credentials()
+                    self.fiservai_client = FiservAI.FiservAI(api_key, api_secret, base_url)
+                except Exception as e:
+                    raise ValueError(f"Failed to initialize FiservAI client: {e}. Make sure FISERVAI_API_KEY and FISERVAI_API_SECRET are set.")
+        
+        if not self.fiservai_client:
+            raise ValueError("FiservAI client not initialized")
+        
+        log.info("Initialized FiservAI embedding client")
     
     def _load_tracker(self) -> Dict:
         """Load tracking file to see what's already vectorized."""
@@ -176,11 +226,39 @@ class Vectorizer:
     
     def embed_text(self, text: str) -> np.ndarray:
         """Generate embedding for text."""
-        return self.embedding_model.encode(text, convert_to_numpy=True)
+        if self.embedding_provider == "sentence_transformers":
+            return self.embedding_model.encode(text, convert_to_numpy=True)
+        elif self.embedding_provider == "fiservai":
+            if not self.fiservai_client:
+                raise ValueError("FiservAI client not initialized")
+            embeddings, info = self.fiservai_client.get_embeddings(text, show_progress=True)
+            # Handle both single string and list returns
+            if isinstance(embeddings, list) and len(embeddings) > 0:
+                return np.array(embeddings[0], dtype=np.float32)
+            elif isinstance(embeddings, np.ndarray):
+                return embeddings if embeddings.ndim == 1 else embeddings[0]
+            else:
+                return np.array(embeddings, dtype=np.float32)
+        else:
+            raise ValueError(f"Unsupported embedding provider: {self.embedding_provider}")
     
     def embed_batch(self, texts: List[str]) -> np.ndarray:
         """Generate embeddings for multiple texts."""
-        return self.embedding_model.encode(texts, convert_to_numpy=True, batch_size=settings.batch_size)
+        if self.embedding_provider == "sentence_transformers":
+            return self.embedding_model.encode(texts, convert_to_numpy=True, batch_size=settings.batch_size)
+        elif self.embedding_provider == "fiservai":
+            if not self.fiservai_client:
+                raise ValueError("FiservAI client not initialized")
+            embeddings, info = self.fiservai_client.__embed_batch(texts)
+            # Convert to numpy array if needed
+            if isinstance(embeddings, list):
+                return np.array(embeddings, dtype=np.float32)
+            elif isinstance(embeddings, np.ndarray):
+                return embeddings
+            else:
+                return np.array(embeddings, dtype=np.float32)
+        else:
+            raise ValueError(f"Unsupported embedding provider: {self.embedding_provider}")
     
     def search(self, query: str, top_k: int = None, filter_type: str = None) -> List[Dict]:
         """

@@ -89,7 +89,13 @@ def main():
     try:
         # Step 1: Initialize Vectorizer
         log.info("\n[STEP 1] Initializing Vectorizer...")
-        vectorizer = Vectorizer()
+        # If using FiservAI for embeddings, optionally reuse LLM client if also using FiservAI for LLM
+        fiservai_client = None
+        if settings.embedding_provider == "fiservai" and settings.llm_provider == "fiservai":
+            from llm.client import LLMClient
+            llm_client = LLMClient()
+            fiservai_client = llm_client.client
+        vectorizer = Vectorizer(fiservai_client=fiservai_client)
         
         # Step 2: Parse and Vectorize HTML
         html_path = args.html or settings.input_html_path

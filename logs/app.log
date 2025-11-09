@@ -1160,3 +1160,415 @@ Max iterations (3) reached without producing valid output
 2025-11-09 02:11:47 | ERROR    | __main__:main:212 - Errors: ['Cross-validation: Missing step definitions for: i enter "{}" in username field, i enter "{}" in password field, i should see error message "{}", i click on login button, i should see "{}" page', 'Cross-validation: Missing step definitions for: i enter "{}" in username field, i enter "{}" in password field, i should see error message "{}", i click on login button, i should see "{}" page', 'Cross-validation: Missing step definitions for: i enter "{}" in username field, i enter "{}" in password field, i should see error message "{}", i click on login button, i should see "{}" page', 'Cross-validation: Step definitions call undefined page object methods: contains']
 2025-11-09 02:11:47 | ERROR    | __main__:main:213 - ================================================================================
 2025-11-09 02:11:47 | INFO     | storage.vector_store:save:112 - Saved vector index with 29 vectors
+2025-11-09 19:09:35 | INFO     | __main__:main:85 - ================================================================================
+2025-11-09 19:09:35 | INFO     | __main__:main:86 - AUTOMATED TEST CASE GENERATOR - Multi-Agent System
+2025-11-09 19:09:35 | INFO     | __main__:main:87 - ================================================================================
+2025-11-09 19:09:35 | INFO     | __main__:main:91 - 
+[STEP 1] Initializing Vectorizer...
+2025-11-09 19:09:35 | INFO     | storage.vector_store:_load_or_create_index:35 - Loaded existing vector index with 29 vectors
+2025-11-09 19:09:35 | INFO     | __main__:main:99 - 
+[STEP 2] Parsing HTML: tests/samples/sample.html
+2025-11-09 19:09:35 | INFO     | ingestion.html_parser:parse:20 - Parsing HTML from sample.html
+2025-11-09 19:09:35 | INFO     | ingestion.html_parser:parse:31 - Extracted 11 actionable elements
+2025-11-09 19:09:35 | INFO     | __main__:main:105 - Vectorizing HTML elements...
+2025-11-09 19:09:35 | INFO     | ingestion.vectorizer:vectorize_file:140 - Skipping sample.html - already vectorized
+2025-11-09 19:09:35 | INFO     | __main__:main:111 - 
+[STEP 3] Processing Existing Test Files...
+2025-11-09 19:09:35 | INFO     | __main__:main:129 - Parsing feature file: old.feature
+2025-11-09 19:09:35 | INFO     | ingestion.code_parser:parse:83 - Parsed tests/samples/old.feature: 0 features, 1 scenarios, 5 steps
+2025-11-09 19:09:35 | INFO     | ingestion.vectorizer:vectorize_file:140 - Skipping old.feature - already vectorized
+2025-11-09 19:09:35 | INFO     | __main__:main:139 - Parsing step definitions: StepDefsOld.java
+2025-11-09 19:09:35 | INFO     | ingestion.code_parser:parse:161 - Parsed tests/samples/StepDefsOld.java: 5 step definitions
+2025-11-09 19:09:35 | INFO     | ingestion.vectorizer:vectorize_file:140 - Skipping StepDefsOld.java - already vectorized
+2025-11-09 19:09:35 | INFO     | __main__:main:149 - Parsing page objects: PageObjectsOld.java
+2025-11-09 19:09:35 | INFO     | ingestion.code_parser:parse:241 - Parsed tests/samples/PageObjectsOld.java: 4 methods, 3 locators
+2025-11-09 19:09:35 | INFO     | ingestion.vectorizer:vectorize_file:140 - Skipping PageObjectsOld.java - already vectorized
+2025-11-09 19:09:35 | INFO     | storage.vector_store:save:112 - Saved vector index with 29 vectors
+2025-11-09 19:09:35 | INFO     | __main__:main:164 - 
+[STEP 4] Loading Test Scenarios: tests/samples/scenarios.txt
+2025-11-09 19:09:35 | INFO     | __main__:main:171 - 
+[STEP 5] Starting Multi-Agent Workflow...
+2025-11-09 19:09:35 | INFO     | llm.client:__init__:32 - Initialized LLM client: openai with model gpt-4-turbo-preview
+2025-11-09 19:09:35 | INFO     | agents.orchestrator_agent:__init__:41 - Orchestrator Agent initialized
+2025-11-09 19:09:35 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Starting multi-agent workflow
+2025-11-09 19:09:35 | INFO     | agents.orchestrator_agent:execute:75 - 
+============================================================
+2025-11-09 19:09:35 | INFO     | agents.orchestrator_agent:execute:76 - ITERATION 1/3
+2025-11-09 19:09:35 | INFO     | agents.orchestrator_agent:execute:77 - ============================================================
+
+2025-11-09 19:09:35 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 1: Feature Generation
+2025-11-09 19:09:35 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generating .feature file
+2025-11-09 19:09:42 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generated feature file (993 chars)
+2025-11-09 19:09:42 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Feature validation passed
+2025-11-09 19:09:42 | SUCCESS  | agents.orchestrator_agent:execute:102 - ✓ Feature file validation passed
+2025-11-09 19:09:42 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 2: Step Definition Generation
+2025-11-09 19:09:42 | INFO     | core.logger:log_agent_action:43 - [StepDefinitionAgent] Generating step definitions
+2025-11-09 19:09:49 | INFO     | core.logger:log_agent_action:43 - [StepDefinitionAgent] Generated step definitions (1596 chars)
+2025-11-09 19:09:49 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Java (stepdef) validation passed
+2025-11-09 19:09:49 | SUCCESS  | agents.orchestrator_agent:execute:127 - ✓ Step definition validation passed
+2025-11-09 19:09:49 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 3: Page Object Generation
+2025-11-09 19:09:49 | INFO     | core.logger:log_agent_action:43 - [PageObjectAgent] Generating page objects
+2025-11-09 19:10:01 | INFO     | core.logger:log_agent_action:43 - [PageObjectAgent] Generated page object (2650 chars)
+2025-11-09 19:10:01 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Java (pageobject) validation passed
+2025-11-09 19:10:01 | SUCCESS  | agents.orchestrator_agent:execute:151 - ✓ Page object validation passed
+2025-11-09 19:10:01 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 4: Cross-validation
+2025-11-09 19:10:01 | INFO     | validation.cross_validator:validate:39 - Cross-validation: 10 steps, 5 definitions, 8 methods
+2025-11-09 19:10:01 | ERROR    | core.logger:log_validation_result:51 - ✗ Cross-file validation failed
+2025-11-09 19:10:01 | ERROR    | core.logger:log_validation_result:54 -   - Missing step definitions for: i enter "{}" in password field, i am on the login page, i should see "{}" page, i click on login button, i enter "{}" in username field
+2025-11-09 19:10:01 | ERROR    | core.logger:log_validation_result:54 -   - Step definitions call undefined page object methods: getErrorMessage
+2025-11-09 19:10:01 | ERROR    | agents.orchestrator_agent:execute:163 - Cross-validation failed: ['Missing step definitions for: i enter "{}" in password field, i am on the login page, i should see "{}" page, i click on login button, i enter "{}" in username field', 'Step definitions call undefined page object methods: getErrorMessage']
+2025-11-09 19:10:01 | INFO     | agents.orchestrator_agent:execute:75 - 
+============================================================
+2025-11-09 19:10:01 | INFO     | agents.orchestrator_agent:execute:76 - ITERATION 2/3
+2025-11-09 19:10:01 | INFO     | agents.orchestrator_agent:execute:77 - ============================================================
+
+2025-11-09 19:10:01 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 1: Feature Generation
+2025-11-09 19:10:01 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generating .feature file
+2025-11-09 19:10:09 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generated feature file (964 chars)
+2025-11-09 19:10:09 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Feature validation passed
+2025-11-09 19:10:09 | SUCCESS  | agents.orchestrator_agent:execute:102 - ✓ Feature file validation passed
+2025-11-09 19:10:09 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 2: Step Definition Generation
+2025-11-09 19:10:09 | INFO     | core.logger:log_agent_action:43 - [StepDefinitionAgent] Generating step definitions
+2025-11-09 19:10:18 | INFO     | core.logger:log_agent_action:43 - [StepDefinitionAgent] Generated step definitions (1739 chars)
+2025-11-09 19:10:18 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Java (stepdef) validation passed
+2025-11-09 19:10:18 | SUCCESS  | agents.orchestrator_agent:execute:127 - ✓ Step definition validation passed
+2025-11-09 19:10:18 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 3: Page Object Generation
+2025-11-09 19:10:18 | INFO     | core.logger:log_agent_action:43 - [PageObjectAgent] Generating page objects
+2025-11-09 19:10:29 | INFO     | core.logger:log_agent_action:43 - [PageObjectAgent] Generated page object (2792 chars)
+2025-11-09 19:10:29 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Java (pageobject) validation passed
+2025-11-09 19:10:29 | SUCCESS  | agents.orchestrator_agent:execute:151 - ✓ Page object validation passed
+2025-11-09 19:10:29 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 4: Cross-validation
+2025-11-09 19:10:29 | INFO     | validation.cross_validator:validate:39 - Cross-validation: 10 steps, 5 definitions, 9 methods
+2025-11-09 19:10:29 | ERROR    | core.logger:log_validation_result:51 - ✗ Cross-file validation failed
+2025-11-09 19:10:29 | ERROR    | core.logger:log_validation_result:54 -   - Missing step definitions for: i enter "{}" in password field, i am on the login page, i should see "{}" page, i click on login button, i enter "{}" in username field
+2025-11-09 19:10:29 | ERROR    | agents.orchestrator_agent:execute:163 - Cross-validation failed: ['Missing step definitions for: i enter "{}" in password field, i am on the login page, i should see "{}" page, i click on login button, i enter "{}" in username field']
+2025-11-09 19:10:29 | INFO     | agents.orchestrator_agent:execute:75 - 
+============================================================
+2025-11-09 19:10:29 | INFO     | agents.orchestrator_agent:execute:76 - ITERATION 3/3
+2025-11-09 19:10:29 | INFO     | agents.orchestrator_agent:execute:77 - ============================================================
+
+2025-11-09 19:10:29 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 1: Feature Generation
+2025-11-09 19:10:29 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generating .feature file
+2025-11-09 19:10:34 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generated feature file (964 chars)
+2025-11-09 19:10:34 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Feature validation passed
+2025-11-09 19:10:34 | SUCCESS  | agents.orchestrator_agent:execute:102 - ✓ Feature file validation passed
+2025-11-09 19:10:34 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 2: Step Definition Generation
+2025-11-09 19:10:34 | INFO     | core.logger:log_agent_action:43 - [StepDefinitionAgent] Generating step definitions
+2025-11-09 19:10:44 | INFO     | core.logger:log_agent_action:43 - [StepDefinitionAgent] Generated step definitions (1755 chars)
+2025-11-09 19:10:44 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Java (stepdef) validation passed
+2025-11-09 19:10:44 | SUCCESS  | agents.orchestrator_agent:execute:127 - ✓ Step definition validation passed
+2025-11-09 19:10:44 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 3: Page Object Generation
+2025-11-09 19:10:44 | INFO     | core.logger:log_agent_action:43 - [PageObjectAgent] Generating page objects
+2025-11-09 19:10:57 | INFO     | core.logger:log_agent_action:43 - [PageObjectAgent] Generated page object (2494 chars)
+2025-11-09 19:10:57 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Java (pageobject) validation passed
+2025-11-09 19:10:57 | SUCCESS  | agents.orchestrator_agent:execute:151 - ✓ Page object validation passed
+2025-11-09 19:10:57 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 4: Cross-validation
+2025-11-09 19:10:57 | INFO     | validation.cross_validator:validate:39 - Cross-validation: 10 steps, 5 definitions, 9 methods
+2025-11-09 19:10:57 | ERROR    | core.logger:log_validation_result:51 - ✗ Cross-file validation failed
+2025-11-09 19:10:57 | ERROR    | core.logger:log_validation_result:54 -   - Missing step definitions for: i enter "{}" in password field, i am on the login page, i should see "{}" page, i click on login button, i enter "{}" in username field
+2025-11-09 19:10:57 | ERROR    | agents.orchestrator_agent:execute:163 - Cross-validation failed: ['Missing step definitions for: i enter "{}" in password field, i am on the login page, i should see "{}" page, i click on login button, i enter "{}" in username field']
+2025-11-09 19:10:57 | ERROR    | agents.orchestrator_agent:execute:191 - 
+Max iterations (3) reached without producing valid output
+2025-11-09 19:10:57 | ERROR    | __main__:main:210 - 
+================================================================================
+2025-11-09 19:10:57 | ERROR    | __main__:main:211 - FAILED! Could not generate valid test files
+2025-11-09 19:10:57 | ERROR    | __main__:main:212 - Errors: ['Cross-validation: Missing step definitions for: i enter "{}" in password field, i am on the login page, i should see "{}" page, i click on login button, i enter "{}" in username field', 'Cross-validation: Step definitions call undefined page object methods: getErrorMessage', 'Cross-validation: Missing step definitions for: i enter "{}" in password field, i am on the login page, i should see "{}" page, i click on login button, i enter "{}" in username field', 'Cross-validation: Missing step definitions for: i enter "{}" in password field, i am on the login page, i should see "{}" page, i click on login button, i enter "{}" in username field']
+2025-11-09 19:10:57 | ERROR    | __main__:main:213 - ================================================================================
+2025-11-09 19:10:57 | INFO     | storage.vector_store:save:112 - Saved vector index with 29 vectors
+2025-11-09 19:13:53 | INFO     | __main__:main:85 - ================================================================================
+2025-11-09 19:13:53 | INFO     | __main__:main:86 - AUTOMATED TEST CASE GENERATOR - Multi-Agent System
+2025-11-09 19:13:53 | INFO     | __main__:main:87 - ================================================================================
+2025-11-09 19:13:53 | INFO     | __main__:main:91 - 
+[STEP 1] Initializing Vectorizer...
+2025-11-09 19:13:53 | INFO     | storage.vector_store:_load_or_create_index:35 - Loaded existing vector index with 29 vectors
+2025-11-09 19:13:53 | INFO     | __main__:main:99 - 
+[STEP 2] Parsing HTML: tests/samples/sample.html
+2025-11-09 19:13:53 | INFO     | ingestion.html_parser:parse:20 - Parsing HTML from sample.html
+2025-11-09 19:13:53 | INFO     | ingestion.html_parser:parse:31 - Extracted 11 actionable elements
+2025-11-09 19:13:53 | INFO     | __main__:main:105 - Vectorizing HTML elements...
+2025-11-09 19:13:53 | INFO     | ingestion.vectorizer:vectorize_file:140 - Skipping sample.html - already vectorized
+2025-11-09 19:13:53 | INFO     | __main__:main:111 - 
+[STEP 3] Processing Existing Test Files...
+2025-11-09 19:13:53 | INFO     | __main__:main:129 - Parsing feature file: old.feature
+2025-11-09 19:13:53 | INFO     | ingestion.code_parser:parse:83 - Parsed tests/samples/old.feature: 0 features, 1 scenarios, 5 steps
+2025-11-09 19:13:53 | INFO     | ingestion.vectorizer:vectorize_file:140 - Skipping old.feature - already vectorized
+2025-11-09 19:13:53 | INFO     | __main__:main:139 - Parsing step definitions: StepDefsOld.java
+2025-11-09 19:13:53 | INFO     | ingestion.code_parser:parse:161 - Parsed tests/samples/StepDefsOld.java: 5 step definitions
+2025-11-09 19:13:53 | INFO     | ingestion.vectorizer:vectorize_file:140 - Skipping StepDefsOld.java - already vectorized
+2025-11-09 19:13:53 | INFO     | __main__:main:149 - Parsing page objects: PageObjectsOld.java
+2025-11-09 19:13:53 | INFO     | ingestion.code_parser:parse:241 - Parsed tests/samples/PageObjectsOld.java: 4 methods, 3 locators
+2025-11-09 19:13:53 | INFO     | ingestion.vectorizer:vectorize_file:140 - Skipping PageObjectsOld.java - already vectorized
+2025-11-09 19:13:53 | INFO     | storage.vector_store:save:112 - Saved vector index with 29 vectors
+2025-11-09 19:13:53 | INFO     | __main__:main:164 - 
+[STEP 4] Loading Test Scenarios: tests/samples/scenarios.txt
+2025-11-09 19:13:53 | INFO     | __main__:main:171 - 
+[STEP 5] Starting Multi-Agent Workflow...
+2025-11-09 19:13:53 | INFO     | llm.client:__init__:32 - Initialized LLM client: openai with model gpt-4-turbo-preview
+2025-11-09 19:13:53 | INFO     | agents.orchestrator_agent:__init__:41 - Orchestrator Agent initialized
+2025-11-09 19:13:53 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Starting multi-agent workflow
+2025-11-09 19:13:53 | INFO     | agents.orchestrator_agent:execute:75 - 
+============================================================
+2025-11-09 19:13:53 | INFO     | agents.orchestrator_agent:execute:76 - ITERATION 1/3
+2025-11-09 19:13:53 | INFO     | agents.orchestrator_agent:execute:77 - ============================================================
+
+2025-11-09 19:13:53 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 1: Feature Generation
+2025-11-09 19:13:53 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generating .feature file
+2025-11-09 19:14:00 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generated feature file (1015 chars)
+2025-11-09 19:14:00 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Feature validation passed
+2025-11-09 19:14:00 | SUCCESS  | agents.orchestrator_agent:execute:102 - ✓ Feature file validation passed
+2025-11-09 19:14:00 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 2: Step Definition Generation
+2025-11-09 19:14:00 | INFO     | core.logger:log_agent_action:43 - [StepDefinitionAgent] Generating step definitions
+2025-11-09 19:14:08 | INFO     | core.logger:log_agent_action:43 - [StepDefinitionAgent] Generated step definitions (1735 chars)
+2025-11-09 19:14:08 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Java (stepdef) validation passed
+2025-11-09 19:14:08 | SUCCESS  | agents.orchestrator_agent:execute:127 - ✓ Step definition validation passed
+2025-11-09 19:14:08 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 3: Page Object Generation
+2025-11-09 19:14:08 | INFO     | core.logger:log_agent_action:43 - [PageObjectAgent] Generating page objects
+2025-11-09 19:14:24 | INFO     | core.logger:log_agent_action:43 - [PageObjectAgent] Generated page object (3152 chars)
+2025-11-09 19:14:24 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Java (pageobject) validation passed
+2025-11-09 19:14:24 | SUCCESS  | agents.orchestrator_agent:execute:151 - ✓ Page object validation passed
+2025-11-09 19:14:24 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 4: Cross-validation
+2025-11-09 19:14:24 | INFO     | validation.cross_validator:validate:39 - Cross-validation: 10 steps, 5 definitions, 9 methods
+2025-11-09 19:14:24 | DEBUG    | validation.cross_validator:_check_missing_stepdefs:113 - Feature steps (10): ['i am on the login page', 'i click on login button', 'i enter "{}" in password field']...
+2025-11-09 19:14:24 | DEBUG    | validation.cross_validator:_check_missing_stepdefs:114 - StepDef annotations (5): ['i should see welcome message', 'i should see error message "{}"', 'login button should still be visible']...
+2025-11-09 19:14:24 | DEBUG    | validation.cross_validator:_check_missing_stepdefs:122 - Missing step: 'i am on the login page' (normalized)
+2025-11-09 19:14:24 | DEBUG    | validation.cross_validator:_check_missing_stepdefs:124 -   Tried matching against 5 annotations
+2025-11-09 19:14:24 | DEBUG    | validation.cross_validator:_check_missing_stepdefs:122 - Missing step: 'i click on login button' (normalized)
+2025-11-09 19:14:24 | DEBUG    | validation.cross_validator:_check_missing_stepdefs:124 -   Tried matching against 5 annotations
+2025-11-09 19:14:24 | DEBUG    | validation.cross_validator:_check_missing_stepdefs:122 - Missing step: 'i enter "{}" in password field' (normalized)
+2025-11-09 19:14:24 | DEBUG    | validation.cross_validator:_check_missing_stepdefs:124 -   Tried matching against 5 annotations
+2025-11-09 19:14:24 | DEBUG    | validation.cross_validator:_check_missing_stepdefs:122 - Missing step: 'i should see "{}" page' (normalized)
+2025-11-09 19:14:24 | DEBUG    | validation.cross_validator:_check_missing_stepdefs:124 -   Tried matching against 5 annotations
+2025-11-09 19:14:24 | DEBUG    | validation.cross_validator:_check_missing_stepdefs:122 - Missing step: 'i enter "{}" in username field' (normalized)
+2025-11-09 19:14:24 | DEBUG    | validation.cross_validator:_check_missing_stepdefs:124 -   Tried matching against 5 annotations
+2025-11-09 19:14:24 | ERROR    | core.logger:log_validation_result:51 - ✗ Cross-file validation failed
+2025-11-09 19:14:24 | ERROR    | core.logger:log_validation_result:54 -   - Missing step definitions for: i am on the login page, i click on login button, i enter "{}" in password field, i should see "{}" page, i enter "{}" in username field
+2025-11-09 19:14:24 | ERROR    | core.logger:log_validation_result:54 -   - Step definitions call undefined page object methods: contains
+2025-11-09 19:14:24 | ERROR    | agents.orchestrator_agent:execute:163 - Cross-validation failed: ['Missing step definitions for: i am on the login page, i click on login button, i enter "{}" in password field, i should see "{}" page, i enter "{}" in username field', 'Step definitions call undefined page object methods: contains']
+2025-11-09 19:14:24 | INFO     | agents.orchestrator_agent:execute:75 - 
+============================================================
+2025-11-09 19:14:24 | INFO     | agents.orchestrator_agent:execute:76 - ITERATION 2/3
+2025-11-09 19:14:24 | INFO     | agents.orchestrator_agent:execute:77 - ============================================================
+
+2025-11-09 19:14:24 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 1: Feature Generation
+2025-11-09 19:14:24 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generating .feature file
+2025-11-09 19:14:33 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generated feature file (964 chars)
+2025-11-09 19:14:33 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Feature validation passed
+2025-11-09 19:14:33 | SUCCESS  | agents.orchestrator_agent:execute:102 - ✓ Feature file validation passed
+2025-11-09 19:14:33 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 2: Step Definition Generation
+2025-11-09 19:14:33 | INFO     | core.logger:log_agent_action:43 - [StepDefinitionAgent] Generating step definitions
+2025-11-09 19:14:43 | INFO     | core.logger:log_agent_action:43 - [StepDefinitionAgent] Generated step definitions (1755 chars)
+2025-11-09 19:14:43 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Java (stepdef) validation passed
+2025-11-09 19:14:43 | SUCCESS  | agents.orchestrator_agent:execute:127 - ✓ Step definition validation passed
+2025-11-09 19:14:43 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 3: Page Object Generation
+2025-11-09 19:14:43 | INFO     | core.logger:log_agent_action:43 - [PageObjectAgent] Generating page objects
+2025-11-09 19:14:56 | INFO     | core.logger:log_agent_action:43 - [PageObjectAgent] Generated page object (2558 chars)
+2025-11-09 19:14:56 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Java (pageobject) validation passed
+2025-11-09 19:14:56 | SUCCESS  | agents.orchestrator_agent:execute:151 - ✓ Page object validation passed
+2025-11-09 19:14:56 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 4: Cross-validation
+2025-11-09 19:14:56 | INFO     | validation.cross_validator:validate:39 - Cross-validation: 10 steps, 5 definitions, 9 methods
+2025-11-09 19:14:56 | DEBUG    | validation.cross_validator:_check_missing_stepdefs:113 - Feature steps (10): ['i am on the login page', 'i click on login button', 'i enter "{}" in password field']...
+2025-11-09 19:14:56 | DEBUG    | validation.cross_validator:_check_missing_stepdefs:114 - StepDef annotations (5): ['i should see welcome message', 'i should see error message "{}"', 'login button should still be visible']...
+2025-11-09 19:14:56 | DEBUG    | validation.cross_validator:_check_missing_stepdefs:122 - Missing step: 'i am on the login page' (normalized)
+2025-11-09 19:14:56 | DEBUG    | validation.cross_validator:_check_missing_stepdefs:124 -   Tried matching against 5 annotations
+2025-11-09 19:14:56 | DEBUG    | validation.cross_validator:_check_missing_stepdefs:122 - Missing step: 'i click on login button' (normalized)
+2025-11-09 19:14:56 | DEBUG    | validation.cross_validator:_check_missing_stepdefs:124 -   Tried matching against 5 annotations
+2025-11-09 19:14:56 | DEBUG    | validation.cross_validator:_check_missing_stepdefs:122 - Missing step: 'i enter "{}" in password field' (normalized)
+2025-11-09 19:14:56 | DEBUG    | validation.cross_validator:_check_missing_stepdefs:124 -   Tried matching against 5 annotations
+2025-11-09 19:14:56 | DEBUG    | validation.cross_validator:_check_missing_stepdefs:122 - Missing step: 'i should see "{}" page' (normalized)
+2025-11-09 19:14:56 | DEBUG    | validation.cross_validator:_check_missing_stepdefs:124 -   Tried matching against 5 annotations
+2025-11-09 19:14:56 | DEBUG    | validation.cross_validator:_check_missing_stepdefs:122 - Missing step: 'i enter "{}" in username field' (normalized)
+2025-11-09 19:14:56 | DEBUG    | validation.cross_validator:_check_missing_stepdefs:124 -   Tried matching against 5 annotations
+2025-11-09 19:14:56 | ERROR    | core.logger:log_validation_result:51 - ✗ Cross-file validation failed
+2025-11-09 19:14:56 | ERROR    | core.logger:log_validation_result:54 -   - Missing step definitions for: i am on the login page, i click on login button, i enter "{}" in password field, i should see "{}" page, i enter "{}" in username field
+2025-11-09 19:14:56 | ERROR    | core.logger:log_validation_result:54 -   - Step definitions call undefined page object methods: contains
+2025-11-09 19:14:56 | ERROR    | agents.orchestrator_agent:execute:163 - Cross-validation failed: ['Missing step definitions for: i am on the login page, i click on login button, i enter "{}" in password field, i should see "{}" page, i enter "{}" in username field', 'Step definitions call undefined page object methods: contains']
+2025-11-09 19:14:56 | INFO     | agents.orchestrator_agent:execute:75 - 
+============================================================
+2025-11-09 19:14:56 | INFO     | agents.orchestrator_agent:execute:76 - ITERATION 3/3
+2025-11-09 19:14:56 | INFO     | agents.orchestrator_agent:execute:77 - ============================================================
+
+2025-11-09 19:14:56 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 1: Feature Generation
+2025-11-09 19:14:56 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generating .feature file
+2025-11-09 19:15:03 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generated feature file (964 chars)
+2025-11-09 19:15:03 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Feature validation passed
+2025-11-09 19:15:03 | SUCCESS  | agents.orchestrator_agent:execute:102 - ✓ Feature file validation passed
+2025-11-09 19:15:03 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 2: Step Definition Generation
+2025-11-09 19:15:03 | INFO     | core.logger:log_agent_action:43 - [StepDefinitionAgent] Generating step definitions
+2025-11-09 19:15:12 | INFO     | core.logger:log_agent_action:43 - [StepDefinitionAgent] Generated step definitions (1747 chars)
+2025-11-09 19:15:12 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Java (stepdef) validation passed
+2025-11-09 19:15:12 | SUCCESS  | agents.orchestrator_agent:execute:127 - ✓ Step definition validation passed
+2025-11-09 19:15:12 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 3: Page Object Generation
+2025-11-09 19:15:12 | INFO     | core.logger:log_agent_action:43 - [PageObjectAgent] Generating page objects
+2025-11-09 19:15:24 | INFO     | core.logger:log_agent_action:43 - [PageObjectAgent] Generated page object (2931 chars)
+2025-11-09 19:15:24 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Java (pageobject) validation passed
+2025-11-09 19:15:24 | SUCCESS  | agents.orchestrator_agent:execute:151 - ✓ Page object validation passed
+2025-11-09 19:15:24 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 4: Cross-validation
+2025-11-09 19:15:24 | INFO     | validation.cross_validator:validate:39 - Cross-validation: 10 steps, 5 definitions, 9 methods
+2025-11-09 19:15:24 | DEBUG    | validation.cross_validator:_check_missing_stepdefs:113 - Feature steps (10): ['i am on the login page', 'i click on login button', 'i enter "{}" in password field']...
+2025-11-09 19:15:24 | DEBUG    | validation.cross_validator:_check_missing_stepdefs:114 - StepDef annotations (5): ['i should see welcome message', 'i should see error message "{}"', 'login button should still be visible']...
+2025-11-09 19:15:24 | DEBUG    | validation.cross_validator:_check_missing_stepdefs:122 - Missing step: 'i am on the login page' (normalized)
+2025-11-09 19:15:24 | DEBUG    | validation.cross_validator:_check_missing_stepdefs:124 -   Tried matching against 5 annotations
+2025-11-09 19:15:24 | DEBUG    | validation.cross_validator:_check_missing_stepdefs:122 - Missing step: 'i click on login button' (normalized)
+2025-11-09 19:15:24 | DEBUG    | validation.cross_validator:_check_missing_stepdefs:124 -   Tried matching against 5 annotations
+2025-11-09 19:15:24 | DEBUG    | validation.cross_validator:_check_missing_stepdefs:122 - Missing step: 'i enter "{}" in password field' (normalized)
+2025-11-09 19:15:24 | DEBUG    | validation.cross_validator:_check_missing_stepdefs:124 -   Tried matching against 5 annotations
+2025-11-09 19:15:24 | DEBUG    | validation.cross_validator:_check_missing_stepdefs:122 - Missing step: 'i should see "{}" page' (normalized)
+2025-11-09 19:15:24 | DEBUG    | validation.cross_validator:_check_missing_stepdefs:124 -   Tried matching against 5 annotations
+2025-11-09 19:15:24 | DEBUG    | validation.cross_validator:_check_missing_stepdefs:122 - Missing step: 'i enter "{}" in username field' (normalized)
+2025-11-09 19:15:24 | DEBUG    | validation.cross_validator:_check_missing_stepdefs:124 -   Tried matching against 5 annotations
+2025-11-09 19:15:24 | ERROR    | core.logger:log_validation_result:51 - ✗ Cross-file validation failed
+2025-11-09 19:15:24 | ERROR    | core.logger:log_validation_result:54 -   - Missing step definitions for: i am on the login page, i click on login button, i enter "{}" in password field, i should see "{}" page, i enter "{}" in username field
+2025-11-09 19:15:24 | ERROR    | core.logger:log_validation_result:54 -   - Step definitions call undefined page object methods: contains
+2025-11-09 19:15:24 | ERROR    | agents.orchestrator_agent:execute:163 - Cross-validation failed: ['Missing step definitions for: i am on the login page, i click on login button, i enter "{}" in password field, i should see "{}" page, i enter "{}" in username field', 'Step definitions call undefined page object methods: contains']
+2025-11-09 19:15:24 | ERROR    | agents.orchestrator_agent:execute:191 - 
+Max iterations (3) reached without producing valid output
+2025-11-09 19:15:24 | ERROR    | __main__:main:210 - 
+================================================================================
+2025-11-09 19:15:24 | ERROR    | __main__:main:211 - FAILED! Could not generate valid test files
+2025-11-09 19:15:24 | ERROR    | __main__:main:212 - Errors: ['Cross-validation: Missing step definitions for: i am on the login page, i click on login button, i enter "{}" in password field, i should see "{}" page, i enter "{}" in username field', 'Cross-validation: Step definitions call undefined page object methods: contains', 'Cross-validation: Missing step definitions for: i am on the login page, i click on login button, i enter "{}" in password field, i should see "{}" page, i enter "{}" in username field', 'Cross-validation: Step definitions call undefined page object methods: contains', 'Cross-validation: Missing step definitions for: i am on the login page, i click on login button, i enter "{}" in password field, i should see "{}" page, i enter "{}" in username field', 'Cross-validation: Step definitions call undefined page object methods: contains']
+2025-11-09 19:15:24 | ERROR    | __main__:main:213 - ================================================================================
+2025-11-09 19:15:24 | INFO     | storage.vector_store:save:112 - Saved vector index with 29 vectors
+2025-11-09 19:16:40 | INFO     | __main__:main:85 - ================================================================================
+2025-11-09 19:16:40 | INFO     | __main__:main:86 - AUTOMATED TEST CASE GENERATOR - Multi-Agent System
+2025-11-09 19:16:40 | INFO     | __main__:main:87 - ================================================================================
+2025-11-09 19:16:40 | INFO     | __main__:main:91 - 
+[STEP 1] Initializing Vectorizer...
+2025-11-09 19:16:41 | INFO     | storage.vector_store:_load_or_create_index:35 - Loaded existing vector index with 29 vectors
+2025-11-09 19:16:41 | INFO     | __main__:main:99 - 
+[STEP 2] Parsing HTML: tests/samples/sample.html
+2025-11-09 19:16:41 | INFO     | ingestion.html_parser:parse:20 - Parsing HTML from sample.html
+2025-11-09 19:16:41 | INFO     | ingestion.html_parser:parse:31 - Extracted 11 actionable elements
+2025-11-09 19:16:41 | INFO     | __main__:main:105 - Vectorizing HTML elements...
+2025-11-09 19:16:41 | INFO     | ingestion.vectorizer:vectorize_file:140 - Skipping sample.html - already vectorized
+2025-11-09 19:16:41 | INFO     | __main__:main:111 - 
+[STEP 3] Processing Existing Test Files...
+2025-11-09 19:16:41 | INFO     | __main__:main:129 - Parsing feature file: old.feature
+2025-11-09 19:16:41 | INFO     | ingestion.code_parser:parse:83 - Parsed tests/samples/old.feature: 0 features, 1 scenarios, 5 steps
+2025-11-09 19:16:41 | INFO     | ingestion.vectorizer:vectorize_file:140 - Skipping old.feature - already vectorized
+2025-11-09 19:16:41 | INFO     | __main__:main:139 - Parsing step definitions: StepDefsOld.java
+2025-11-09 19:16:41 | INFO     | ingestion.code_parser:parse:161 - Parsed tests/samples/StepDefsOld.java: 5 step definitions
+2025-11-09 19:16:41 | INFO     | ingestion.vectorizer:vectorize_file:140 - Skipping StepDefsOld.java - already vectorized
+2025-11-09 19:16:41 | INFO     | __main__:main:149 - Parsing page objects: PageObjectsOld.java
+2025-11-09 19:16:41 | INFO     | ingestion.code_parser:parse:241 - Parsed tests/samples/PageObjectsOld.java: 4 methods, 3 locators
+2025-11-09 19:16:41 | INFO     | ingestion.vectorizer:vectorize_file:140 - Skipping PageObjectsOld.java - already vectorized
+2025-11-09 19:16:41 | INFO     | storage.vector_store:save:112 - Saved vector index with 29 vectors
+2025-11-09 19:16:41 | INFO     | __main__:main:164 - 
+[STEP 4] Loading Test Scenarios: tests/samples/scenarios.txt
+2025-11-09 19:16:41 | INFO     | __main__:main:171 - 
+[STEP 5] Starting Multi-Agent Workflow...
+2025-11-09 19:16:41 | INFO     | llm.client:__init__:32 - Initialized LLM client: openai with model gpt-4-turbo-preview
+2025-11-09 19:16:41 | INFO     | agents.orchestrator_agent:__init__:41 - Orchestrator Agent initialized
+2025-11-09 19:16:41 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Starting multi-agent workflow
+2025-11-09 19:16:41 | INFO     | agents.orchestrator_agent:execute:75 - 
+============================================================
+2025-11-09 19:16:41 | INFO     | agents.orchestrator_agent:execute:76 - ITERATION 1/3
+2025-11-09 19:16:41 | INFO     | agents.orchestrator_agent:execute:77 - ============================================================
+
+2025-11-09 19:16:41 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 1: Feature Generation
+2025-11-09 19:16:41 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generating .feature file
+2025-11-09 19:16:47 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generated feature file (964 chars)
+2025-11-09 19:16:47 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Feature validation passed
+2025-11-09 19:16:47 | SUCCESS  | agents.orchestrator_agent:execute:102 - ✓ Feature file validation passed
+2025-11-09 19:16:47 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 2: Step Definition Generation
+2025-11-09 19:16:47 | INFO     | core.logger:log_agent_action:43 - [StepDefinitionAgent] Generating step definitions
+2025-11-09 19:16:47 | INFO     | agents.stepdef_agent:generate:41 - Extracted 12 unique steps from feature file
+2025-11-09 19:16:47 | DEBUG    | agents.stepdef_agent:generate:43 - Steps to implement: ['I am on the login page', 'I enter "testuser@example.com" in username field', 'I enter "SecurePass123" in password field', 'I click on login button', 'I should see "Dashboard" page']...
+2025-11-09 19:16:55 | INFO     | core.logger:log_agent_action:43 - [StepDefinitionAgent] Generated step definitions (1735 chars)
+2025-11-09 19:16:55 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Java (stepdef) validation passed
+2025-11-09 19:16:55 | SUCCESS  | agents.orchestrator_agent:execute:127 - ✓ Step definition validation passed
+2025-11-09 19:16:55 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 3: Page Object Generation
+2025-11-09 19:16:55 | INFO     | core.logger:log_agent_action:43 - [PageObjectAgent] Generating page objects
+2025-11-09 19:17:08 | INFO     | core.logger:log_agent_action:43 - [PageObjectAgent] Generated page object (3487 chars)
+2025-11-09 19:17:08 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Java (pageobject) validation passed
+2025-11-09 19:17:08 | SUCCESS  | agents.orchestrator_agent:execute:151 - ✓ Page object validation passed
+2025-11-09 19:17:08 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 4: Cross-validation
+2025-11-09 19:17:08 | INFO     | validation.cross_validator:validate:39 - Cross-validation: 10 steps, 5 definitions, 10 methods
+2025-11-09 19:17:08 | DEBUG    | validation.cross_validator:_check_missing_stepdefs:113 - Feature steps (10): ['i should see welcome message', 'login button should still be visible', 'i am on the login page']...
+2025-11-09 19:17:08 | DEBUG    | validation.cross_validator:_check_missing_stepdefs:114 - StepDef annotations (5): ['i should see welcome message', 'i should see error message "{}"', 'login button should still be visible']...
+2025-11-09 19:17:08 | DEBUG    | validation.cross_validator:_check_missing_stepdefs:122 - Missing step: 'i am on the login page' (normalized)
+2025-11-09 19:17:08 | DEBUG    | validation.cross_validator:_check_missing_stepdefs:124 -   Tried matching against 5 annotations
+2025-11-09 19:17:08 | DEBUG    | validation.cross_validator:_check_missing_stepdefs:122 - Missing step: 'i should see "{}" page' (normalized)
+2025-11-09 19:17:08 | DEBUG    | validation.cross_validator:_check_missing_stepdefs:124 -   Tried matching against 5 annotations
+2025-11-09 19:17:08 | DEBUG    | validation.cross_validator:_check_missing_stepdefs:122 - Missing step: 'i enter "{}" in username field' (normalized)
+2025-11-09 19:17:08 | DEBUG    | validation.cross_validator:_check_missing_stepdefs:124 -   Tried matching against 5 annotations
+2025-11-09 19:17:08 | DEBUG    | validation.cross_validator:_check_missing_stepdefs:122 - Missing step: 'i enter "{}" in password field' (normalized)
+2025-11-09 19:17:08 | DEBUG    | validation.cross_validator:_check_missing_stepdefs:124 -   Tried matching against 5 annotations
+2025-11-09 19:17:08 | DEBUG    | validation.cross_validator:_check_missing_stepdefs:122 - Missing step: 'i click on login button' (normalized)
+2025-11-09 19:17:08 | DEBUG    | validation.cross_validator:_check_missing_stepdefs:124 -   Tried matching against 5 annotations
+2025-11-09 19:17:08 | ERROR    | core.logger:log_validation_result:51 - ✗ Cross-file validation failed
+2025-11-09 19:17:08 | ERROR    | core.logger:log_validation_result:54 -   - Missing step definitions for: i am on the login page, i should see "{}" page, i enter "{}" in username field, i enter "{}" in password field, i click on login button
+2025-11-09 19:17:08 | ERROR    | agents.orchestrator_agent:execute:163 - Cross-validation failed: ['Missing step definitions for: i am on the login page, i should see "{}" page, i enter "{}" in username field, i enter "{}" in password field, i click on login button']
+2025-11-09 19:17:08 | INFO     | agents.orchestrator_agent:execute:75 - 
+============================================================
+2025-11-09 19:17:08 | INFO     | agents.orchestrator_agent:execute:76 - ITERATION 2/3
+2025-11-09 19:17:08 | INFO     | agents.orchestrator_agent:execute:77 - ============================================================
+
+2025-11-09 19:17:08 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 1: Feature Generation
+2025-11-09 19:17:08 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generating .feature file
+2025-11-09 19:17:13 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generated feature file (964 chars)
+2025-11-09 19:17:13 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Feature validation passed
+2025-11-09 19:17:13 | SUCCESS  | agents.orchestrator_agent:execute:102 - ✓ Feature file validation passed
+2025-11-09 19:17:13 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 2: Step Definition Generation
+2025-11-09 19:17:13 | INFO     | core.logger:log_agent_action:43 - [StepDefinitionAgent] Generating step definitions
+2025-11-09 19:17:13 | INFO     | agents.stepdef_agent:generate:41 - Extracted 12 unique steps from feature file
+2025-11-09 19:17:13 | DEBUG    | agents.stepdef_agent:generate:43 - Steps to implement: ['I am on the login page', 'I enter "testuser@example.com" in username field', 'I enter "SecurePass123" in password field', 'I click on login button', 'I should see "Dashboard" page']...
+2025-11-09 19:17:25 | INFO     | core.logger:log_agent_action:43 - [StepDefinitionAgent] Generated step definitions (2359 chars)
+2025-11-09 19:17:25 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Java (stepdef) validation passed
+2025-11-09 19:17:25 | SUCCESS  | agents.orchestrator_agent:execute:127 - ✓ Step definition validation passed
+2025-11-09 19:17:25 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 3: Page Object Generation
+2025-11-09 19:17:25 | INFO     | core.logger:log_agent_action:43 - [PageObjectAgent] Generating page objects
+2025-11-09 19:17:37 | INFO     | core.logger:log_agent_action:43 - [PageObjectAgent] Generated page object (2880 chars)
+2025-11-09 19:17:37 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Java (pageobject) validation passed
+2025-11-09 19:17:37 | SUCCESS  | agents.orchestrator_agent:execute:151 - ✓ Page object validation passed
+2025-11-09 19:17:37 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 4: Cross-validation
+2025-11-09 19:17:37 | INFO     | validation.cross_validator:validate:39 - Cross-validation: 10 steps, 10 definitions, 9 methods
+2025-11-09 19:17:37 | DEBUG    | validation.cross_validator:_check_missing_stepdefs:113 - Feature steps (10): ['i should see welcome message', 'login button should still be visible', 'i am on the login page']...
+2025-11-09 19:17:37 | DEBUG    | validation.cross_validator:_check_missing_stepdefs:114 - StepDef annotations (10): ['i am on the login page', 'i enter "{}" in username field', 'i enter "{}" in password field']...
+2025-11-09 19:17:37 | ERROR    | core.logger:log_validation_result:51 - ✗ Cross-file validation failed
+2025-11-09 19:17:37 | ERROR    | core.logger:log_validation_result:54 -   - Step definitions call undefined page object methods: toLowerCase, contains, getErrorMessage
+2025-11-09 19:17:37 | ERROR    | agents.orchestrator_agent:execute:163 - Cross-validation failed: ['Step definitions call undefined page object methods: toLowerCase, contains, getErrorMessage']
+2025-11-09 19:17:37 | INFO     | agents.orchestrator_agent:execute:75 - 
+============================================================
+2025-11-09 19:17:37 | INFO     | agents.orchestrator_agent:execute:76 - ITERATION 3/3
+2025-11-09 19:17:37 | INFO     | agents.orchestrator_agent:execute:77 - ============================================================
+
+2025-11-09 19:17:37 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 1: Feature Generation
+2025-11-09 19:17:37 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generating .feature file
+2025-11-09 19:17:45 | INFO     | core.logger:log_agent_action:43 - [FeatureAgent] Generated feature file (964 chars)
+2025-11-09 19:17:45 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Feature validation passed
+2025-11-09 19:17:45 | SUCCESS  | agents.orchestrator_agent:execute:102 - ✓ Feature file validation passed
+2025-11-09 19:17:45 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 2: Step Definition Generation
+2025-11-09 19:17:45 | INFO     | core.logger:log_agent_action:43 - [StepDefinitionAgent] Generating step definitions
+2025-11-09 19:17:45 | INFO     | agents.stepdef_agent:generate:41 - Extracted 12 unique steps from feature file
+2025-11-09 19:17:45 | DEBUG    | agents.stepdef_agent:generate:43 - Steps to implement: ['I am on the login page', 'I enter "testuser@example.com" in username field', 'I enter "SecurePass123" in password field', 'I click on login button', 'I should see "Dashboard" page']...
+2025-11-09 19:17:57 | INFO     | core.logger:log_agent_action:43 - [StepDefinitionAgent] Generated step definitions (2566 chars)
+2025-11-09 19:17:57 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Java (stepdef) validation passed
+2025-11-09 19:17:57 | SUCCESS  | agents.orchestrator_agent:execute:127 - ✓ Step definition validation passed
+2025-11-09 19:17:57 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 3: Page Object Generation
+2025-11-09 19:17:57 | INFO     | core.logger:log_agent_action:43 - [PageObjectAgent] Generating page objects
+2025-11-09 19:18:11 | INFO     | core.logger:log_agent_action:43 - [PageObjectAgent] Generated page object (3131 chars)
+2025-11-09 19:18:11 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Java (pageobject) validation passed
+2025-11-09 19:18:11 | SUCCESS  | agents.orchestrator_agent:execute:151 - ✓ Page object validation passed
+2025-11-09 19:18:11 | INFO     | core.logger:log_agent_action:43 - [Orchestrator] Phase 4: Cross-validation
+2025-11-09 19:18:11 | INFO     | validation.cross_validator:validate:39 - Cross-validation: 10 steps, 10 definitions, 10 methods
+2025-11-09 19:18:11 | DEBUG    | validation.cross_validator:_check_missing_stepdefs:113 - Feature steps (10): ['i should see welcome message', 'login button should still be visible', 'i am on the login page']...
+2025-11-09 19:18:11 | DEBUG    | validation.cross_validator:_check_missing_stepdefs:114 - StepDef annotations (10): ['i am on the login page', 'i enter "{}" in username field', 'i enter "{}" in password field']...
+2025-11-09 19:18:11 | SUCCESS  | core.logger:log_validation_result:49 - ✓ Cross-file validation passed
+2025-11-09 19:18:11 | SUCCESS  | agents.orchestrator_agent:execute:170 - ✓ Cross-validation passed
+2025-11-09 19:18:11 | INFO     | agents.orchestrator_agent:execute:173 - 
+============================================================
+2025-11-09 19:18:11 | SUCCESS  | agents.orchestrator_agent:execute:174 - ✓ ALL VALIDATIONS PASSED (Iteration 3)
+2025-11-09 19:18:11 | INFO     | agents.orchestrator_agent:execute:175 - ============================================================
+2025-11-09 19:18:11 | INFO     | __main__:main:184 - 
+[STEP 6] Writing Output Files...
+2025-11-09 19:18:11 | INFO     | core.utils:write_file:27 - Written file: output/NewTests.feature
+2025-11-09 19:18:11 | INFO     | __main__:main:192 - ✓ Feature file: output/NewTests.feature
+2025-11-09 19:18:11 | INFO     | core.utils:write_file:27 - Written file: output/NewStepDefinitions.java
+2025-11-09 19:18:11 | INFO     | __main__:main:197 - ✓ Step definitions: output/NewStepDefinitions.java
+2025-11-09 19:18:11 | INFO     | core.utils:write_file:27 - Written file: output/NewPageObjects.java
+2025-11-09 19:18:11 | INFO     | __main__:main:202 - ✓ Page objects: output/NewPageObjects.java
+2025-11-09 19:18:11 | INFO     | __main__:main:204 - 
+================================================================================
+2025-11-09 19:18:11 | INFO     | __main__:main:205 - SUCCESS! Test files generated successfully
+2025-11-09 19:18:11 | INFO     | __main__:main:206 - ================================================================================
+2025-11-09 19:18:11 | INFO     | storage.vector_store:save:112 - Saved vector index with 29 vectors

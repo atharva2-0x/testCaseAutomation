@@ -14,6 +14,7 @@ lxml>=5.0.0
 # LLM Clients
 openai==1.6.1
 anthropic==0.8.1
+fiservai  # FiservAI LLM provider
 httpx<0.28  # Pin httpx to <0.28 for compatibility with openai 1.6.1
 
 # Vector Storage
